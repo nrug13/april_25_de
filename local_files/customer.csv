@@ -1,0 +1,6 @@
+customer_id,first_name,last_name,gender,birth_date,city,flag_is_vip
+C001,Ali,Mustafayev,M,1988-05-12,Baku,N
+C002,Leyla,Hasanova,F,1992-11-30,Ganja,Y
+C003,Elvin,Aliyev,M,1985-02-28,Sumqayit,N
+C004,Nigar,Karimova,F,,Baku,N
+C005,Rashad,Ismayilov,M,1975-07-07,Baku,N

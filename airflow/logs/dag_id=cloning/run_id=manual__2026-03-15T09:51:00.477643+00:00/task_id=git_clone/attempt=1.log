@@ -1,0 +1,23 @@
+[2026-03-15T09:51:01.328+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-03-15T09:51:01.362+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: cloning.git_clone manual__2026-03-15T09:51:00.477643+00:00 [queued]>
+[2026-03-15T09:51:01.377+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: cloning.git_clone manual__2026-03-15T09:51:00.477643+00:00 [queued]>
+[2026-03-15T09:51:01.377+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2026-03-15T09:51:01.394+0000] {taskinstance.py:2890} INFO - Executing <Task(BashOperator): git_clone> on 2026-03-15 09:51:00.477643+00:00
+[2026-03-15T09:51:01.409+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'cloning', 'git_clone', 'manual__2026-03-15T09:51:00.477643+00:00', '--job-id', '28', '--raw', '--subdir', 'DAGS_FOLDER/import_from_git.py', '--cfg-path', '/tmp/tmpfvh_zljo']
+[2026-03-15T09:51:01.413+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=5792) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-03-15T09:51:01.414+0000] {standard_task_runner.py:105} INFO - Job 28: Subtask git_clone
+[2026-03-15T09:51:01.414+0000] {standard_task_runner.py:72} INFO - Started process 5793 to run task
+[2026-03-15T09:51:01.485+0000] {task_command.py:467} INFO - Running <TaskInstance: cloning.git_clone manual__2026-03-15T09:51:00.477643+00:00 [running]> on host e073b635a9aa
+[2026-03-15T09:51:01.628+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='nurgun' AIRFLOW_CTX_DAG_ID='cloning' AIRFLOW_CTX_TASK_ID='git_clone' AIRFLOW_CTX_EXECUTION_DATE='2026-03-15T09:51:00.477643+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-15T09:51:00.477643+00:00'
+[2026-03-15T09:51:01.629+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2026-03-15T09:51:01.647+0000] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2026-03-15T09:51:01.648+0000] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'mkdir -p /opt/***/files/repos && git clone https://github.com/nrug13/HR-Dashboard /opt/***/files/repos/HR-Dashboard && git clone https://github.com/nrug13/Spotify-Dashboard /opt/***/files/repos/Spotify-Dashboard']
+[2026-03-15T09:51:01.667+0000] {subprocess.py:99} INFO - Output:
+[2026-03-15T09:51:01.681+0000] {subprocess.py:106} INFO - Cloning into '/opt/***/files/repos/HR-Dashboard'...
+[2026-03-15T09:51:03.998+0000] {subprocess.py:106} INFO - Cloning into '/opt/***/files/repos/Spotify-Dashboard'...
+[2026-03-15T09:51:06.975+0000] {subprocess.py:110} INFO - Command exited with return code 0
+[2026-03-15T09:51:07.022+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-03-15T09:51:07.022+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=cloning, task_id=git_clone, run_id=manual__2026-03-15T09:51:00.477643+00:00, execution_date=20260315T095100, start_date=20260315T095101, end_date=20260315T095107
+[2026-03-15T09:51:07.111+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-03-15T09:51:07.143+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-03-15T09:51:07.145+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

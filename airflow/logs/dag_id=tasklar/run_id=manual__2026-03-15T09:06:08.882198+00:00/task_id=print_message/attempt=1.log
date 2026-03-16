@@ -1,0 +1,22 @@
+[2026-03-15T09:06:10.954+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-03-15T09:06:10.985+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tasklar.print_message manual__2026-03-15T09:06:08.882198+00:00 [queued]>
+[2026-03-15T09:06:10.999+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tasklar.print_message manual__2026-03-15T09:06:08.882198+00:00 [queued]>
+[2026-03-15T09:06:10.999+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2026-03-15T09:06:11.017+0000] {taskinstance.py:2890} INFO - Executing <Task(BashOperator): print_message> on 2026-03-15 09:06:08.882198+00:00
+[2026-03-15T09:06:11.034+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=3429) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-03-15T09:06:11.035+0000] {standard_task_runner.py:72} INFO - Started process 3430 to run task
+[2026-03-15T09:06:11.032+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'tasklar', 'print_message', 'manual__2026-03-15T09:06:08.882198+00:00', '--job-id', '21', '--raw', '--subdir', 'DAGS_FOLDER/mar15.py', '--cfg-path', '/tmp/tmpb9ylnnrz']
+[2026-03-15T09:06:11.036+0000] {standard_task_runner.py:105} INFO - Job 21: Subtask print_message
+[2026-03-15T09:06:11.098+0000] {task_command.py:467} INFO - Running <TaskInstance: tasklar.print_message manual__2026-03-15T09:06:08.882198+00:00 [running]> on host e073b635a9aa
+[2026-03-15T09:06:11.232+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='nurgun' AIRFLOW_CTX_DAG_ID='tasklar' AIRFLOW_CTX_TASK_ID='print_message' AIRFLOW_CTX_EXECUTION_DATE='2026-03-15T09:06:08.882198+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-15T09:06:08.882198+00:00'
+[2026-03-15T09:06:11.234+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2026-03-15T09:06:11.254+0000] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2026-03-15T09:06:11.254+0000] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'echo Hello Nurgun']
+[2026-03-15T09:06:11.273+0000] {subprocess.py:99} INFO - Output:
+[2026-03-15T09:06:11.275+0000] {subprocess.py:106} INFO - Hello Nurgun
+[2026-03-15T09:06:11.275+0000] {subprocess.py:110} INFO - Command exited with return code 0
+[2026-03-15T09:06:11.314+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-03-15T09:06:11.315+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=tasklar, task_id=print_message, run_id=manual__2026-03-15T09:06:08.882198+00:00, execution_date=20260315T090608, start_date=20260315T090610, end_date=20260315T090611
+[2026-03-15T09:06:11.370+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-03-15T09:06:11.434+0000] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-03-15T09:06:11.437+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

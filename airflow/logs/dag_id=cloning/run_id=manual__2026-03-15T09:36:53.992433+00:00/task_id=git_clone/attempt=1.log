@@ -1,0 +1,91 @@
+[2026-03-15T09:36:55.517+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-03-15T09:36:55.553+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: cloning.git_clone manual__2026-03-15T09:36:53.992433+00:00 [queued]>
+[2026-03-15T09:36:55.565+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: cloning.git_clone manual__2026-03-15T09:36:53.992433+00:00 [queued]>
+[2026-03-15T09:36:55.566+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2026-03-15T09:36:55.581+0000] {taskinstance.py:2890} INFO - Executing <Task(BashOperator): git_clone> on 2026-03-15 09:36:53.992433+00:00
+[2026-03-15T09:36:55.596+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=5029) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-03-15T09:36:55.597+0000] {standard_task_runner.py:72} INFO - Started process 5030 to run task
+[2026-03-15T09:36:55.594+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'cloning', 'git_clone', 'manual__2026-03-15T09:36:53.992433+00:00', '--job-id', '26', '--raw', '--subdir', 'DAGS_FOLDER/import_from_git.py', '--cfg-path', '/tmp/tmptc1c7t0t']
+[2026-03-15T09:36:55.598+0000] {standard_task_runner.py:105} INFO - Job 26: Subtask git_clone
+[2026-03-15T09:36:55.669+0000] {task_command.py:467} INFO - Running <TaskInstance: cloning.git_clone manual__2026-03-15T09:36:53.992433+00:00 [running]> on host e073b635a9aa
+[2026-03-15T09:36:55.786+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='nurgun' AIRFLOW_CTX_DAG_ID='cloning' AIRFLOW_CTX_TASK_ID='git_clone' AIRFLOW_CTX_EXECUTION_DATE='2026-03-15T09:36:53.992433+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-15T09:36:53.992433+00:00'
+[2026-03-15T09:36:55.787+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2026-03-15T09:36:55.802+0000] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2026-03-15T09:36:55.803+0000] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'git clone https://github.com/nrug13/ISP_survey; git clone https://github.com/nrug13/internet_infrastrukturu']
+[2026-03-15T09:36:55.819+0000] {subprocess.py:99} INFO - Output:
+[2026-03-15T09:36:55.840+0000] {subprocess.py:106} INFO - Cloning into 'ISP_survey'...
+[2026-03-15T09:36:56.749+0000] {subprocess.py:106} INFO - fatal: could not read Username for 'https://github.com': No such device or address
+[2026-03-15T09:36:56.765+0000] {subprocess.py:106} INFO - Cloning into 'internet_infrastrukturu'...
+[2026-03-15T09:36:57.315+0000] {subprocess.py:106} INFO - fatal: could not read Username for 'https://github.com': No such device or address
+[2026-03-15T09:36:57.326+0000] {subprocess.py:110} INFO - Command exited with return code 128
+[2026-03-15T09:36:57.353+0000] {taskinstance.py:3313} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 768, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 734, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 424, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/bash.py", line 276, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 128.
+[2026-03-15T09:36:57.374+0000] {taskinstance.py:1226} INFO - Marking task as FAILED. dag_id=cloning, task_id=git_clone, run_id=manual__2026-03-15T09:36:53.992433+00:00, execution_date=20260315T093653, start_date=20260315T093655, end_date=20260315T093657
+[2026-03-15T09:36:57.443+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-03-15T09:36:57.444+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 26 for task git_clone (Bash command failed. The command returned a non-zero exit code 128.; 5030)
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3006, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 274, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3161, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3185, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 768, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 734, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 424, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/bash.py", line 276, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 128.
+[2026-03-15T09:36:57.498+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2026-03-15T09:36:57.532+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-03-15T09:36:57.537+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

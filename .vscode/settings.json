@@ -4,9 +4,19 @@
             "ssh": "Disabled",
             "previewLimit": 50,
             "server": "localhost",
+            "port": 5435,
+            "driver": "PostgreSQL",
+            "name": "pg_baza",
+            "database": "mydb",
+            "username": "nurgun"
+        },
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
             "port": 5436,
             "driver": "PostgreSQL",
-            "name": "sinifde",
+            "name": "airflow_baza",
             "database": "airflow",
             "username": "airflow"
         }
