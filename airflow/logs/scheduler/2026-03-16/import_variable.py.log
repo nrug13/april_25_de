@@ -1161,3 +1161,157 @@
 [2026-03-16T16:19:29.252+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:19:29.252+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2026-03-16T16:19:29.300+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:19:29.300+0000] {dag.py:4180} INFO - Setting next_dagrun for tasklar to 2026-03-15 23:30:00+00:00, run_after=2026-03-16 23:30:00+00:00
 [2026-03-16T16:19:29.330+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/import_variable.py took 0.154 seconds
+[2026-03-16T16:19:59.908+0000] {processor.py:186} INFO - Started process (PID=3289) to work on /opt/airflow/dags/import_variable.py
+[2026-03-16T16:19:59.909+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/import_variable.py for tasks to queue
+[2026-03-16T16:19:59.912+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:19:59.911+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/import_variable.py
+[2026-03-16T16:19:59.927+0000] {processor.py:925} INFO - DAG(s) 'tasklar' retrieved from /opt/airflow/dags/import_variable.py
+[2026-03-16T16:19:59.958+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:19:59.958+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-16T16:19:59.997+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:19:59.997+0000] {dag.py:4180} INFO - Setting next_dagrun for tasklar to 2026-03-15 23:30:00+00:00, run_after=2026-03-16 23:30:00+00:00
+[2026-03-16T16:20:00.021+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/import_variable.py took 0.121 seconds
+[2026-03-16T16:20:30.576+0000] {processor.py:186} INFO - Started process (PID=3326) to work on /opt/airflow/dags/import_variable.py
+[2026-03-16T16:20:30.577+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/import_variable.py for tasks to queue
+[2026-03-16T16:20:30.580+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:20:30.580+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/import_variable.py
+[2026-03-16T16:20:30.597+0000] {processor.py:925} INFO - DAG(s) 'tasklar' retrieved from /opt/airflow/dags/import_variable.py
+[2026-03-16T16:20:30.627+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:20:30.627+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-16T16:20:30.657+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:20:30.657+0000] {dag.py:4180} INFO - Setting next_dagrun for tasklar to 2026-03-15 23:30:00+00:00, run_after=2026-03-16 23:30:00+00:00
+[2026-03-16T16:20:30.676+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/import_variable.py took 0.110 seconds
+[2026-03-16T16:21:01.269+0000] {processor.py:186} INFO - Started process (PID=3364) to work on /opt/airflow/dags/import_variable.py
+[2026-03-16T16:21:01.270+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/import_variable.py for tasks to queue
+[2026-03-16T16:21:01.273+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:21:01.273+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/import_variable.py
+[2026-03-16T16:21:01.289+0000] {processor.py:925} INFO - DAG(s) 'tasklar' retrieved from /opt/airflow/dags/import_variable.py
+[2026-03-16T16:21:01.319+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:21:01.318+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-16T16:21:01.349+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:21:01.349+0000] {dag.py:4180} INFO - Setting next_dagrun for tasklar to 2026-03-15 23:30:00+00:00, run_after=2026-03-16 23:30:00+00:00
+[2026-03-16T16:21:01.372+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/import_variable.py took 0.110 seconds
+[2026-03-16T16:21:32.017+0000] {processor.py:186} INFO - Started process (PID=3398) to work on /opt/airflow/dags/import_variable.py
+[2026-03-16T16:21:32.018+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/import_variable.py for tasks to queue
+[2026-03-16T16:21:32.022+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:21:32.021+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/import_variable.py
+[2026-03-16T16:21:32.038+0000] {processor.py:925} INFO - DAG(s) 'tasklar' retrieved from /opt/airflow/dags/import_variable.py
+[2026-03-16T16:21:32.075+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:21:32.074+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-16T16:21:32.105+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:21:32.105+0000] {dag.py:4180} INFO - Setting next_dagrun for tasklar to 2026-03-15 23:30:00+00:00, run_after=2026-03-16 23:30:00+00:00
+[2026-03-16T16:21:32.128+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/import_variable.py took 0.120 seconds
+[2026-03-16T16:22:02.742+0000] {processor.py:186} INFO - Started process (PID=3434) to work on /opt/airflow/dags/import_variable.py
+[2026-03-16T16:22:02.743+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/import_variable.py for tasks to queue
+[2026-03-16T16:22:02.747+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:22:02.746+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/import_variable.py
+[2026-03-16T16:22:02.766+0000] {processor.py:925} INFO - DAG(s) 'tasklar' retrieved from /opt/airflow/dags/import_variable.py
+[2026-03-16T16:22:02.806+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:22:02.805+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-16T16:22:02.842+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:22:02.841+0000] {dag.py:4180} INFO - Setting next_dagrun for tasklar to 2026-03-15 23:30:00+00:00, run_after=2026-03-16 23:30:00+00:00
+[2026-03-16T16:22:02.868+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/import_variable.py took 0.134 seconds
+[2026-03-16T16:22:33.464+0000] {processor.py:186} INFO - Started process (PID=3470) to work on /opt/airflow/dags/import_variable.py
+[2026-03-16T16:22:33.465+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/import_variable.py for tasks to queue
+[2026-03-16T16:22:33.467+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:22:33.467+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/import_variable.py
+[2026-03-16T16:22:33.486+0000] {processor.py:925} INFO - DAG(s) 'tasklar' retrieved from /opt/airflow/dags/import_variable.py
+[2026-03-16T16:22:33.523+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:22:33.523+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-16T16:22:33.557+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:22:33.557+0000] {dag.py:4180} INFO - Setting next_dagrun for tasklar to 2026-03-15 23:30:00+00:00, run_after=2026-03-16 23:30:00+00:00
+[2026-03-16T16:22:33.576+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/import_variable.py took 0.120 seconds
+[2026-03-16T16:23:04.192+0000] {processor.py:186} INFO - Started process (PID=3506) to work on /opt/airflow/dags/import_variable.py
+[2026-03-16T16:23:04.193+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/import_variable.py for tasks to queue
+[2026-03-16T16:23:04.196+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:23:04.195+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/import_variable.py
+[2026-03-16T16:23:04.215+0000] {processor.py:925} INFO - DAG(s) 'tasklar' retrieved from /opt/airflow/dags/import_variable.py
+[2026-03-16T16:23:04.255+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:23:04.255+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-16T16:23:04.290+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:23:04.290+0000] {dag.py:4180} INFO - Setting next_dagrun for tasklar to 2026-03-15 23:30:00+00:00, run_after=2026-03-16 23:30:00+00:00
+[2026-03-16T16:23:04.312+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/import_variable.py took 0.130 seconds
+[2026-03-16T16:23:34.870+0000] {processor.py:186} INFO - Started process (PID=3542) to work on /opt/airflow/dags/import_variable.py
+[2026-03-16T16:23:34.871+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/import_variable.py for tasks to queue
+[2026-03-16T16:23:34.874+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:23:34.874+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/import_variable.py
+[2026-03-16T16:23:34.892+0000] {processor.py:925} INFO - DAG(s) 'tasklar' retrieved from /opt/airflow/dags/import_variable.py
+[2026-03-16T16:23:34.927+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:23:34.927+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-16T16:23:34.960+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:23:34.959+0000] {dag.py:4180} INFO - Setting next_dagrun for tasklar to 2026-03-15 23:30:00+00:00, run_after=2026-03-16 23:30:00+00:00
+[2026-03-16T16:23:34.982+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/import_variable.py took 0.121 seconds
+[2026-03-16T16:24:05.581+0000] {processor.py:186} INFO - Started process (PID=3578) to work on /opt/airflow/dags/import_variable.py
+[2026-03-16T16:24:05.582+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/import_variable.py for tasks to queue
+[2026-03-16T16:24:05.585+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:24:05.584+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/import_variable.py
+[2026-03-16T16:24:05.602+0000] {processor.py:925} INFO - DAG(s) 'tasklar' retrieved from /opt/airflow/dags/import_variable.py
+[2026-03-16T16:24:05.635+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:24:05.634+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-16T16:24:05.668+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:24:05.668+0000] {dag.py:4180} INFO - Setting next_dagrun for tasklar to 2026-03-15 23:30:00+00:00, run_after=2026-03-16 23:30:00+00:00
+[2026-03-16T16:24:05.696+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/import_variable.py took 0.125 seconds
+[2026-03-16T16:24:36.307+0000] {processor.py:186} INFO - Started process (PID=3614) to work on /opt/airflow/dags/import_variable.py
+[2026-03-16T16:24:36.308+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/import_variable.py for tasks to queue
+[2026-03-16T16:24:36.310+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:24:36.310+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/import_variable.py
+[2026-03-16T16:24:36.324+0000] {processor.py:925} INFO - DAG(s) 'tasklar' retrieved from /opt/airflow/dags/import_variable.py
+[2026-03-16T16:24:36.354+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:24:36.354+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-16T16:24:36.383+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:24:36.383+0000] {dag.py:4180} INFO - Setting next_dagrun for tasklar to 2026-03-15 23:30:00+00:00, run_after=2026-03-16 23:30:00+00:00
+[2026-03-16T16:24:36.403+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/import_variable.py took 0.104 seconds
+[2026-03-16T16:25:07.017+0000] {processor.py:186} INFO - Started process (PID=3650) to work on /opt/airflow/dags/import_variable.py
+[2026-03-16T16:25:07.018+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/import_variable.py for tasks to queue
+[2026-03-16T16:25:07.021+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:25:07.020+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/import_variable.py
+[2026-03-16T16:25:07.040+0000] {processor.py:925} INFO - DAG(s) 'tasklar' retrieved from /opt/airflow/dags/import_variable.py
+[2026-03-16T16:25:07.075+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:25:07.075+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-16T16:25:07.109+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:25:07.108+0000] {dag.py:4180} INFO - Setting next_dagrun for tasklar to 2026-03-15 23:30:00+00:00, run_after=2026-03-16 23:30:00+00:00
+[2026-03-16T16:25:07.131+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/import_variable.py took 0.124 seconds
+[2026-03-16T16:25:37.750+0000] {processor.py:186} INFO - Started process (PID=3686) to work on /opt/airflow/dags/import_variable.py
+[2026-03-16T16:25:37.752+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/import_variable.py for tasks to queue
+[2026-03-16T16:25:37.754+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:25:37.754+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/import_variable.py
+[2026-03-16T16:25:37.773+0000] {processor.py:925} INFO - DAG(s) 'tasklar' retrieved from /opt/airflow/dags/import_variable.py
+[2026-03-16T16:25:37.808+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:25:37.807+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-16T16:25:37.839+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:25:37.839+0000] {dag.py:4180} INFO - Setting next_dagrun for tasklar to 2026-03-15 23:30:00+00:00, run_after=2026-03-16 23:30:00+00:00
+[2026-03-16T16:25:37.859+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/import_variable.py took 0.117 seconds
+[2026-03-16T16:26:08.454+0000] {processor.py:186} INFO - Started process (PID=3722) to work on /opt/airflow/dags/import_variable.py
+[2026-03-16T16:26:08.455+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/import_variable.py for tasks to queue
+[2026-03-16T16:26:08.457+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:26:08.457+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/import_variable.py
+[2026-03-16T16:26:08.471+0000] {processor.py:925} INFO - DAG(s) 'tasklar' retrieved from /opt/airflow/dags/import_variable.py
+[2026-03-16T16:26:08.507+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:26:08.507+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-16T16:26:08.539+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:26:08.538+0000] {dag.py:4180} INFO - Setting next_dagrun for tasklar to 2026-03-15 23:30:00+00:00, run_after=2026-03-16 23:30:00+00:00
+[2026-03-16T16:26:08.559+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/import_variable.py took 0.119 seconds
+[2026-03-16T16:26:39.179+0000] {processor.py:186} INFO - Started process (PID=3758) to work on /opt/airflow/dags/import_variable.py
+[2026-03-16T16:26:39.180+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/import_variable.py for tasks to queue
+[2026-03-16T16:26:39.183+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:26:39.182+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/import_variable.py
+[2026-03-16T16:26:39.199+0000] {processor.py:925} INFO - DAG(s) 'tasklar' retrieved from /opt/airflow/dags/import_variable.py
+[2026-03-16T16:26:39.234+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:26:39.233+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-16T16:26:39.278+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:26:39.277+0000] {dag.py:4180} INFO - Setting next_dagrun for tasklar to 2026-03-15 23:30:00+00:00, run_after=2026-03-16 23:30:00+00:00
+[2026-03-16T16:26:39.314+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/import_variable.py took 0.143 seconds
+[2026-03-16T16:27:09.923+0000] {processor.py:186} INFO - Started process (PID=3794) to work on /opt/airflow/dags/import_variable.py
+[2026-03-16T16:27:09.924+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/import_variable.py for tasks to queue
+[2026-03-16T16:27:09.926+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:27:09.926+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/import_variable.py
+[2026-03-16T16:27:09.943+0000] {processor.py:925} INFO - DAG(s) 'tasklar' retrieved from /opt/airflow/dags/import_variable.py
+[2026-03-16T16:27:09.977+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:27:09.977+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-16T16:27:10.009+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:27:10.009+0000] {dag.py:4180} INFO - Setting next_dagrun for tasklar to 2026-03-15 23:30:00+00:00, run_after=2026-03-16 23:30:00+00:00
+[2026-03-16T16:27:10.034+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/import_variable.py took 0.119 seconds
+[2026-03-16T16:27:40.618+0000] {processor.py:186} INFO - Started process (PID=3836) to work on /opt/airflow/dags/import_variable.py
+[2026-03-16T16:27:40.619+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/import_variable.py for tasks to queue
+[2026-03-16T16:27:40.622+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:27:40.621+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/import_variable.py
+[2026-03-16T16:27:40.635+0000] {processor.py:925} INFO - DAG(s) 'tasklar' retrieved from /opt/airflow/dags/import_variable.py
+[2026-03-16T16:27:40.665+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:27:40.665+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-16T16:27:40.702+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:27:40.702+0000] {dag.py:4180} INFO - Setting next_dagrun for tasklar to 2026-03-15 23:30:00+00:00, run_after=2026-03-16 23:30:00+00:00
+[2026-03-16T16:27:40.727+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/import_variable.py took 0.116 seconds
+[2026-03-16T16:28:11.366+0000] {processor.py:186} INFO - Started process (PID=3872) to work on /opt/airflow/dags/import_variable.py
+[2026-03-16T16:28:11.368+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/import_variable.py for tasks to queue
+[2026-03-16T16:28:11.372+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:28:11.371+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/import_variable.py
+[2026-03-16T16:28:11.390+0000] {processor.py:925} INFO - DAG(s) 'tasklar' retrieved from /opt/airflow/dags/import_variable.py
+[2026-03-16T16:28:11.429+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:28:11.428+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-16T16:28:11.477+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:28:11.476+0000] {dag.py:4180} INFO - Setting next_dagrun for tasklar to 2026-03-15 23:30:00+00:00, run_after=2026-03-16 23:30:00+00:00
+[2026-03-16T16:28:11.511+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/import_variable.py took 0.156 seconds
+[2026-03-16T16:28:42.346+0000] {processor.py:186} INFO - Started process (PID=3908) to work on /opt/airflow/dags/import_variable.py
+[2026-03-16T16:28:42.347+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/import_variable.py for tasks to queue
+[2026-03-16T16:28:42.349+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:28:42.349+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/import_variable.py
+[2026-03-16T16:28:42.364+0000] {processor.py:925} INFO - DAG(s) 'tasklar' retrieved from /opt/airflow/dags/import_variable.py
+[2026-03-16T16:28:42.396+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:28:42.395+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-16T16:28:42.433+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:28:42.433+0000] {dag.py:4180} INFO - Setting next_dagrun for tasklar to 2026-03-15 23:30:00+00:00, run_after=2026-03-16 23:30:00+00:00
+[2026-03-16T16:28:42.456+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/import_variable.py took 0.117 seconds
+[2026-03-16T16:29:13.069+0000] {processor.py:186} INFO - Started process (PID=3946) to work on /opt/airflow/dags/import_variable.py
+[2026-03-16T16:29:13.070+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/import_variable.py for tasks to queue
+[2026-03-16T16:29:13.072+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:29:13.072+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/import_variable.py
+[2026-03-16T16:29:13.086+0000] {processor.py:925} INFO - DAG(s) 'tasklar' retrieved from /opt/airflow/dags/import_variable.py
+[2026-03-16T16:29:13.120+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:29:13.119+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-16T16:29:13.152+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:29:13.152+0000] {dag.py:4180} INFO - Setting next_dagrun for tasklar to 2026-03-15 23:30:00+00:00, run_after=2026-03-16 23:30:00+00:00
+[2026-03-16T16:29:13.172+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/import_variable.py took 0.110 seconds
+[2026-03-16T16:29:43.735+0000] {processor.py:186} INFO - Started process (PID=3980) to work on /opt/airflow/dags/import_variable.py
+[2026-03-16T16:29:43.736+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/import_variable.py for tasks to queue
+[2026-03-16T16:29:43.738+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:29:43.738+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/import_variable.py
+[2026-03-16T16:29:43.752+0000] {processor.py:925} INFO - DAG(s) 'tasklar' retrieved from /opt/airflow/dags/import_variable.py
+[2026-03-16T16:29:43.782+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:29:43.781+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-16T16:29:43.808+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:29:43.808+0000] {dag.py:4180} INFO - Setting next_dagrun for tasklar to 2026-03-15 23:30:00+00:00, run_after=2026-03-16 23:30:00+00:00
+[2026-03-16T16:29:43.829+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/import_variable.py took 0.100 seconds
+[2026-03-16T16:30:14.448+0000] {processor.py:186} INFO - Started process (PID=4017) to work on /opt/airflow/dags/import_variable.py
+[2026-03-16T16:30:14.449+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/import_variable.py for tasks to queue
+[2026-03-16T16:30:14.451+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:30:14.451+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/import_variable.py
+[2026-03-16T16:30:14.465+0000] {processor.py:925} INFO - DAG(s) 'tasklar' retrieved from /opt/airflow/dags/import_variable.py
+[2026-03-16T16:30:14.497+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:30:14.497+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-16T16:30:14.524+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:30:14.524+0000] {dag.py:4180} INFO - Setting next_dagrun for tasklar to 2026-03-15 23:30:00+00:00, run_after=2026-03-16 23:30:00+00:00
+[2026-03-16T16:30:14.545+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/import_variable.py took 0.104 seconds
+[2026-03-16T16:30:45.118+0000] {processor.py:186} INFO - Started process (PID=4053) to work on /opt/airflow/dags/import_variable.py
+[2026-03-16T16:30:45.119+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/import_variable.py for tasks to queue
+[2026-03-16T16:30:45.121+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:30:45.121+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/import_variable.py
+[2026-03-16T16:30:45.136+0000] {processor.py:925} INFO - DAG(s) 'tasklar' retrieved from /opt/airflow/dags/import_variable.py
+[2026-03-16T16:30:45.166+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:30:45.165+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-16T16:30:45.202+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:30:45.202+0000] {dag.py:4180} INFO - Setting next_dagrun for tasklar to 2026-03-15 23:30:00+00:00, run_after=2026-03-16 23:30:00+00:00
+[2026-03-16T16:30:45.233+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/import_variable.py took 0.123 seconds
