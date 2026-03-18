@@ -28634,3 +28634,628 @@ File Path                                PID  Runtime      # DAGs    # Errors  L
 [2026-03-18T16:07:11.623+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
 [2026-03-18T16:07:16.675+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
 [2026-03-18T16:07:16.683+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:07:21.734+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:07:21.738+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:07:26.779+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:07:26.782+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:07:31.832+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:07:31.839+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:07:31.896+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/import_variable.py                            1           0  0.16s           2026-03-18T16:07:02                      12
+/opt/airflow/dags/dag.py                                        1           0  0.14s           2026-03-18T16:07:02                      10
+/opt/airflow/dags/import_from_git.py                            0           1  0.11s           2026-03-18T16:07:01                       6
+/opt/airflow/dags/send_to_minio.py       637  0.03s             0           1  0.11s           2026-03-18T16:07:01                       6
+/opt/airflow/dags/connect_to_minio.py    640  0.01s             0           1  0.11s           2026-03-18T16:07:01                       6
+/opt/airflow/dags/airflow_utils.py                              0           0  0.08s           2026-03-18T16:07:02                       3
+================================================================================
+[2026-03-18T16:07:37.220+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:07:37.229+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:07:42.276+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:07:42.283+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:07:47.324+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:07:47.327+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:07:52.380+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:07:52.386+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:07:57.435+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:07:57.442+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:08:02.490+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:08:02.497+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:08:02.549+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/import_variable.py                            1           0  0.17s           2026-03-18T16:07:33                      12
+/opt/airflow/dags/dag.py                                        1           0  0.13s           2026-03-18T16:07:33                      10
+/opt/airflow/dags/send_to_minio.py       673  0.03s             0           1  0.12s           2026-03-18T16:07:31                       6
+/opt/airflow/dags/connect_to_minio.py    676  0.01s             0           1  0.11s           2026-03-18T16:07:31                       6
+/opt/airflow/dags/import_from_git.py                            0           1  0.10s           2026-03-18T16:07:32                       6
+/opt/airflow/dags/airflow_utils.py                              0           0  0.08s           2026-03-18T16:07:33                       3
+================================================================================
+[2026-03-18T16:08:07.892+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:08:07.896+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:08:12.942+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:08:12.946+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:08:17.993+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:08:17.998+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:08:23.041+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:08:23.045+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:08:28.096+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:08:28.104+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:08:33.155+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:08:33.163+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:08:33.219+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/import_variable.py                            1           0  0.19s           2026-03-18T16:08:03                      12
+/opt/airflow/dags/dag.py                                        1           0  0.16s           2026-03-18T16:08:03                      10
+/opt/airflow/dags/airflow_utils.py                              0           0  0.10s           2026-03-18T16:08:03                       3
+/opt/airflow/dags/send_to_minio.py       709  0.03s             0           1  0.10s           2026-03-18T16:08:02                       6
+/opt/airflow/dags/connect_to_minio.py    712  0.01s             0           1  0.09s           2026-03-18T16:08:02                       6
+/opt/airflow/dags/import_from_git.py                            0           1  0.09s           2026-03-18T16:08:02                       6
+================================================================================
+[2026-03-18T16:08:38.539+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:08:38.544+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:08:43.587+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:08:43.595+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:08:48.644+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:08:48.653+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:08:53.696+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:08:53.705+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:08:58.763+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:08:58.767+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:09:03.814+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:09:03.821+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:09:03.872+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/import_variable.py                            1           0  0.16s           2026-03-18T16:08:34                      12
+/opt/airflow/dags/dag.py                                        1           0  0.14s           2026-03-18T16:08:34                      10
+/opt/airflow/dags/send_to_minio.py       745  0.04s             0           1  0.13s           2026-03-18T16:08:33                       6
+/opt/airflow/dags/import_from_git.py                            0           1  0.09s           2026-03-18T16:08:33                       6
+/opt/airflow/dags/connect_to_minio.py    748  0.01s             0           1  0.09s           2026-03-18T16:08:33                       6
+/opt/airflow/dags/airflow_utils.py                              0           0  0.08s           2026-03-18T16:08:34                       3
+================================================================================
+[2026-03-18T16:09:09.184+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:09:09.193+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:09:14.239+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:09:14.246+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:09:19.299+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:09:19.306+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:09:24.352+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:09:24.356+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:09:29.406+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:09:29.413+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:09:34.459+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:09:34.465+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:09:34.512+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/import_variable.py                            1           0  0.14s           2026-03-18T16:09:05                      12
+/opt/airflow/dags/dag.py                                        1           0  0.11s           2026-03-18T16:09:05                      10
+/opt/airflow/dags/send_to_minio.py       781  0.03s             0           1  0.11s           2026-03-18T16:09:03                       6
+/opt/airflow/dags/connect_to_minio.py    784  0.01s             0           1  0.11s           2026-03-18T16:09:03                       6
+/opt/airflow/dags/import_from_git.py                            0           1  0.10s           2026-03-18T16:09:04                       6
+/opt/airflow/dags/airflow_utils.py                              0           0  0.08s           2026-03-18T16:09:05                       3
+================================================================================
+[2026-03-18T16:09:39.885+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:09:39.890+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:09:44.935+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:09:44.944+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:09:49.997+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:09:50.003+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:09:55.047+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:09:55.050+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:10:00.093+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:10:00.102+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:10:05.153+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:10:05.157+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:10:05.207+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/import_variable.py                            1           0  0.21s           2026-03-18T16:09:35                      12
+/opt/airflow/dags/dag.py                                        1           0  0.16s           2026-03-18T16:09:35                      10
+/opt/airflow/dags/airflow_utils.py                              0           0  0.12s           2026-03-18T16:09:35                       3
+/opt/airflow/dags/connect_to_minio.py    820  0.01s             0           1  0.11s           2026-03-18T16:09:34                       6
+/opt/airflow/dags/send_to_minio.py       817  0.03s             0           1  0.11s           2026-03-18T16:09:34                       6
+/opt/airflow/dags/import_from_git.py                            0           1  0.10s           2026-03-18T16:09:34                       6
+================================================================================
+[2026-03-18T16:10:10.535+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:10:10.544+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:10:15.595+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:10:15.598+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:10:20.641+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:10:20.645+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:10:25.689+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:10:25.696+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:10:30.743+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:10:30.752+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:10:35.796+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:10:35.800+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:10:35.849+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/import_variable.py                            1           0  0.18s           2026-03-18T16:10:06                      12
+/opt/airflow/dags/dag.py                                        1           0  0.15s           2026-03-18T16:10:06                      10
+/opt/airflow/dags/send_to_minio.py       853  0.03s             0           1  0.10s           2026-03-18T16:10:05                       6
+/opt/airflow/dags/connect_to_minio.py    856  0.01s             0           1  0.10s           2026-03-18T16:10:05                       6
+/opt/airflow/dags/import_from_git.py                            0           1  0.10s           2026-03-18T16:10:05                       6
+/opt/airflow/dags/airflow_utils.py                              0           0  0.09s           2026-03-18T16:10:06                       3
+================================================================================
+[2026-03-18T16:10:41.255+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:10:41.263+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:10:46.312+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:10:46.318+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:10:51.368+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:10:51.376+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:10:56.416+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:10:56.422+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:11:01.470+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:11:01.476+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:11:06.521+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:11:06.527+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:11:06.580+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/import_variable.py                            1           0  0.22s           2026-03-18T16:10:37                      12
+/opt/airflow/dags/dag.py                                        1           0  0.17s           2026-03-18T16:10:37                      10
+/opt/airflow/dags/connect_to_minio.py    892  0.01s             0           1  0.13s           2026-03-18T16:10:35                       6
+/opt/airflow/dags/send_to_minio.py       889  0.03s             0           1  0.13s           2026-03-18T16:10:35                       6
+/opt/airflow/dags/import_from_git.py                            0           1  0.11s           2026-03-18T16:10:36                       6
+/opt/airflow/dags/airflow_utils.py                              0           0  0.10s           2026-03-18T16:10:37                       3
+================================================================================
+[2026-03-18T16:11:11.939+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:11:11.946+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:11:16.992+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:11:16.997+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:11:22.043+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:11:22.048+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:11:27.099+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:11:27.105+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:11:32.154+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:11:32.163+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:11:37.209+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:11:37.218+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:11:37.256+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/import_variable.py                            1           0  0.20s           2026-03-18T16:11:07                      12
+/opt/airflow/dags/dag.py                                        1           0  0.17s           2026-03-18T16:11:07                      10
+/opt/airflow/dags/send_to_minio.py       925  0.02s             0           1  0.12s           2026-03-18T16:11:06                       6
+/opt/airflow/dags/connect_to_minio.py    928  0.01s             0           1  0.10s           2026-03-18T16:11:06                       6
+/opt/airflow/dags/import_from_git.py                            0           1  0.10s           2026-03-18T16:11:06                       6
+/opt/airflow/dags/airflow_utils.py                              0           0  0.10s           2026-03-18T16:11:07                       3
+================================================================================
+[2026-03-18T16:11:42.606+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:11:42.610+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:11:47.650+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:11:47.653+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:11:52.699+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:11:52.703+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:11:57.750+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:11:57.753+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:12:02.800+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:12:02.807+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:12:07.854+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:12:07.858+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:12:07.901+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dag.py                                        1           0  0.17s           2026-03-18T16:11:38                      10
+/opt/airflow/dags/import_variable.py                            1           0  0.16s           2026-03-18T16:11:38                      12
+/opt/airflow/dags/send_to_minio.py       961  0.03s             0           1  0.11s           2026-03-18T16:11:37                       6
+/opt/airflow/dags/connect_to_minio.py    964  0.01s             0           1  0.10s           2026-03-18T16:11:37                       6
+/opt/airflow/dags/import_from_git.py                            0           1  0.10s           2026-03-18T16:11:37                       6
+/opt/airflow/dags/airflow_utils.py                              0           0  0.09s           2026-03-18T16:11:38                       3
+================================================================================
+[2026-03-18T16:12:13.258+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:12:13.263+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:12:18.315+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:12:18.323+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:12:23.374+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:12:23.383+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:12:28.430+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:12:28.438+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:12:33.485+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:12:33.488+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:12:38.530+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:12:38.534+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:12:38.588+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/import_variable.py                            1           0  0.18s           2026-03-18T16:12:09                      12
+/opt/airflow/dags/dag.py                                        1           0  0.16s           2026-03-18T16:12:09                      10
+/opt/airflow/dags/connect_to_minio.py   1000  0.02s             0           1  0.13s           2026-03-18T16:12:08                       6
+/opt/airflow/dags/import_from_git.py                            0           1  0.12s           2026-03-18T16:12:08                       6
+/opt/airflow/dags/send_to_minio.py       997  0.04s             0           1  0.11s           2026-03-18T16:12:07                       6
+/opt/airflow/dags/airflow_utils.py                              0           0  0.09s           2026-03-18T16:12:09                       3
+================================================================================
+[2026-03-18T16:12:43.924+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:12:43.930+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:12:48.979+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:12:48.983+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:12:54.032+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:12:54.040+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:12:59.089+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:12:59.094+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:13:04.134+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:13:04.141+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:13:09.191+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:13:09.197+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:13:09.238+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/import_variable.py                            1           0  0.18s           2026-03-18T16:12:39                      12
+/opt/airflow/dags/dag.py                                        1           0  0.16s           2026-03-18T16:12:39                      10
+/opt/airflow/dags/send_to_minio.py      1033  0.02s             0           1  0.11s           2026-03-18T16:12:38                       6
+/opt/airflow/dags/connect_to_minio.py   1036  0.01s             0           1  0.11s           2026-03-18T16:12:38                       6
+/opt/airflow/dags/import_from_git.py                            0           1  0.09s           2026-03-18T16:12:38                       6
+/opt/airflow/dags/airflow_utils.py                              0           0  0.08s           2026-03-18T16:12:39                       3
+================================================================================
+[2026-03-18T16:13:14.538+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:13:14.547+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:13:19.595+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:13:19.599+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:13:24.644+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:13:24.654+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:13:29.705+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:13:29.708+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:13:34.756+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:13:34.763+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:13:39.812+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:13:39.819+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:13:39.875+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dag.py                                        1           0  0.15s           2026-03-18T16:13:10                      10
+/opt/airflow/dags/import_variable.py                            1           0  0.15s           2026-03-18T16:13:10                      12
+/opt/airflow/dags/connect_to_minio.py   1072  0.02s             0           1  0.10s           2026-03-18T16:13:09                       6
+/opt/airflow/dags/send_to_minio.py      1069  0.03s             0           1  0.09s           2026-03-18T16:13:09                       6
+/opt/airflow/dags/import_from_git.py                            0           1  0.09s           2026-03-18T16:13:09                       6
+/opt/airflow/dags/airflow_utils.py                              0           0  0.08s           2026-03-18T16:13:10                       3
+================================================================================
+[2026-03-18T16:13:45.225+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:13:45.230+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:13:50.281+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:13:50.290+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:13:55.338+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:13:55.346+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:14:00.395+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:14:00.402+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:14:05.444+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:14:05.451+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:14:10.492+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:14:10.497+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:14:10.555+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/import_variable.py                            1           0  0.17s           2026-03-18T16:13:41                      12
+/opt/airflow/dags/dag.py                                        1           0  0.15s           2026-03-18T16:13:41                      10
+/opt/airflow/dags/connect_to_minio.py   1108  0.02s             0           1  0.12s           2026-03-18T16:13:39                       6
+/opt/airflow/dags/send_to_minio.py      1105  0.03s             0           1  0.11s           2026-03-18T16:13:39                       6
+/opt/airflow/dags/import_from_git.py                            0           1  0.10s           2026-03-18T16:13:40                       6
+/opt/airflow/dags/airflow_utils.py                              0           0  0.07s           2026-03-18T16:13:41                       3
+================================================================================
+[2026-03-18T16:14:15.883+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:14:15.887+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:14:20.930+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:14:20.936+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:14:25.978+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:14:25.984+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:14:31.032+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:14:31.039+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:14:36.085+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:14:36.090+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:14:41.136+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:14:41.141+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:14:41.184+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/import_variable.py                            1           0  0.19s           2026-03-18T16:14:11                      12
+/opt/airflow/dags/dag.py                                        1           0  0.16s           2026-03-18T16:14:11                      10
+/opt/airflow/dags/connect_to_minio.py   1144  0.01s             0           1  0.11s           2026-03-18T16:14:10                       6
+/opt/airflow/dags/send_to_minio.py      1141  0.02s             0           1  0.11s           2026-03-18T16:14:10                       6
+/opt/airflow/dags/import_from_git.py                            0           1  0.11s           2026-03-18T16:14:10                       6
+/opt/airflow/dags/airflow_utils.py                              0           0  0.09s           2026-03-18T16:14:11                       3
+================================================================================
+[2026-03-18T16:14:46.529+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:14:46.533+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:14:51.575+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:14:51.583+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:14:56.631+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:14:56.634+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:15:01.677+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:15:01.681+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:15:06.724+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:15:06.727+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:15:11.777+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:15:11.784+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:15:11.826+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/import_variable.py                            1           0  0.18s           2026-03-18T16:14:42                      12
+/opt/airflow/dags/dag.py                                        1           0  0.15s           2026-03-18T16:14:42                      10
+/opt/airflow/dags/connect_to_minio.py   1180  0.01s             0           1  0.12s           2026-03-18T16:14:41                       6
+/opt/airflow/dags/send_to_minio.py      1177  0.02s             0           1  0.11s           2026-03-18T16:14:41                       6
+/opt/airflow/dags/import_from_git.py                            0           1  0.11s           2026-03-18T16:14:41                       6
+/opt/airflow/dags/airflow_utils.py                              0           0  0.09s           2026-03-18T16:14:42                       3
+================================================================================
+[2026-03-18T16:15:17.153+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:15:17.162+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:15:22.211+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:15:22.217+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:15:27.256+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:15:27.263+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:15:32.318+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:15:32.327+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:15:37.374+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:15:37.377+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:15:42.423+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:15:42.427+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:15:42.483+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/import_variable.py                            1           0  0.17s           2026-03-18T16:15:13                      12
+/opt/airflow/dags/dag.py                                        1           0  0.15s           2026-03-18T16:15:13                      10
+/opt/airflow/dags/connect_to_minio.py   1216  0.01s             0           1  0.11s           2026-03-18T16:15:11                       6
+/opt/airflow/dags/send_to_minio.py      1213  0.03s             0           1  0.11s           2026-03-18T16:15:11                       6
+/opt/airflow/dags/import_from_git.py                            0           1  0.08s           2026-03-18T16:15:11                       6
+/opt/airflow/dags/airflow_utils.py                              0           0  0.08s           2026-03-18T16:15:13                       3
+================================================================================
+[2026-03-18T16:15:47.806+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:15:47.814+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:15:52.861+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:15:52.866+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:15:57.913+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:15:57.921+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:16:02.972+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:16:02.979+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:16:08.025+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:16:08.034+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:16:13.082+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:16:13.085+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:16:13.129+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/import_variable.py                            1           0  0.16s           2026-03-18T16:15:43                      12
+/opt/airflow/dags/dag.py                                        1           0  0.14s           2026-03-18T16:15:43                      10
+/opt/airflow/dags/send_to_minio.py      1249  0.03s             0           1  0.10s           2026-03-18T16:15:42                       6
+/opt/airflow/dags/connect_to_minio.py   1252  0.01s             0           1  0.10s           2026-03-18T16:15:42                       6
+/opt/airflow/dags/import_from_git.py                            0           1  0.09s           2026-03-18T16:15:42                       6
+/opt/airflow/dags/airflow_utils.py                              0           0  0.08s           2026-03-18T16:15:43                       3
+================================================================================
+[2026-03-18T16:16:18.469+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:16:18.477+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:16:23.523+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:16:23.527+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:16:28.571+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:16:28.575+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:16:33.622+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:16:33.627+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:16:38.677+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:16:38.686+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:16:43.736+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:16:43.740+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:16:43.799+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/import_variable.py                            1           0  0.18s           2026-03-18T16:16:14                      12
+/opt/airflow/dags/dag.py                                        1           0  0.12s           2026-03-18T16:16:14                      10
+/opt/airflow/dags/connect_to_minio.py   1288  0.02s             0           1  0.10s           2026-03-18T16:16:13                       6
+/opt/airflow/dags/send_to_minio.py      1285  0.04s             0           1  0.10s           2026-03-18T16:16:13                       6
+/opt/airflow/dags/import_from_git.py                            0           1  0.09s           2026-03-18T16:16:13                       6
+/opt/airflow/dags/airflow_utils.py                              0           0  0.09s           2026-03-18T16:16:14                       3
+================================================================================
+[2026-03-18T16:16:49.139+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:16:49.143+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:16:54.187+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:16:54.192+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:16:59.239+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:16:59.246+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:17:04.300+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:17:04.308+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:17:09.365+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:17:09.384+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:17:14.436+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:17:14.444+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:17:14.499+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/import_variable.py                            1           0  0.17s           2026-03-18T16:16:45                      12
+/opt/airflow/dags/dag.py                                        1           0  0.15s           2026-03-18T16:16:45                      10
+/opt/airflow/dags/send_to_minio.py      1321  0.03s             0           1  0.12s           2026-03-18T16:16:43                       6
+/opt/airflow/dags/connect_to_minio.py   1324  0.01s             0           1  0.11s           2026-03-18T16:16:43                       6
+/opt/airflow/dags/import_from_git.py                            0           1  0.10s           2026-03-18T16:16:43                       6
+/opt/airflow/dags/airflow_utils.py                              0           0  0.09s           2026-03-18T16:16:44                       3
+================================================================================
+[2026-03-18T16:17:19.778+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:17:19.783+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:17:24.826+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:17:24.829+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:17:29.879+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:17:29.887+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:17:34.936+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:17:34.944+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:17:39.994+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:17:39.999+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:17:45.041+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:17:45.045+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:17:45.098+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/import_variable.py                            1           0  0.15s           2026-03-18T16:17:15                      12
+/opt/airflow/dags/dag.py                                        1           0  0.14s           2026-03-18T16:17:15                      10
+/opt/airflow/dags/send_to_minio.py      1357  0.03s             0           1  0.09s           2026-03-18T16:17:14                       6
+/opt/airflow/dags/connect_to_minio.py   1360  0.01s             0           1  0.09s           2026-03-18T16:17:14                       6
+/opt/airflow/dags/import_from_git.py                            0           1  0.08s           2026-03-18T16:17:14                       6
+/opt/airflow/dags/airflow_utils.py                              0           0  0.08s           2026-03-18T16:17:15                       3
+================================================================================
+[2026-03-18T16:17:50.438+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:17:50.458+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:17:55.507+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:17:55.511+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:18:00.560+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:18:00.565+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:18:05.615+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:18:05.619+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:18:10.672+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:18:10.676+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:18:15.725+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:18:15.729+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:18:15.774+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/import_variable.py                            1           0  0.18s           2026-03-18T16:17:46                      12
+/opt/airflow/dags/dag.py                                        1           0  0.15s           2026-03-18T16:17:46                      10
+/opt/airflow/dags/send_to_minio.py      1393  0.03s             0           1  0.12s           2026-03-18T16:17:45                       6
+/opt/airflow/dags/connect_to_minio.py   1396  0.01s             0           1  0.10s           2026-03-18T16:17:45                       6
+/opt/airflow/dags/airflow_utils.py                              0           0  0.09s           2026-03-18T16:17:46                       3
+/opt/airflow/dags/import_from_git.py                            0           1  0.09s           2026-03-18T16:17:45                       6
+================================================================================
+[2026-03-18T16:18:21.130+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:18:21.138+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:18:26.185+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:18:26.191+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:18:31.245+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:18:31.263+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:18:36.310+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:18:36.321+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:18:41.370+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:18:41.375+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:18:46.419+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:18:46.423+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:18:46.470+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/import_variable.py                            1           0  0.20s           2026-03-18T16:18:17                      12
+/opt/airflow/dags/dag.py                                        1           0  0.20s           2026-03-18T16:18:17                      10
+/opt/airflow/dags/connect_to_minio.py   1432  0.01s             0           1  0.11s           2026-03-18T16:18:15                       6
+/opt/airflow/dags/send_to_minio.py      1429  0.03s             0           1  0.11s           2026-03-18T16:18:15                       6
+/opt/airflow/dags/import_from_git.py                            0           1  0.10s           2026-03-18T16:18:15                       6
+/opt/airflow/dags/airflow_utils.py                              0           0  0.09s           2026-03-18T16:18:16                       3
+================================================================================
+[2026-03-18T16:18:51.894+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:18:51.900+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:18:56.954+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:18:56.963+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:19:02.011+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:19:02.018+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:19:07.073+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:19:07.078+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:19:12.124+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:19:12.131+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:19:17.175+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:19:17.180+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:19:17.223+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/import_variable.py                            1           0  0.24s           2026-03-18T16:18:47                      12
+/opt/airflow/dags/dag.py                                        1           0  0.22s           2026-03-18T16:18:47                      10
+/opt/airflow/dags/send_to_minio.py      1465  0.03s             0           1  0.15s           2026-03-18T16:18:46                       6
+/opt/airflow/dags/connect_to_minio.py   1468  0.01s             0           1  0.12s           2026-03-18T16:18:46                       6
+/opt/airflow/dags/import_from_git.py                            0           1  0.11s           2026-03-18T16:18:46                       6
+/opt/airflow/dags/airflow_utils.py                              0           0  0.08s           2026-03-18T16:18:47                       3
+================================================================================
+[2026-03-18T16:19:22.574+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:19:22.579+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:19:27.623+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:19:27.634+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:19:32.683+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:19:32.687+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:19:37.726+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:19:37.732+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:19:42.777+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:19:42.783+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:19:47.827+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:19:47.834+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:19:47.884+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/import_variable.py                            1           0  0.20s           2026-03-18T16:19:18                      12
+/opt/airflow/dags/dag.py                                        1           0  0.18s           2026-03-18T16:19:18                      10
+/opt/airflow/dags/connect_to_minio.py   1504  0.01s             0           1  0.11s           2026-03-18T16:19:17                       6
+/opt/airflow/dags/send_to_minio.py      1501  0.03s             0           1  0.11s           2026-03-18T16:19:17                       6
+/opt/airflow/dags/import_from_git.py                            0           1  0.10s           2026-03-18T16:19:17                       6
+/opt/airflow/dags/airflow_utils.py                              0           0  0.09s           2026-03-18T16:19:18                       3
+================================================================================
+[2026-03-18T16:19:53.253+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:19:53.311+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:19:58.563+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:19:58.630+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2026-03-18T16:20:03.800+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-18T16:20:03.804+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags

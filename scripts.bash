@@ -18,3 +18,8 @@ docker logs metabase 2>&1 | tail -40
 
 
 docker volume rm feb14_pgdata_mydb
+
+---ariflow eger metaya qosulmursa bunurun et
+GRANT USAGE ON SCHEMA public TO airflow;
+GRANT SELECT ON ALL TABLES IN SCHEMA public TO airflow;
+ALTER DEFAULT PRIVILEGES IN SCHEMA public GRANT SELECT ON TABLES TO airflow;
