@@ -168,9 +168,16 @@ services:
       - spark_events:/opt/spark-events
     networks:
       - lake
-
-
- 
+    
+  metabase:
+    image: metabase/metabase:latest
+    container_name: metabase
+    ports:
+      - "3000:3000"
+    networks:
+      - lake
+    restart: always
+  
 volumes:
   airflow:
   minio:

@@ -3158,3 +3158,483 @@ Traceback (most recent call last):
 KeyError: 'Variable LINKS does not exist'
 [2026-03-16T16:42:34.535+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/import_from_git.py
 [2026-03-16T16:42:34.554+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/import_from_git.py took 0.074 seconds
+[2026-03-16T16:43:05.363+0000] {processor.py:186} INFO - Started process (PID=4909) to work on /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:43:05.365+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/import_from_git.py for tasks to queue
+[2026-03-16T16:43:05.369+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:43:05.368+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:43:05.406+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:43:05.404+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/import_from_git.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/import_from_git.py", line 45, in <module>
+    repo_links=get_link();
+               ^^^^^^^^^^
+  File "/opt/airflow/dags/import_from_git.py", line 4, in get_link
+    repo_links=Variable.get("LINKS",deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable LINKS does not exist'
+[2026-03-16T16:43:05.408+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:43:05.424+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/import_from_git.py took 0.070 seconds
+[2026-03-16T16:43:36.291+0000] {processor.py:186} INFO - Started process (PID=4945) to work on /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:43:36.293+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/import_from_git.py for tasks to queue
+[2026-03-16T16:43:36.298+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:43:36.297+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:43:36.348+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:43:36.345+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/import_from_git.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/import_from_git.py", line 45, in <module>
+    repo_links=get_link();
+               ^^^^^^^^^^
+  File "/opt/airflow/dags/import_from_git.py", line 4, in get_link
+    repo_links=Variable.get("LINKS",deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable LINKS does not exist'
+[2026-03-16T16:43:36.349+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:43:36.372+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/import_from_git.py took 0.095 seconds
+[2026-03-16T16:44:07.220+0000] {processor.py:186} INFO - Started process (PID=4981) to work on /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:44:07.222+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/import_from_git.py for tasks to queue
+[2026-03-16T16:44:07.226+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:44:07.225+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:44:07.273+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:44:07.270+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/import_from_git.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/import_from_git.py", line 45, in <module>
+    repo_links=get_link();
+               ^^^^^^^^^^
+  File "/opt/airflow/dags/import_from_git.py", line 4, in get_link
+    repo_links=Variable.get("LINKS",deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable LINKS does not exist'
+[2026-03-16T16:44:07.274+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:44:07.293+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/import_from_git.py took 0.087 seconds
+[2026-03-16T16:44:38.200+0000] {processor.py:186} INFO - Started process (PID=5017) to work on /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:44:38.201+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/import_from_git.py for tasks to queue
+[2026-03-16T16:44:38.204+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:44:38.204+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:44:38.244+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:44:38.241+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/import_from_git.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/import_from_git.py", line 45, in <module>
+    repo_links=get_link();
+               ^^^^^^^^^^
+  File "/opt/airflow/dags/import_from_git.py", line 4, in get_link
+    repo_links=Variable.get("LINKS",deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable LINKS does not exist'
+[2026-03-16T16:44:38.245+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:44:38.269+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/import_from_git.py took 0.081 seconds
+[2026-03-16T16:45:09.155+0000] {processor.py:186} INFO - Started process (PID=5053) to work on /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:45:09.157+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/import_from_git.py for tasks to queue
+[2026-03-16T16:45:09.161+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:45:09.160+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:45:09.205+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:45:09.202+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/import_from_git.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/import_from_git.py", line 45, in <module>
+    repo_links=get_link();
+               ^^^^^^^^^^
+  File "/opt/airflow/dags/import_from_git.py", line 4, in get_link
+    repo_links=Variable.get("LINKS",deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable LINKS does not exist'
+[2026-03-16T16:45:09.207+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:45:09.226+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/import_from_git.py took 0.084 seconds
+[2026-03-16T16:45:40.095+0000] {processor.py:186} INFO - Started process (PID=5089) to work on /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:45:40.096+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/import_from_git.py for tasks to queue
+[2026-03-16T16:45:40.100+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:45:40.099+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:45:40.140+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:45:40.137+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/import_from_git.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/import_from_git.py", line 45, in <module>
+    repo_links=get_link();
+               ^^^^^^^^^^
+  File "/opt/airflow/dags/import_from_git.py", line 4, in get_link
+    repo_links=Variable.get("LINKS",deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable LINKS does not exist'
+[2026-03-16T16:45:40.142+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:45:40.160+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/import_from_git.py took 0.078 seconds
+[2026-03-16T16:46:10.864+0000] {processor.py:186} INFO - Started process (PID=5125) to work on /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:46:10.866+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/import_from_git.py for tasks to queue
+[2026-03-16T16:46:10.870+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:46:10.869+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:46:10.917+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:46:10.914+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/import_from_git.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/import_from_git.py", line 45, in <module>
+    repo_links=get_link();
+               ^^^^^^^^^^
+  File "/opt/airflow/dags/import_from_git.py", line 4, in get_link
+    repo_links=Variable.get("LINKS",deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable LINKS does not exist'
+[2026-03-16T16:46:10.918+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:46:10.937+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/import_from_git.py took 0.088 seconds
+[2026-03-16T16:46:41.858+0000] {processor.py:186} INFO - Started process (PID=5161) to work on /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:46:41.860+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/import_from_git.py for tasks to queue
+[2026-03-16T16:46:41.864+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:46:41.863+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:46:41.906+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:46:41.904+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/import_from_git.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/import_from_git.py", line 45, in <module>
+    repo_links=get_link();
+               ^^^^^^^^^^
+  File "/opt/airflow/dags/import_from_git.py", line 4, in get_link
+    repo_links=Variable.get("LINKS",deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable LINKS does not exist'
+[2026-03-16T16:46:41.907+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:46:41.926+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/import_from_git.py took 0.079 seconds
+[2026-03-16T16:47:12.802+0000] {processor.py:186} INFO - Started process (PID=5197) to work on /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:47:12.804+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/import_from_git.py for tasks to queue
+[2026-03-16T16:47:12.808+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:47:12.807+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:47:12.851+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:47:12.848+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/import_from_git.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/import_from_git.py", line 45, in <module>
+    repo_links=get_link();
+               ^^^^^^^^^^
+  File "/opt/airflow/dags/import_from_git.py", line 4, in get_link
+    repo_links=Variable.get("LINKS",deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable LINKS does not exist'
+[2026-03-16T16:47:12.852+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:47:12.874+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/import_from_git.py took 0.083 seconds
+[2026-03-16T16:47:43.716+0000] {processor.py:186} INFO - Started process (PID=5234) to work on /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:47:43.717+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/import_from_git.py for tasks to queue
+[2026-03-16T16:47:43.720+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:47:43.720+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:47:43.763+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:47:43.760+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/import_from_git.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/import_from_git.py", line 45, in <module>
+    repo_links=get_link();
+               ^^^^^^^^^^
+  File "/opt/airflow/dags/import_from_git.py", line 4, in get_link
+    repo_links=Variable.get("LINKS",deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable LINKS does not exist'
+[2026-03-16T16:47:43.764+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:47:43.782+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/import_from_git.py took 0.075 seconds
+[2026-03-16T16:48:14.648+0000] {processor.py:186} INFO - Started process (PID=5276) to work on /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:48:14.649+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/import_from_git.py for tasks to queue
+[2026-03-16T16:48:14.653+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:48:14.652+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:48:14.693+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:48:14.690+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/import_from_git.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/import_from_git.py", line 45, in <module>
+    repo_links=get_link();
+               ^^^^^^^^^^
+  File "/opt/airflow/dags/import_from_git.py", line 4, in get_link
+    repo_links=Variable.get("LINKS",deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable LINKS does not exist'
+[2026-03-16T16:48:14.694+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:48:14.712+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/import_from_git.py took 0.075 seconds
+[2026-03-16T16:48:45.584+0000] {processor.py:186} INFO - Started process (PID=5312) to work on /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:48:45.586+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/import_from_git.py for tasks to queue
+[2026-03-16T16:48:45.589+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:48:45.589+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:48:45.631+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:48:45.628+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/import_from_git.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/import_from_git.py", line 45, in <module>
+    repo_links=get_link();
+               ^^^^^^^^^^
+  File "/opt/airflow/dags/import_from_git.py", line 4, in get_link
+    repo_links=Variable.get("LINKS",deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable LINKS does not exist'
+[2026-03-16T16:48:45.632+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:48:45.651+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/import_from_git.py took 0.077 seconds
+[2026-03-16T16:49:16.493+0000] {processor.py:186} INFO - Started process (PID=5348) to work on /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:49:16.495+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/import_from_git.py for tasks to queue
+[2026-03-16T16:49:16.499+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:49:16.498+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:49:16.539+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:49:16.536+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/import_from_git.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/import_from_git.py", line 45, in <module>
+    repo_links=get_link();
+               ^^^^^^^^^^
+  File "/opt/airflow/dags/import_from_git.py", line 4, in get_link
+    repo_links=Variable.get("LINKS",deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable LINKS does not exist'
+[2026-03-16T16:49:16.540+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:49:16.556+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/import_from_git.py took 0.075 seconds
+[2026-03-16T16:49:47.436+0000] {processor.py:186} INFO - Started process (PID=5384) to work on /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:49:47.438+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/import_from_git.py for tasks to queue
+[2026-03-16T16:49:47.441+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:49:47.441+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:49:47.482+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:49:47.479+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/import_from_git.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/import_from_git.py", line 45, in <module>
+    repo_links=get_link();
+               ^^^^^^^^^^
+  File "/opt/airflow/dags/import_from_git.py", line 4, in get_link
+    repo_links=Variable.get("LINKS",deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable LINKS does not exist'
+[2026-03-16T16:49:47.483+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:49:47.502+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/import_from_git.py took 0.077 seconds
+[2026-03-16T16:50:18.380+0000] {processor.py:186} INFO - Started process (PID=5420) to work on /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:50:18.383+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/import_from_git.py for tasks to queue
+[2026-03-16T16:50:18.387+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:50:18.387+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:50:18.434+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:50:18.431+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/import_from_git.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/import_from_git.py", line 45, in <module>
+    repo_links=get_link();
+               ^^^^^^^^^^
+  File "/opt/airflow/dags/import_from_git.py", line 4, in get_link
+    repo_links=Variable.get("LINKS",deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable LINKS does not exist'
+[2026-03-16T16:50:18.436+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:50:18.456+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/import_from_git.py took 0.088 seconds
+[2026-03-16T16:50:49.318+0000] {processor.py:186} INFO - Started process (PID=5456) to work on /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:50:49.320+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/import_from_git.py for tasks to queue
+[2026-03-16T16:50:49.324+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:50:49.324+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:50:49.369+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:50:49.366+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/import_from_git.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/import_from_git.py", line 45, in <module>
+    repo_links=get_link();
+               ^^^^^^^^^^
+  File "/opt/airflow/dags/import_from_git.py", line 4, in get_link
+    repo_links=Variable.get("LINKS",deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable LINKS does not exist'
+[2026-03-16T16:50:49.370+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:50:49.388+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/import_from_git.py took 0.079 seconds
+[2026-03-16T16:51:20.236+0000] {processor.py:186} INFO - Started process (PID=5492) to work on /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:51:20.237+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/import_from_git.py for tasks to queue
+[2026-03-16T16:51:20.241+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:51:20.240+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:51:20.279+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:51:20.276+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/import_from_git.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/import_from_git.py", line 45, in <module>
+    repo_links=get_link();
+               ^^^^^^^^^^
+  File "/opt/airflow/dags/import_from_git.py", line 4, in get_link
+    repo_links=Variable.get("LINKS",deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable LINKS does not exist'
+[2026-03-16T16:51:20.280+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:51:20.297+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/import_from_git.py took 0.072 seconds
+[2026-03-16T16:51:51.118+0000] {processor.py:186} INFO - Started process (PID=5528) to work on /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:51:51.120+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/import_from_git.py for tasks to queue
+[2026-03-16T16:51:51.123+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:51:51.123+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:51:51.164+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:51:51.162+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/import_from_git.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/import_from_git.py", line 45, in <module>
+    repo_links=get_link();
+               ^^^^^^^^^^
+  File "/opt/airflow/dags/import_from_git.py", line 4, in get_link
+    repo_links=Variable.get("LINKS",deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable LINKS does not exist'
+[2026-03-16T16:51:51.165+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:51:51.183+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/import_from_git.py took 0.075 seconds
+[2026-03-16T16:52:22.022+0000] {processor.py:186} INFO - Started process (PID=5564) to work on /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:52:22.024+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/import_from_git.py for tasks to queue
+[2026-03-16T16:52:22.027+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:52:22.027+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:52:22.066+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:52:22.064+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/import_from_git.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/import_from_git.py", line 45, in <module>
+    repo_links=get_link();
+               ^^^^^^^^^^
+  File "/opt/airflow/dags/import_from_git.py", line 4, in get_link
+    repo_links=Variable.get("LINKS",deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable LINKS does not exist'
+[2026-03-16T16:52:22.067+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:52:22.083+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/import_from_git.py took 0.071 seconds
+[2026-03-16T16:52:52.899+0000] {processor.py:186} INFO - Started process (PID=5600) to work on /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:52:52.901+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/import_from_git.py for tasks to queue
+[2026-03-16T16:52:52.904+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:52:52.904+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:52:52.950+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:52:52.948+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/import_from_git.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/import_from_git.py", line 45, in <module>
+    repo_links=get_link();
+               ^^^^^^^^^^
+  File "/opt/airflow/dags/import_from_git.py", line 4, in get_link
+    repo_links=Variable.get("LINKS",deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable LINKS does not exist'
+[2026-03-16T16:52:52.951+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:52:52.970+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/import_from_git.py took 0.082 seconds
+[2026-03-16T16:53:23.876+0000] {processor.py:186} INFO - Started process (PID=5636) to work on /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:53:23.878+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/import_from_git.py for tasks to queue
+[2026-03-16T16:53:23.883+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:53:23.882+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:53:23.938+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:53:23.934+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/import_from_git.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/import_from_git.py", line 45, in <module>
+    repo_links=get_link();
+               ^^^^^^^^^^
+  File "/opt/airflow/dags/import_from_git.py", line 4, in get_link
+    repo_links=Variable.get("LINKS",deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable LINKS does not exist'
+[2026-03-16T16:53:23.939+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:53:23.965+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/import_from_git.py took 0.101 seconds
+[2026-03-16T16:53:54.929+0000] {processor.py:186} INFO - Started process (PID=5672) to work on /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:53:54.931+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/import_from_git.py for tasks to queue
+[2026-03-16T16:53:54.935+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:53:54.934+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:53:54.974+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:53:54.971+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/import_from_git.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/import_from_git.py", line 45, in <module>
+    repo_links=get_link();
+               ^^^^^^^^^^
+  File "/opt/airflow/dags/import_from_git.py", line 4, in get_link
+    repo_links=Variable.get("LINKS",deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable LINKS does not exist'
+[2026-03-16T16:53:54.975+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:53:54.992+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/import_from_git.py took 0.077 seconds
+[2026-03-16T16:54:25.873+0000] {processor.py:186} INFO - Started process (PID=5708) to work on /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:54:25.875+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/import_from_git.py for tasks to queue
+[2026-03-16T16:54:25.878+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:54:25.878+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:54:25.920+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:54:25.918+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/import_from_git.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/import_from_git.py", line 45, in <module>
+    repo_links=get_link();
+               ^^^^^^^^^^
+  File "/opt/airflow/dags/import_from_git.py", line 4, in get_link
+    repo_links=Variable.get("LINKS",deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable LINKS does not exist'
+[2026-03-16T16:54:25.921+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:54:25.938+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/import_from_git.py took 0.075 seconds
+[2026-03-16T16:54:56.774+0000] {processor.py:186} INFO - Started process (PID=5744) to work on /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:54:56.776+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/import_from_git.py for tasks to queue
+[2026-03-16T16:54:56.779+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:54:56.778+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:54:56.817+0000] {logging_mixin.py:190} INFO - [2026-03-16T16:54:56.815+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/import_from_git.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/import_from_git.py", line 45, in <module>
+    repo_links=get_link();
+               ^^^^^^^^^^
+  File "/opt/airflow/dags/import_from_git.py", line 4, in get_link
+    repo_links=Variable.get("LINKS",deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable LINKS does not exist'
+[2026-03-16T16:54:56.818+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/import_from_git.py
+[2026-03-16T16:54:56.835+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/import_from_git.py took 0.070 seconds
