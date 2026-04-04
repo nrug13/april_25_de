@@ -1,0 +1,574 @@
+[2026-04-04T08:53:58.471+0000] {processor.py:186} INFO - Started process (PID=217) to work on /opt/airflow/dags/dag.py
+[2026-04-04T08:53:58.472+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T08:53:58.476+0000] {logging_mixin.py:190} INFO - [2026-04-04T08:53:58.475+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T08:53:58.489+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T08:53:58.530+0000] {logging_mixin.py:190} INFO - [2026-04-04T08:53:58.529+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T08:53:58.558+0000] {logging_mixin.py:190} INFO - [2026-04-04T08:53:58.558+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T08:53:58.597+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.136 seconds
+[2026-04-04T08:54:29.427+0000] {processor.py:186} INFO - Started process (PID=256) to work on /opt/airflow/dags/dag.py
+[2026-04-04T08:54:29.428+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T08:54:29.430+0000] {logging_mixin.py:190} INFO - [2026-04-04T08:54:29.430+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T08:54:29.439+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T08:54:29.469+0000] {logging_mixin.py:190} INFO - [2026-04-04T08:54:29.468+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T08:54:29.485+0000] {logging_mixin.py:190} INFO - [2026-04-04T08:54:29.484+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T08:54:29.511+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.096 seconds
+[2026-04-04T08:55:00.115+0000] {processor.py:186} INFO - Started process (PID=297) to work on /opt/airflow/dags/dag.py
+[2026-04-04T08:55:00.116+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T08:55:00.119+0000] {logging_mixin.py:190} INFO - [2026-04-04T08:55:00.119+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T08:55:00.131+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T08:55:00.171+0000] {logging_mixin.py:190} INFO - [2026-04-04T08:55:00.171+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T08:55:00.196+0000] {logging_mixin.py:190} INFO - [2026-04-04T08:55:00.195+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T08:55:00.235+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.128 seconds
+[2026-04-04T08:55:30.696+0000] {processor.py:186} INFO - Started process (PID=338) to work on /opt/airflow/dags/dag.py
+[2026-04-04T08:55:30.697+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T08:55:30.699+0000] {logging_mixin.py:190} INFO - [2026-04-04T08:55:30.699+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T08:55:30.712+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T08:55:30.754+0000] {logging_mixin.py:190} INFO - [2026-04-04T08:55:30.754+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T08:55:30.775+0000] {logging_mixin.py:190} INFO - [2026-04-04T08:55:30.775+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T08:55:30.811+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.122 seconds
+[2026-04-04T08:56:01.364+0000] {processor.py:186} INFO - Started process (PID=379) to work on /opt/airflow/dags/dag.py
+[2026-04-04T08:56:01.364+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T08:56:01.367+0000] {logging_mixin.py:190} INFO - [2026-04-04T08:56:01.366+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T08:56:01.377+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T08:56:01.408+0000] {logging_mixin.py:190} INFO - [2026-04-04T08:56:01.408+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T08:56:01.426+0000] {logging_mixin.py:190} INFO - [2026-04-04T08:56:01.426+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T08:56:01.452+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.098 seconds
+[2026-04-04T08:56:32.127+0000] {processor.py:186} INFO - Started process (PID=420) to work on /opt/airflow/dags/dag.py
+[2026-04-04T08:56:32.127+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T08:56:32.130+0000] {logging_mixin.py:190} INFO - [2026-04-04T08:56:32.129+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T08:56:32.141+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T08:56:32.177+0000] {logging_mixin.py:190} INFO - [2026-04-04T08:56:32.177+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T08:56:32.195+0000] {logging_mixin.py:190} INFO - [2026-04-04T08:56:32.195+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T08:56:32.218+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.099 seconds
+[2026-04-04T08:57:02.831+0000] {processor.py:186} INFO - Started process (PID=467) to work on /opt/airflow/dags/dag.py
+[2026-04-04T08:57:02.832+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T08:57:02.834+0000] {logging_mixin.py:190} INFO - [2026-04-04T08:57:02.834+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T08:57:02.846+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T08:57:02.878+0000] {logging_mixin.py:190} INFO - [2026-04-04T08:57:02.878+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T08:57:02.897+0000] {logging_mixin.py:190} INFO - [2026-04-04T08:57:02.897+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T08:57:02.922+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.098 seconds
+[2026-04-04T08:57:33.595+0000] {processor.py:186} INFO - Started process (PID=508) to work on /opt/airflow/dags/dag.py
+[2026-04-04T08:57:33.596+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T08:57:33.599+0000] {logging_mixin.py:190} INFO - [2026-04-04T08:57:33.599+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T08:57:33.614+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T08:57:33.658+0000] {logging_mixin.py:190} INFO - [2026-04-04T08:57:33.658+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T08:57:33.689+0000] {logging_mixin.py:190} INFO - [2026-04-04T08:57:33.689+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T08:57:33.728+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.143 seconds
+[2026-04-04T08:58:04.254+0000] {processor.py:186} INFO - Started process (PID=549) to work on /opt/airflow/dags/dag.py
+[2026-04-04T08:58:04.259+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T08:58:04.263+0000] {logging_mixin.py:190} INFO - [2026-04-04T08:58:04.262+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T08:58:04.278+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T08:58:04.316+0000] {logging_mixin.py:190} INFO - [2026-04-04T08:58:04.315+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T08:58:04.337+0000] {logging_mixin.py:190} INFO - [2026-04-04T08:58:04.336+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T08:58:04.361+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.116 seconds
+[2026-04-04T08:58:35.033+0000] {processor.py:186} INFO - Started process (PID=590) to work on /opt/airflow/dags/dag.py
+[2026-04-04T08:58:35.035+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T08:58:35.038+0000] {logging_mixin.py:190} INFO - [2026-04-04T08:58:35.038+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T08:58:35.053+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T08:58:35.093+0000] {logging_mixin.py:190} INFO - [2026-04-04T08:58:35.092+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T08:58:35.110+0000] {logging_mixin.py:190} INFO - [2026-04-04T08:58:35.109+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T08:58:35.134+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.108 seconds
+[2026-04-04T08:59:05.822+0000] {processor.py:186} INFO - Started process (PID=631) to work on /opt/airflow/dags/dag.py
+[2026-04-04T08:59:05.823+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T08:59:05.825+0000] {logging_mixin.py:190} INFO - [2026-04-04T08:59:05.825+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T08:59:05.836+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T08:59:05.874+0000] {logging_mixin.py:190} INFO - [2026-04-04T08:59:05.874+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T08:59:05.898+0000] {logging_mixin.py:190} INFO - [2026-04-04T08:59:05.898+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T08:59:05.926+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.112 seconds
+[2026-04-04T08:59:36.466+0000] {processor.py:186} INFO - Started process (PID=672) to work on /opt/airflow/dags/dag.py
+[2026-04-04T08:59:36.467+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T08:59:36.470+0000] {logging_mixin.py:190} INFO - [2026-04-04T08:59:36.469+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T08:59:36.483+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T08:59:36.526+0000] {logging_mixin.py:190} INFO - [2026-04-04T08:59:36.525+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T08:59:36.554+0000] {logging_mixin.py:190} INFO - [2026-04-04T08:59:36.554+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T08:59:36.584+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.126 seconds
+[2026-04-04T09:00:07.255+0000] {processor.py:186} INFO - Started process (PID=713) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:00:07.256+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:00:07.259+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:00:07.258+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:00:07.272+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:00:07.303+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:00:07.303+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:00:07.321+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:00:07.321+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:00:07.349+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.103 seconds
+[2026-04-04T09:00:37.904+0000] {processor.py:186} INFO - Started process (PID=754) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:00:37.905+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:00:37.908+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:00:37.908+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:00:37.920+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:00:37.954+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:00:37.953+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:00:37.975+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:00:37.974+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:00:37.998+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.101 seconds
+[2026-04-04T09:01:08.566+0000] {processor.py:186} INFO - Started process (PID=795) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:01:08.567+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:01:08.569+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:01:08.569+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:01:08.580+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:01:08.614+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:01:08.614+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:01:08.634+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:01:08.633+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:01:08.661+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.104 seconds
+[2026-04-04T09:01:39.310+0000] {processor.py:186} INFO - Started process (PID=836) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:01:39.311+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:01:39.314+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:01:39.314+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:01:39.330+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:01:39.373+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:01:39.373+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:01:39.404+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:01:39.404+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:01:39.430+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.128 seconds
+[2026-04-04T09:02:09.980+0000] {processor.py:186} INFO - Started process (PID=877) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:02:09.981+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:02:09.984+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:02:09.984+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:02:09.997+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:02:10.032+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:02:10.032+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:02:10.053+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:02:10.053+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:02:10.078+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.107 seconds
+[2026-04-04T09:02:40.605+0000] {processor.py:186} INFO - Started process (PID=918) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:02:40.606+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:02:40.608+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:02:40.608+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:02:40.620+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:02:40.657+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:02:40.657+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:02:40.679+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:02:40.679+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:02:40.709+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.111 seconds
+[2026-04-04T09:03:11.270+0000] {processor.py:186} INFO - Started process (PID=959) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:03:11.271+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:03:11.274+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:03:11.274+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:03:11.285+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:03:11.325+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:03:11.325+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:03:11.345+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:03:11.345+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:03:11.372+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.110 seconds
+[2026-04-04T09:03:42.022+0000] {processor.py:186} INFO - Started process (PID=1000) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:03:42.023+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:03:42.026+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:03:42.026+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:03:42.037+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:03:42.068+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:03:42.068+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:03:42.090+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:03:42.089+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:03:42.116+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.101 seconds
+[2026-04-04T09:04:12.849+0000] {processor.py:186} INFO - Started process (PID=1041) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:04:12.850+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:04:12.853+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:04:12.853+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:04:12.867+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:04:12.904+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:04:12.904+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:04:12.929+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:04:12.929+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:04:12.958+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.118 seconds
+[2026-04-04T09:04:43.631+0000] {processor.py:186} INFO - Started process (PID=1082) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:04:43.632+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:04:43.635+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:04:43.635+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:04:43.648+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:04:43.683+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:04:43.683+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:04:43.704+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:04:43.704+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:04:43.728+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.104 seconds
+[2026-04-04T09:05:14.284+0000] {processor.py:186} INFO - Started process (PID=1123) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:05:14.285+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:05:14.288+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:05:14.287+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:05:14.299+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:05:14.337+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:05:14.336+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:05:14.361+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:05:14.361+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:05:14.391+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.115 seconds
+[2026-04-04T09:05:45.051+0000] {processor.py:186} INFO - Started process (PID=1164) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:05:45.052+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:05:45.055+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:05:45.054+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:05:45.066+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:05:45.108+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:05:45.107+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:05:45.134+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:05:45.134+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:05:45.167+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.123 seconds
+[2026-04-04T09:06:15.704+0000] {processor.py:186} INFO - Started process (PID=1205) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:06:15.705+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:06:15.708+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:06:15.707+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:06:15.720+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:06:15.764+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:06:15.764+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:06:15.789+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:06:15.788+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:06:15.814+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.119 seconds
+[2026-04-04T09:06:46.399+0000] {processor.py:186} INFO - Started process (PID=1246) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:06:46.400+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:06:46.403+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:06:46.402+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:06:46.413+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:06:46.449+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:06:46.448+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:06:46.468+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:06:46.467+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:06:46.493+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.100 seconds
+[2026-04-04T09:07:17.182+0000] {processor.py:186} INFO - Started process (PID=1287) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:07:17.183+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:07:17.186+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:07:17.185+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:07:17.196+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:07:17.227+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:07:17.227+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:07:17.247+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:07:17.246+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:07:17.274+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.100 seconds
+[2026-04-04T09:07:47.930+0000] {processor.py:186} INFO - Started process (PID=1328) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:07:47.931+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:07:47.933+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:07:47.933+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:07:47.944+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:07:47.973+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:07:47.973+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:07:47.990+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:07:47.990+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:07:48.013+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.090 seconds
+[2026-04-04T09:08:18.647+0000] {processor.py:186} INFO - Started process (PID=1369) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:08:18.648+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:08:18.650+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:08:18.649+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:08:18.659+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:08:18.692+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:08:18.692+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:08:18.711+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:08:18.711+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:08:18.734+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.093 seconds
+[2026-04-04T09:08:49.373+0000] {processor.py:186} INFO - Started process (PID=1410) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:08:49.374+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:08:49.376+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:08:49.376+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:08:49.385+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:08:49.416+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:08:49.415+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:08:49.435+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:08:49.434+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:08:49.461+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.099 seconds
+[2026-04-04T09:09:20.082+0000] {processor.py:186} INFO - Started process (PID=1451) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:09:20.084+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:09:20.087+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:09:20.086+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:09:20.099+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:09:20.133+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:09:20.132+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:09:20.154+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:09:20.154+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:09:20.185+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.112 seconds
+[2026-04-04T09:09:50.982+0000] {processor.py:186} INFO - Started process (PID=1492) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:09:50.984+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:09:50.987+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:09:50.986+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:09:51.002+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:09:51.045+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:09:51.044+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:09:51.070+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:09:51.069+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:09:51.101+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.128 seconds
+[2026-04-04T09:10:21.898+0000] {processor.py:186} INFO - Started process (PID=1533) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:10:21.899+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:10:21.901+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:10:21.901+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:10:21.911+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:10:21.942+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:10:21.941+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:10:21.961+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:10:21.961+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:10:21.990+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.099 seconds
+[2026-04-04T09:10:52.619+0000] {processor.py:186} INFO - Started process (PID=1574) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:10:52.620+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:10:52.623+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:10:52.623+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:10:52.634+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:10:52.668+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:10:52.667+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:10:52.688+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:10:52.688+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:10:52.714+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.101 seconds
+[2026-04-04T09:11:23.367+0000] {processor.py:186} INFO - Started process (PID=1615) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:11:23.368+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:11:23.371+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:11:23.370+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:11:23.382+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:11:23.417+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:11:23.416+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:11:23.440+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:11:23.440+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:11:23.467+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.107 seconds
+[2026-04-04T09:11:54.138+0000] {processor.py:186} INFO - Started process (PID=1657) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:11:54.139+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:11:54.142+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:11:54.141+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:11:54.152+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:11:54.198+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:11:54.197+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:11:54.227+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:11:54.226+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:11:54.258+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.128 seconds
+[2026-04-04T09:12:24.898+0000] {processor.py:186} INFO - Started process (PID=1698) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:12:24.899+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:12:24.901+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:12:24.901+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:12:24.913+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:12:24.947+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:12:24.947+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:12:24.966+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:12:24.966+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:12:24.993+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.102 seconds
+[2026-04-04T09:12:55.609+0000] {processor.py:186} INFO - Started process (PID=1739) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:12:55.610+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:12:55.613+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:12:55.612+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:12:55.624+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:12:55.659+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:12:55.659+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:12:55.680+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:12:55.679+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:12:55.705+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.103 seconds
+[2026-04-04T09:13:26.389+0000] {processor.py:186} INFO - Started process (PID=1780) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:13:26.390+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:13:26.393+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:13:26.392+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:13:26.407+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:13:26.442+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:13:26.441+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:13:26.461+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:13:26.460+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:13:26.486+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.104 seconds
+[2026-04-04T09:13:57.161+0000] {processor.py:186} INFO - Started process (PID=1821) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:13:57.162+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:13:57.165+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:13:57.164+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:13:57.175+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:13:57.211+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:13:57.211+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:13:57.232+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:13:57.232+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:13:57.257+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.103 seconds
+[2026-04-04T09:14:27.909+0000] {processor.py:186} INFO - Started process (PID=1862) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:14:27.910+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:14:27.912+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:14:27.912+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:14:27.923+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:14:27.955+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:14:27.955+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:14:27.974+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:14:27.974+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:14:27.998+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.097 seconds
+[2026-04-04T09:14:58.551+0000] {processor.py:186} INFO - Started process (PID=1903) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:14:58.552+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:14:58.556+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:14:58.555+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:14:58.573+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:14:58.615+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:14:58.615+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:14:58.643+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:14:58.643+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:14:58.675+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.134 seconds
+[2026-04-04T09:15:29.187+0000] {processor.py:186} INFO - Started process (PID=1944) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:15:29.188+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:15:29.190+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:15:29.190+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:15:29.203+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:15:29.241+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:15:29.241+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:15:29.261+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:15:29.260+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:15:29.285+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.106 seconds
+[2026-04-04T09:15:59.823+0000] {processor.py:186} INFO - Started process (PID=1985) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:15:59.824+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:15:59.828+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:15:59.827+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:15:59.846+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:15:59.890+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:15:59.889+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:15:59.915+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:15:59.915+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:15:59.956+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.145 seconds
+[2026-04-04T09:16:30.419+0000] {processor.py:186} INFO - Started process (PID=2026) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:16:30.420+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:16:30.423+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:16:30.423+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:16:30.435+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:16:30.473+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:16:30.473+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:16:30.496+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:16:30.496+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:16:30.521+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.110 seconds
+[2026-04-04T09:17:01.188+0000] {processor.py:186} INFO - Started process (PID=2067) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:17:01.189+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:17:01.192+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:17:01.192+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:17:01.204+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:17:01.247+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:17:01.246+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:17:01.266+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:17:01.266+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:17:01.291+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.111 seconds
+[2026-04-04T09:17:31.956+0000] {processor.py:186} INFO - Started process (PID=2108) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:17:31.957+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:17:31.959+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:17:31.959+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:17:31.973+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:17:32.006+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:17:32.005+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:17:32.029+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:17:32.029+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:17:32.060+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.112 seconds
+[2026-04-04T09:18:02.706+0000] {processor.py:186} INFO - Started process (PID=2149) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:18:02.707+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:18:02.709+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:18:02.709+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:18:02.722+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:18:02.760+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:18:02.759+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:18:02.781+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:18:02.781+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:18:02.808+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.110 seconds
+[2026-04-04T09:18:33.431+0000] {processor.py:186} INFO - Started process (PID=2190) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:18:33.434+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:18:33.436+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:18:33.436+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:18:33.447+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:18:33.479+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:18:33.479+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:18:33.495+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:18:33.495+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:18:33.517+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.093 seconds
+[2026-04-04T09:19:04.198+0000] {processor.py:186} INFO - Started process (PID=2231) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:19:04.199+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:19:04.202+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:19:04.202+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:19:04.215+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:19:04.250+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:19:04.249+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:19:04.270+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:19:04.270+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:19:04.293+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.103 seconds
+[2026-04-04T09:19:34.976+0000] {processor.py:186} INFO - Started process (PID=2272) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:19:34.977+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:19:34.980+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:19:34.980+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:19:34.992+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:19:35.025+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:19:35.025+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:19:35.049+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:19:35.048+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:19:35.073+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.108 seconds
+[2026-04-04T09:20:05.725+0000] {processor.py:186} INFO - Started process (PID=2313) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:20:05.726+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:20:05.729+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:20:05.728+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:20:05.739+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:20:05.772+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:20:05.772+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:20:05.792+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:20:05.792+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:20:05.818+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.100 seconds
+[2026-04-04T09:20:36.468+0000] {processor.py:186} INFO - Started process (PID=2360) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:20:36.469+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:20:36.472+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:20:36.471+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:20:36.483+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:20:36.520+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:20:36.519+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:20:36.541+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:20:36.540+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:20:36.567+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.107 seconds
+[2026-04-04T09:21:07.239+0000] {processor.py:186} INFO - Started process (PID=2401) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:21:07.240+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:21:07.242+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:21:07.242+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:21:07.252+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:21:07.288+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:21:07.288+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:21:07.308+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:21:07.308+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:21:07.332+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.100 seconds
+[2026-04-04T09:21:37.854+0000] {processor.py:186} INFO - Started process (PID=2442) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:21:37.855+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:21:37.857+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:21:37.857+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:21:37.869+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:21:37.902+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:21:37.902+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:21:37.922+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:21:37.922+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:21:37.948+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.101 seconds
+[2026-04-04T09:22:08.583+0000] {processor.py:186} INFO - Started process (PID=2483) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:22:08.584+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:22:08.587+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:22:08.586+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:22:08.599+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:22:08.632+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:22:08.631+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:22:08.652+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:22:08.652+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:22:08.679+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.108 seconds
+[2026-04-04T09:22:39.350+0000] {processor.py:186} INFO - Started process (PID=2524) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:22:39.351+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:22:39.354+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:22:39.353+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:22:39.364+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:22:39.395+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:22:39.395+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:22:39.415+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:22:39.415+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:22:39.439+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.097 seconds
+[2026-04-04T09:23:09.976+0000] {processor.py:186} INFO - Started process (PID=2565) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:23:09.977+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:23:09.979+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:23:09.979+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:23:09.991+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:23:10.023+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:23:10.022+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:23:10.039+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:23:10.039+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:23:10.065+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.096 seconds
+[2026-04-04T09:23:40.725+0000] {processor.py:186} INFO - Started process (PID=2606) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:23:40.726+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:23:40.728+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:23:40.728+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:23:40.739+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:23:40.772+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:23:40.771+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:23:40.792+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:23:40.792+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:23:40.815+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.098 seconds
+[2026-04-04T09:24:11.538+0000] {processor.py:186} INFO - Started process (PID=2647) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:24:11.540+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:24:11.543+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:24:11.542+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:24:11.553+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:24:11.586+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:24:11.586+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:24:11.605+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:24:11.605+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:24:11.630+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.099 seconds
+[2026-04-04T09:24:42.343+0000] {processor.py:186} INFO - Started process (PID=2688) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:24:42.345+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:24:42.348+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:24:42.348+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:24:42.366+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:24:42.405+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:24:42.404+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:24:42.427+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:24:42.426+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:24:42.454+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.121 seconds
+[2026-04-04T09:25:13.152+0000] {processor.py:186} INFO - Started process (PID=2729) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:25:13.153+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:25:13.156+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:25:13.155+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:25:13.166+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:25:13.194+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:25:13.194+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:25:13.216+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:25:13.216+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:25:13.240+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.095 seconds
+[2026-04-04T09:25:43.937+0000] {processor.py:186} INFO - Started process (PID=2770) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:25:43.938+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:25:43.941+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:25:43.941+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:25:43.953+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:25:43.997+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:25:43.996+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:25:44.021+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:25:44.021+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:25:44.051+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.121 seconds
+[2026-04-04T09:26:14.703+0000] {processor.py:186} INFO - Started process (PID=2812) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:26:14.704+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:26:14.706+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:26:14.706+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:26:14.717+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:26:14.748+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:26:14.748+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:26:14.767+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:26:14.767+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:26:14.792+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.097 seconds
+[2026-04-04T09:26:45.459+0000] {processor.py:186} INFO - Started process (PID=2853) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:26:45.460+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:26:45.462+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:26:45.462+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:26:45.473+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:26:45.503+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:26:45.503+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:26:45.520+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:26:45.520+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:26:45.542+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.090 seconds
+[2026-04-04T09:27:16.239+0000] {processor.py:186} INFO - Started process (PID=2894) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:27:16.240+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:27:16.243+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:27:16.242+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:27:16.254+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:27:16.285+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:27:16.284+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:27:16.304+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:27:16.303+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:27:16.328+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.098 seconds
+[2026-04-04T09:27:46.988+0000] {processor.py:186} INFO - Started process (PID=2935) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:27:46.989+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:27:46.991+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:27:46.991+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:27:47.002+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:27:47.035+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:27:47.035+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:27:47.053+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:27:47.053+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:27:47.076+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.094 seconds
+[2026-04-04T09:28:17.734+0000] {processor.py:186} INFO - Started process (PID=2976) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:28:17.735+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:28:17.737+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:28:17.737+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:28:17.748+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:28:17.779+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:28:17.778+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:28:17.799+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:28:17.799+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:28:17.827+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.101 seconds
+[2026-04-04T09:28:48.378+0000] {processor.py:186} INFO - Started process (PID=3017) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:28:48.379+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:28:48.381+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:28:48.381+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:28:48.392+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:28:48.426+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:28:48.426+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:28:48.447+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:28:48.446+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:28:48.475+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.104 seconds
+[2026-04-04T09:29:19.114+0000] {processor.py:186} INFO - Started process (PID=3058) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:29:19.116+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:29:19.119+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:29:19.118+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:29:19.129+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:29:19.160+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:29:19.160+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:29:19.179+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:29:19.178+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:29:19.203+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.098 seconds
+[2026-04-04T09:29:49.851+0000] {processor.py:186} INFO - Started process (PID=3099) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:29:49.852+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:29:49.854+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:29:49.854+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:29:49.866+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:29:49.899+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:29:49.898+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:29:49.916+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:29:49.916+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:29:49.937+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.096 seconds
+[2026-04-04T09:30:20.483+0000] {processor.py:186} INFO - Started process (PID=3140) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:30:20.484+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:30:20.487+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:30:20.486+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:30:20.499+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:30:20.530+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:30:20.530+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:30:20.553+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:30:20.553+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:30:20.581+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.105 seconds
+[2026-04-04T09:30:51.241+0000] {processor.py:186} INFO - Started process (PID=3181) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:30:51.242+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:30:51.245+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:30:51.245+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:30:51.261+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:30:51.302+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:30:51.302+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:30:51.324+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:30:51.323+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:30:51.351+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.118 seconds
+[2026-04-04T09:31:21.851+0000] {processor.py:186} INFO - Started process (PID=3222) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:31:21.852+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:31:21.855+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:31:21.854+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:31:21.864+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:31:21.901+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:31:21.900+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:31:21.921+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:31:21.921+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:31:21.950+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.108 seconds
+[2026-04-04T09:31:52.602+0000] {processor.py:186} INFO - Started process (PID=3263) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:31:52.603+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:31:52.607+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:31:52.606+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:31:52.619+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:31:52.657+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:31:52.656+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:31:52.682+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:31:52.682+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:31:52.712+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.122 seconds
+[2026-04-04T09:32:23.216+0000] {processor.py:186} INFO - Started process (PID=3304) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:32:23.217+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:32:23.219+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:32:23.219+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:32:23.231+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:32:23.269+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:32:23.269+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:32:23.294+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:32:23.293+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:32:23.321+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.111 seconds
+[2026-04-04T09:32:53.997+0000] {processor.py:186} INFO - Started process (PID=3345) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:32:53.998+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:32:54.001+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:32:54.000+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:32:54.013+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:32:54.053+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:32:54.053+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:32:54.078+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:32:54.078+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:32:54.103+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.113 seconds
+[2026-04-04T09:33:24.673+0000] {processor.py:186} INFO - Started process (PID=3386) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:33:24.674+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:33:24.677+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:33:24.676+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:33:24.688+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:33:24.723+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:33:24.722+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:33:24.746+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:33:24.746+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:33:24.777+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.114 seconds
+[2026-04-04T09:33:55.310+0000] {processor.py:186} INFO - Started process (PID=3427) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:33:55.312+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:33:55.314+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:33:55.314+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:33:55.325+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:33:55.358+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:33:55.357+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:33:55.380+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:33:55.379+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:33:55.406+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.105 seconds
+[2026-04-04T09:34:25.989+0000] {processor.py:186} INFO - Started process (PID=3468) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:34:25.990+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:34:25.993+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:34:25.992+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:34:26.006+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:34:26.039+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:34:26.039+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:34:26.064+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:34:26.064+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:34:26.090+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.111 seconds
+[2026-04-04T09:34:56.605+0000] {processor.py:186} INFO - Started process (PID=3509) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:34:56.606+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:34:56.609+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:34:56.609+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:34:56.620+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:34:56.653+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:34:56.653+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:34:56.674+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:34:56.674+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:34:56.701+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.103 seconds
+[2026-04-04T09:35:27.238+0000] {processor.py:186} INFO - Started process (PID=3550) to work on /opt/airflow/dags/dag.py
+[2026-04-04T09:35:27.239+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-04-04T09:35:27.242+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:35:27.242+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-04-04T09:35:27.256+0000] {processor.py:925} INFO - DAG(s) 'matrix_minio' retrieved from /opt/airflow/dags/dag.py
+[2026-04-04T09:35:27.293+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:35:27.292+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T09:35:27.315+0000] {logging_mixin.py:190} INFO - [2026-04-04T09:35:27.315+0000] {dag.py:4180} INFO - Setting next_dagrun for matrix_minio to None, run_after=None
+[2026-04-04T09:35:27.339+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.110 seconds

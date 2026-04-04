@@ -1,0 +1,7 @@
+[2026-03-30T18:21:11.291+0000] {processor.py:186} INFO - Started process (PID=40332) to work on /opt/airflow/dags/dagnew.py
+[2026-03-30T18:21:11.292+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dagnew.py for tasks to queue
+[2026-03-30T18:21:11.297+0000] {logging_mixin.py:190} INFO - [2026-03-30T18:21:11.297+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dagnew.py
+[2026-03-30T18:21:11.323+0000] {processor.py:925} INFO - DAG(s) 'practice_dag' retrieved from /opt/airflow/dags/dagnew.py
+[2026-03-30T18:21:11.412+0000] {logging_mixin.py:190} INFO - [2026-03-30T18:21:11.411+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-30T18:21:11.458+0000] {logging_mixin.py:190} INFO - [2026-03-30T18:21:11.458+0000] {dag.py:4180} INFO - Setting next_dagrun for practice_dag to None, run_after=None
+[2026-03-30T18:21:11.516+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dagnew.py took 0.275 seconds
