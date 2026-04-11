@@ -1,0 +1,154 @@
+[2026-04-11T11:07:45.211+0000] {processor.py:186} INFO - Started process (PID=34254) to work on /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:07:45.212+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spark_operator_submit_dag.py for tasks to queue
+[2026-04-11T11:07:45.221+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:07:45.220+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:07:45.275+0000] {processor.py:925} INFO - DAG(s) 'spark_operator_submit' retrieved from /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:07:45.309+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:07:45.308+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T11:07:45.374+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:07:45.374+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_operator_submit to None, run_after=None
+[2026-04-11T11:07:45.415+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spark_operator_submit_dag.py took 0.217 seconds
+[2026-04-11T11:08:16.037+0000] {processor.py:186} INFO - Started process (PID=34333) to work on /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:08:16.038+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spark_operator_submit_dag.py for tasks to queue
+[2026-04-11T11:08:16.040+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:08:16.040+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:08:16.067+0000] {processor.py:925} INFO - DAG(s) 'spark_operator_submit' retrieved from /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:08:16.082+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:08:16.082+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T11:08:16.101+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:08:16.101+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_operator_submit to None, run_after=None
+[2026-04-11T11:08:16.134+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spark_operator_submit_dag.py took 0.103 seconds
+[2026-04-11T11:08:46.346+0000] {processor.py:186} INFO - Started process (PID=34404) to work on /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:08:46.347+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spark_operator_submit_dag.py for tasks to queue
+[2026-04-11T11:08:46.349+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:08:46.349+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:08:46.378+0000] {processor.py:925} INFO - DAG(s) 'spark_operator_submit' retrieved from /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:08:46.396+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:08:46.395+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T11:08:46.417+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:08:46.417+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_operator_submit to None, run_after=None
+[2026-04-11T11:08:46.445+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spark_operator_submit_dag.py took 0.106 seconds
+[2026-04-11T11:09:16.746+0000] {processor.py:186} INFO - Started process (PID=34475) to work on /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:09:16.747+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spark_operator_submit_dag.py for tasks to queue
+[2026-04-11T11:09:16.749+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:09:16.749+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:09:16.775+0000] {processor.py:925} INFO - DAG(s) 'spark_operator_submit' retrieved from /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:09:16.789+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:09:16.788+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T11:09:16.805+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:09:16.804+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_operator_submit to None, run_after=None
+[2026-04-11T11:09:16.833+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spark_operator_submit_dag.py took 0.093 seconds
+[2026-04-11T11:09:46.915+0000] {processor.py:186} INFO - Started process (PID=34544) to work on /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:09:46.916+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spark_operator_submit_dag.py for tasks to queue
+[2026-04-11T11:09:46.919+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:09:46.919+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:09:46.950+0000] {processor.py:925} INFO - DAG(s) 'spark_operator_submit' retrieved from /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:09:46.967+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:09:46.967+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T11:09:46.984+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:09:46.984+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_operator_submit to None, run_after=None
+[2026-04-11T11:09:47.010+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spark_operator_submit_dag.py took 0.102 seconds
+[2026-04-11T11:10:17.241+0000] {processor.py:186} INFO - Started process (PID=34617) to work on /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:10:17.242+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spark_operator_submit_dag.py for tasks to queue
+[2026-04-11T11:10:17.245+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:10:17.245+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:10:17.273+0000] {processor.py:925} INFO - DAG(s) 'spark_operator_submit' retrieved from /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:10:17.293+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:10:17.292+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T11:10:17.320+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:10:17.320+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_operator_submit to None, run_after=None
+[2026-04-11T11:10:17.348+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spark_operator_submit_dag.py took 0.114 seconds
+[2026-04-11T11:10:47.525+0000] {processor.py:186} INFO - Started process (PID=34688) to work on /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:10:47.526+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spark_operator_submit_dag.py for tasks to queue
+[2026-04-11T11:10:47.529+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:10:47.528+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:10:47.558+0000] {processor.py:925} INFO - DAG(s) 'spark_operator_submit' retrieved from /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:10:47.577+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:10:47.577+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T11:10:47.599+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:10:47.599+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_operator_submit to None, run_after=None
+[2026-04-11T11:10:47.621+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spark_operator_submit_dag.py took 0.104 seconds
+[2026-04-11T11:11:17.815+0000] {processor.py:186} INFO - Started process (PID=34759) to work on /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:11:17.816+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spark_operator_submit_dag.py for tasks to queue
+[2026-04-11T11:11:17.818+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:11:17.818+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:11:17.844+0000] {processor.py:925} INFO - DAG(s) 'spark_operator_submit' retrieved from /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:11:17.857+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:11:17.857+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T11:11:17.873+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:11:17.873+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_operator_submit to None, run_after=None
+[2026-04-11T11:11:17.893+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spark_operator_submit_dag.py took 0.084 seconds
+[2026-04-11T11:11:48.119+0000] {processor.py:186} INFO - Started process (PID=34830) to work on /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:11:48.120+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spark_operator_submit_dag.py for tasks to queue
+[2026-04-11T11:11:48.122+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:11:48.122+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:11:48.143+0000] {processor.py:925} INFO - DAG(s) 'spark_operator_submit' retrieved from /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:11:48.156+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:11:48.156+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T11:11:48.172+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:11:48.172+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_operator_submit to None, run_after=None
+[2026-04-11T11:11:48.190+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spark_operator_submit_dag.py took 0.083 seconds
+[2026-04-11T11:12:18.359+0000] {processor.py:186} INFO - Started process (PID=34900) to work on /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:12:18.360+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spark_operator_submit_dag.py for tasks to queue
+[2026-04-11T11:12:18.362+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:12:18.362+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:12:18.387+0000] {processor.py:925} INFO - DAG(s) 'spark_operator_submit' retrieved from /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:12:18.403+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:12:18.402+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T11:12:18.421+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:12:18.421+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_operator_submit to None, run_after=None
+[2026-04-11T11:12:18.441+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spark_operator_submit_dag.py took 0.089 seconds
+[2026-04-11T11:12:48.552+0000] {processor.py:186} INFO - Started process (PID=34990) to work on /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:12:48.553+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spark_operator_submit_dag.py for tasks to queue
+[2026-04-11T11:12:48.556+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:12:48.555+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:12:48.585+0000] {processor.py:925} INFO - DAG(s) 'spark_operator_submit' retrieved from /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:12:48.605+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:12:48.604+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T11:12:48.626+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:12:48.625+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_operator_submit to None, run_after=None
+[2026-04-11T11:12:48.650+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spark_operator_submit_dag.py took 0.107 seconds
+[2026-04-11T11:17:04.375+0000] {processor.py:186} INFO - Started process (PID=35130) to work on /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:17:04.376+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spark_operator_submit_dag.py for tasks to queue
+[2026-04-11T11:17:04.378+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:17:04.378+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:17:04.408+0000] {processor.py:925} INFO - DAG(s) 'spark_operator_submit' retrieved from /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:17:04.426+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:17:04.426+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T11:17:04.452+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:17:04.451+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_operator_submit to None, run_after=None
+[2026-04-11T11:17:04.476+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spark_operator_submit_dag.py took 0.109 seconds
+[2026-04-11T11:17:35.486+0000] {processor.py:186} INFO - Started process (PID=35201) to work on /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:17:35.487+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spark_operator_submit_dag.py for tasks to queue
+[2026-04-11T11:17:35.490+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:17:35.489+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:17:35.517+0000] {processor.py:925} INFO - DAG(s) 'spark_operator_submit' retrieved from /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:17:35.533+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:17:35.533+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T11:17:35.555+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:17:35.554+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_operator_submit to None, run_after=None
+[2026-04-11T11:17:35.578+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spark_operator_submit_dag.py took 0.099 seconds
+[2026-04-11T11:18:05.777+0000] {processor.py:186} INFO - Started process (PID=35349) to work on /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:18:05.778+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spark_operator_submit_dag.py for tasks to queue
+[2026-04-11T11:18:05.781+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:18:05.781+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:18:05.811+0000] {processor.py:925} INFO - DAG(s) 'spark_operator_submit' retrieved from /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:18:05.827+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:18:05.827+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T11:18:05.845+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:18:05.845+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_operator_submit to None, run_after=None
+[2026-04-11T11:18:05.867+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spark_operator_submit_dag.py took 0.099 seconds
+[2026-04-11T11:18:36.247+0000] {processor.py:186} INFO - Started process (PID=35420) to work on /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:18:36.250+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spark_operator_submit_dag.py for tasks to queue
+[2026-04-11T11:18:36.255+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:18:36.254+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:18:36.299+0000] {processor.py:925} INFO - DAG(s) 'spark_operator_submit' retrieved from /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:18:36.326+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:18:36.326+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T11:18:36.366+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:18:36.365+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_operator_submit to None, run_after=None
+[2026-04-11T11:18:36.405+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spark_operator_submit_dag.py took 0.171 seconds
+[2026-04-11T11:19:10.562+0000] {processor.py:186} INFO - Started process (PID=35491) to work on /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:19:10.564+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spark_operator_submit_dag.py for tasks to queue
+[2026-04-11T11:19:10.567+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:19:10.566+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:19:10.605+0000] {processor.py:925} INFO - DAG(s) 'spark_operator_submit' retrieved from /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:19:10.628+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:19:10.628+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T11:19:10.653+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:19:10.653+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_operator_submit to None, run_after=None
+[2026-04-11T11:19:10.696+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spark_operator_submit_dag.py took 0.146 seconds
+[2026-04-11T11:19:40.996+0000] {processor.py:186} INFO - Started process (PID=35562) to work on /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:19:40.997+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spark_operator_submit_dag.py for tasks to queue
+[2026-04-11T11:19:40.999+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:19:40.999+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:19:41.026+0000] {processor.py:925} INFO - DAG(s) 'spark_operator_submit' retrieved from /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:19:41.041+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:19:41.040+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T11:19:41.059+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:19:41.059+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_operator_submit to None, run_after=None
+[2026-04-11T11:19:41.081+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spark_operator_submit_dag.py took 0.093 seconds
+[2026-04-11T11:20:12.481+0000] {processor.py:186} INFO - Started process (PID=35633) to work on /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:20:12.482+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spark_operator_submit_dag.py for tasks to queue
+[2026-04-11T11:20:12.486+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:20:12.485+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:20:12.523+0000] {processor.py:925} INFO - DAG(s) 'spark_operator_submit' retrieved from /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:20:12.544+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:20:12.544+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T11:20:12.564+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:20:12.564+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_operator_submit to None, run_after=None
+[2026-04-11T11:20:12.599+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spark_operator_submit_dag.py took 0.127 seconds
+[2026-04-11T11:20:42.859+0000] {processor.py:186} INFO - Started process (PID=35704) to work on /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:20:42.861+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spark_operator_submit_dag.py for tasks to queue
+[2026-04-11T11:20:42.865+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:20:42.864+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:20:42.903+0000] {processor.py:925} INFO - DAG(s) 'spark_operator_submit' retrieved from /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:20:42.927+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:20:42.927+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T11:20:42.957+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:20:42.957+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_operator_submit to None, run_after=None
+[2026-04-11T11:20:42.999+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spark_operator_submit_dag.py took 0.151 seconds
+[2026-04-11T11:21:13.429+0000] {processor.py:186} INFO - Started process (PID=35773) to work on /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:21:13.430+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spark_operator_submit_dag.py for tasks to queue
+[2026-04-11T11:21:13.433+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:21:13.433+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:21:13.465+0000] {processor.py:925} INFO - DAG(s) 'spark_operator_submit' retrieved from /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:21:13.488+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:21:13.487+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T11:21:13.511+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:21:13.511+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_operator_submit to None, run_after=None
+[2026-04-11T11:21:13.534+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spark_operator_submit_dag.py took 0.114 seconds
+[2026-04-11T11:21:44.091+0000] {processor.py:186} INFO - Started process (PID=35844) to work on /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:21:44.100+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spark_operator_submit_dag.py for tasks to queue
+[2026-04-11T11:21:44.228+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:21:44.187+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:21:44.552+0000] {processor.py:925} INFO - DAG(s) 'spark_operator_submit' retrieved from /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:21:44.718+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:21:44.716+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T11:21:45.097+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:21:45.095+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_operator_submit to None, run_after=None
+[2026-04-11T11:21:45.249+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spark_operator_submit_dag.py took 1.368 seconds
+[2026-04-11T11:22:15.340+0000] {processor.py:186} INFO - Started process (PID=35915) to work on /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:22:15.342+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spark_operator_submit_dag.py for tasks to queue
+[2026-04-11T11:22:15.346+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:22:15.344+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:22:15.377+0000] {processor.py:925} INFO - DAG(s) 'spark_operator_submit' retrieved from /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-11T11:22:15.395+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:22:15.395+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-11T11:22:15.417+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:22:15.416+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_operator_submit to None, run_after=None
+[2026-04-11T11:22:15.444+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spark_operator_submit_dag.py took 0.113 seconds

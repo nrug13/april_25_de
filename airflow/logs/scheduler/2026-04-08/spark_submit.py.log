@@ -1,0 +1,28 @@
+[2026-04-08T04:07:29.267+0000] {processor.py:186} INFO - Started process (PID=19915) to work on /opt/airflow/dags/spark_submit.py
+[2026-04-08T04:07:29.268+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spark_submit.py for tasks to queue
+[2026-04-08T04:07:29.273+0000] {logging_mixin.py:190} INFO - [2026-04-08T04:07:29.272+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/spark_submit.py
+[2026-04-08T04:07:29.280+0000] {logging_mixin.py:190} INFO - [2026-04-08T04:07:29.277+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/spark_submit.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/spark_submit.py", line 2, in <module>
+    from airflow.operators.spark_submit_operator import SparkSubmitOperator
+ModuleNotFoundError: No module named 'airflow.operators.spark_submit_operator'
+[2026-04-08T04:07:29.281+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/spark_submit.py
+[2026-04-08T04:07:29.359+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spark_submit.py took 0.106 seconds
+[2026-04-08T04:35:47.988+0000] {processor.py:186} INFO - Started process (PID=19992) to work on /opt/airflow/dags/spark_submit.py
+[2026-04-08T04:35:47.990+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spark_submit.py for tasks to queue
+[2026-04-08T04:35:47.994+0000] {logging_mixin.py:190} INFO - [2026-04-08T04:35:47.993+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/spark_submit.py
+[2026-04-08T04:35:47.999+0000] {logging_mixin.py:190} INFO - [2026-04-08T04:35:47.997+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/spark_submit.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/spark_submit.py", line 2, in <module>
+    from airflow.operators.spark_submit_operator import SparkSubmitOperator
+ModuleNotFoundError: No module named 'airflow.operators.spark_submit_operator'
+[2026-04-08T04:35:48.000+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/spark_submit.py
+[2026-04-08T04:35:48.035+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spark_submit.py took 0.058 seconds

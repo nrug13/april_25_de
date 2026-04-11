@@ -1,0 +1,580 @@
+[2026-04-11T11:07:45.948+0000] {processor.py:186} INFO - Started process (PID=34284) to work on /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:07:45.949+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/send_to_minio.py for tasks to queue
+[2026-04-11T11:07:45.954+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:07:45.953+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:07:46.022+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:07:46.019+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/send_to_minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/send_to_minio.py", line 44, in <module>
+    repo_links=get_link();
+               ^^^^^^^^^^
+  File "/opt/airflow/dags/send_to_minio.py", line 4, in get_link
+    repo_links=Variable.get("LINKS",deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable LINKS does not exist'
+[2026-04-11T11:07:46.023+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:07:46.048+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/send_to_minio.py took 0.119 seconds
+[2026-04-11T11:08:16.521+0000] {processor.py:186} INFO - Started process (PID=34361) to work on /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:08:16.522+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/send_to_minio.py for tasks to queue
+[2026-04-11T11:08:16.525+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:08:16.525+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:08:16.554+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:08:16.552+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/send_to_minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/send_to_minio.py", line 44, in <module>
+    repo_links=get_link();
+               ^^^^^^^^^^
+  File "/opt/airflow/dags/send_to_minio.py", line 4, in get_link
+    repo_links=Variable.get("LINKS",deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable LINKS does not exist'
+[2026-04-11T11:08:16.555+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:08:16.567+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/send_to_minio.py took 0.056 seconds
+[2026-04-11T11:08:46.840+0000] {processor.py:186} INFO - Started process (PID=34432) to work on /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:08:46.840+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/send_to_minio.py for tasks to queue
+[2026-04-11T11:08:46.843+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:08:46.843+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:08:46.875+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:08:46.873+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/send_to_minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/send_to_minio.py", line 44, in <module>
+    repo_links=get_link();
+               ^^^^^^^^^^
+  File "/opt/airflow/dags/send_to_minio.py", line 4, in get_link
+    repo_links=Variable.get("LINKS",deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable LINKS does not exist'
+[2026-04-11T11:08:46.876+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:08:46.890+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/send_to_minio.py took 0.059 seconds
+[2026-04-11T11:09:17.147+0000] {processor.py:186} INFO - Started process (PID=34503) to work on /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:09:17.148+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/send_to_minio.py for tasks to queue
+[2026-04-11T11:09:17.150+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:09:17.150+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:09:17.178+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:09:17.176+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/send_to_minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/send_to_minio.py", line 44, in <module>
+    repo_links=get_link();
+               ^^^^^^^^^^
+  File "/opt/airflow/dags/send_to_minio.py", line 4, in get_link
+    repo_links=Variable.get("LINKS",deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable LINKS does not exist'
+[2026-04-11T11:09:17.179+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:09:17.190+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/send_to_minio.py took 0.051 seconds
+[2026-04-11T11:09:47.383+0000] {processor.py:186} INFO - Started process (PID=34574) to work on /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:09:47.385+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/send_to_minio.py for tasks to queue
+[2026-04-11T11:09:47.387+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:09:47.387+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:09:47.415+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:09:47.414+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/send_to_minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/send_to_minio.py", line 44, in <module>
+    repo_links=get_link();
+               ^^^^^^^^^^
+  File "/opt/airflow/dags/send_to_minio.py", line 4, in get_link
+    repo_links=Variable.get("LINKS",deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable LINKS does not exist'
+[2026-04-11T11:09:47.416+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:09:47.431+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/send_to_minio.py took 0.059 seconds
+[2026-04-11T11:10:17.761+0000] {processor.py:186} INFO - Started process (PID=34647) to work on /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:10:17.762+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/send_to_minio.py for tasks to queue
+[2026-04-11T11:10:17.765+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:10:17.765+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:10:17.795+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:10:17.793+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/send_to_minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/send_to_minio.py", line 44, in <module>
+    repo_links=get_link();
+               ^^^^^^^^^^
+  File "/opt/airflow/dags/send_to_minio.py", line 4, in get_link
+    repo_links=Variable.get("LINKS",deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable LINKS does not exist'
+[2026-04-11T11:10:17.795+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:10:17.807+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/send_to_minio.py took 0.054 seconds
+[2026-04-11T11:10:48.018+0000] {processor.py:186} INFO - Started process (PID=34718) to work on /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:10:48.019+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/send_to_minio.py for tasks to queue
+[2026-04-11T11:10:48.021+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:10:48.021+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:10:48.050+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:10:48.048+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/send_to_minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/send_to_minio.py", line 44, in <module>
+    repo_links=get_link();
+               ^^^^^^^^^^
+  File "/opt/airflow/dags/send_to_minio.py", line 4, in get_link
+    repo_links=Variable.get("LINKS",deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable LINKS does not exist'
+[2026-04-11T11:10:48.051+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:10:48.062+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/send_to_minio.py took 0.052 seconds
+[2026-04-11T11:11:18.224+0000] {processor.py:186} INFO - Started process (PID=34787) to work on /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:11:18.225+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/send_to_minio.py for tasks to queue
+[2026-04-11T11:11:18.227+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:11:18.227+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:11:18.253+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:11:18.251+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/send_to_minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/send_to_minio.py", line 44, in <module>
+    repo_links=get_link();
+               ^^^^^^^^^^
+  File "/opt/airflow/dags/send_to_minio.py", line 4, in get_link
+    repo_links=Variable.get("LINKS",deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable LINKS does not exist'
+[2026-04-11T11:11:18.253+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:11:18.264+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/send_to_minio.py took 0.047 seconds
+[2026-04-11T11:11:48.573+0000] {processor.py:186} INFO - Started process (PID=34858) to work on /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:11:48.574+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/send_to_minio.py for tasks to queue
+[2026-04-11T11:11:48.576+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:11:48.576+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:11:48.600+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:11:48.598+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/send_to_minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/send_to_minio.py", line 44, in <module>
+    repo_links=get_link();
+               ^^^^^^^^^^
+  File "/opt/airflow/dags/send_to_minio.py", line 4, in get_link
+    repo_links=Variable.get("LINKS",deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable LINKS does not exist'
+[2026-04-11T11:11:48.601+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:11:48.612+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/send_to_minio.py took 0.045 seconds
+[2026-04-11T11:12:18.675+0000] {processor.py:186} INFO - Started process (PID=34927) to work on /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:12:18.676+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/send_to_minio.py for tasks to queue
+[2026-04-11T11:12:18.678+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:12:18.677+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:12:18.703+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:12:18.701+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/send_to_minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/send_to_minio.py", line 44, in <module>
+    repo_links=get_link();
+               ^^^^^^^^^^
+  File "/opt/airflow/dags/send_to_minio.py", line 4, in get_link
+    repo_links=Variable.get("LINKS",deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable LINKS does not exist'
+[2026-04-11T11:12:18.703+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:12:18.713+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/send_to_minio.py took 0.045 seconds
+[2026-04-11T11:12:49.076+0000] {processor.py:186} INFO - Started process (PID=35021) to work on /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:12:49.078+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/send_to_minio.py for tasks to queue
+[2026-04-11T11:12:49.081+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:12:49.081+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:12:49.108+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:12:49.106+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/send_to_minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/send_to_minio.py", line 44, in <module>
+    repo_links=get_link();
+               ^^^^^^^^^^
+  File "/opt/airflow/dags/send_to_minio.py", line 4, in get_link
+    repo_links=Variable.get("LINKS",deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable LINKS does not exist'
+[2026-04-11T11:12:49.109+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:12:49.120+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/send_to_minio.py took 0.051 seconds
+[2026-04-11T11:17:04.703+0000] {processor.py:186} INFO - Started process (PID=35158) to work on /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:17:04.704+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/send_to_minio.py for tasks to queue
+[2026-04-11T11:17:04.707+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:17:04.706+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:17:04.735+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:17:04.733+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/send_to_minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/send_to_minio.py", line 44, in <module>
+    repo_links=get_link();
+               ^^^^^^^^^^
+  File "/opt/airflow/dags/send_to_minio.py", line 4, in get_link
+    repo_links=Variable.get("LINKS",deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable LINKS does not exist'
+[2026-04-11T11:17:04.736+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:17:04.748+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/send_to_minio.py took 0.052 seconds
+[2026-04-11T11:17:35.902+0000] {processor.py:186} INFO - Started process (PID=35229) to work on /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:17:35.903+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/send_to_minio.py for tasks to queue
+[2026-04-11T11:17:35.906+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:17:35.905+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:17:35.936+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:17:35.935+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/send_to_minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/send_to_minio.py", line 44, in <module>
+    repo_links=get_link();
+               ^^^^^^^^^^
+  File "/opt/airflow/dags/send_to_minio.py", line 4, in get_link
+    repo_links=Variable.get("LINKS",deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable LINKS does not exist'
+[2026-04-11T11:17:35.937+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:17:35.950+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/send_to_minio.py took 0.058 seconds
+[2026-04-11T11:18:06.325+0000] {processor.py:186} INFO - Started process (PID=35377) to work on /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:18:06.326+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/send_to_minio.py for tasks to queue
+[2026-04-11T11:18:06.330+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:18:06.329+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:18:06.365+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:18:06.362+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/send_to_minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/send_to_minio.py", line 44, in <module>
+    repo_links=get_link();
+               ^^^^^^^^^^
+  File "/opt/airflow/dags/send_to_minio.py", line 4, in get_link
+    repo_links=Variable.get("LINKS",deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable LINKS does not exist'
+[2026-04-11T11:18:06.365+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:18:06.379+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/send_to_minio.py took 0.062 seconds
+[2026-04-11T11:18:36.840+0000] {processor.py:186} INFO - Started process (PID=35448) to work on /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:18:36.843+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/send_to_minio.py for tasks to queue
+[2026-04-11T11:18:36.847+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:18:36.846+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:18:36.894+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:18:36.891+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/send_to_minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/send_to_minio.py", line 44, in <module>
+    repo_links=get_link();
+               ^^^^^^^^^^
+  File "/opt/airflow/dags/send_to_minio.py", line 4, in get_link
+    repo_links=Variable.get("LINKS",deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable LINKS does not exist'
+[2026-04-11T11:18:36.896+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:18:36.919+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/send_to_minio.py took 0.092 seconds
+[2026-04-11T11:19:11.109+0000] {processor.py:186} INFO - Started process (PID=35519) to work on /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:19:11.110+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/send_to_minio.py for tasks to queue
+[2026-04-11T11:19:11.114+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:19:11.113+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:19:11.150+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:19:11.148+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/send_to_minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/send_to_minio.py", line 44, in <module>
+    repo_links=get_link();
+               ^^^^^^^^^^
+  File "/opt/airflow/dags/send_to_minio.py", line 4, in get_link
+    repo_links=Variable.get("LINKS",deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable LINKS does not exist'
+[2026-04-11T11:19:11.152+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:19:11.170+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/send_to_minio.py took 0.073 seconds
+[2026-04-11T11:19:41.490+0000] {processor.py:186} INFO - Started process (PID=35590) to work on /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:19:41.491+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/send_to_minio.py for tasks to queue
+[2026-04-11T11:19:41.494+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:19:41.494+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:19:41.527+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:19:41.525+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/send_to_minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/send_to_minio.py", line 44, in <module>
+    repo_links=get_link();
+               ^^^^^^^^^^
+  File "/opt/airflow/dags/send_to_minio.py", line 4, in get_link
+    repo_links=Variable.get("LINKS",deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable LINKS does not exist'
+[2026-04-11T11:19:41.528+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:19:41.543+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/send_to_minio.py took 0.061 seconds
+[2026-04-11T11:20:13.006+0000] {processor.py:186} INFO - Started process (PID=35661) to work on /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:20:13.007+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/send_to_minio.py for tasks to queue
+[2026-04-11T11:20:13.011+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:20:13.010+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:20:13.052+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:20:13.050+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/send_to_minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/send_to_minio.py", line 44, in <module>
+    repo_links=get_link();
+               ^^^^^^^^^^
+  File "/opt/airflow/dags/send_to_minio.py", line 4, in get_link
+    repo_links=Variable.get("LINKS",deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable LINKS does not exist'
+[2026-04-11T11:20:13.054+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:20:13.070+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/send_to_minio.py took 0.076 seconds
+[2026-04-11T11:20:43.547+0000] {processor.py:186} INFO - Started process (PID=35732) to work on /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:20:43.548+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/send_to_minio.py for tasks to queue
+[2026-04-11T11:20:43.551+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:20:43.550+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:20:43.586+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:20:43.585+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/send_to_minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/send_to_minio.py", line 44, in <module>
+    repo_links=get_link();
+               ^^^^^^^^^^
+  File "/opt/airflow/dags/send_to_minio.py", line 4, in get_link
+    repo_links=Variable.get("LINKS",deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable LINKS does not exist'
+[2026-04-11T11:20:43.588+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:20:43.602+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/send_to_minio.py took 0.066 seconds
+[2026-04-11T11:21:13.978+0000] {processor.py:186} INFO - Started process (PID=35803) to work on /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:21:13.979+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/send_to_minio.py for tasks to queue
+[2026-04-11T11:21:13.982+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:21:13.981+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:21:14.011+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:21:14.008+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/send_to_minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/send_to_minio.py", line 44, in <module>
+    repo_links=get_link();
+               ^^^^^^^^^^
+  File "/opt/airflow/dags/send_to_minio.py", line 4, in get_link
+    repo_links=Variable.get("LINKS",deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable LINKS does not exist'
+[2026-04-11T11:21:14.012+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:21:14.026+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/send_to_minio.py took 0.056 seconds
+[2026-04-11T11:21:45.656+0000] {processor.py:186} INFO - Started process (PID=35874) to work on /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:21:45.657+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/send_to_minio.py for tasks to queue
+[2026-04-11T11:21:45.661+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:21:45.660+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:21:45.697+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:21:45.695+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/send_to_minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/send_to_minio.py", line 44, in <module>
+    repo_links=get_link();
+               ^^^^^^^^^^
+  File "/opt/airflow/dags/send_to_minio.py", line 4, in get_link
+    repo_links=Variable.get("LINKS",deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable LINKS does not exist'
+[2026-04-11T11:21:45.698+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:21:45.715+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/send_to_minio.py took 0.066 seconds
+[2026-04-11T11:22:15.845+0000] {processor.py:186} INFO - Started process (PID=35945) to work on /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:22:15.846+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/send_to_minio.py for tasks to queue
+[2026-04-11T11:22:15.850+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:22:15.849+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:22:15.879+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:22:15.877+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/send_to_minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/send_to_minio.py", line 44, in <module>
+    repo_links=get_link();
+               ^^^^^^^^^^
+  File "/opt/airflow/dags/send_to_minio.py", line 4, in get_link
+    repo_links=Variable.get("LINKS",deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable LINKS does not exist'
+[2026-04-11T11:22:15.880+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:22:15.893+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/send_to_minio.py took 0.057 seconds
+[2026-04-11T11:22:46.784+0000] {processor.py:186} INFO - Started process (PID=35986) to work on /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:22:46.785+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/send_to_minio.py for tasks to queue
+[2026-04-11T11:22:46.787+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:22:46.786+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:22:46.818+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:22:46.816+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/send_to_minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/send_to_minio.py", line 44, in <module>
+    repo_links=get_link();
+               ^^^^^^^^^^
+  File "/opt/airflow/dags/send_to_minio.py", line 4, in get_link
+    repo_links=Variable.get("LINKS",deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable LINKS does not exist'
+[2026-04-11T11:22:46.819+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:22:46.834+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/send_to_minio.py took 0.057 seconds
+[2026-04-11T11:23:17.511+0000] {processor.py:186} INFO - Started process (PID=36027) to work on /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:23:17.555+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/send_to_minio.py for tasks to queue
+[2026-04-11T11:23:17.558+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:23:17.557+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:23:17.597+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:23:17.595+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/send_to_minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/send_to_minio.py", line 44, in <module>
+    repo_links=get_link();
+               ^^^^^^^^^^
+  File "/opt/airflow/dags/send_to_minio.py", line 4, in get_link
+    repo_links=Variable.get("LINKS",deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable LINKS does not exist'
+[2026-04-11T11:23:17.598+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:23:17.612+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/send_to_minio.py took 0.108 seconds
+[2026-04-11T11:23:48.314+0000] {processor.py:186} INFO - Started process (PID=36068) to work on /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:23:48.316+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/send_to_minio.py for tasks to queue
+[2026-04-11T11:23:48.318+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:23:48.317+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:23:48.350+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:23:48.348+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/send_to_minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/send_to_minio.py", line 44, in <module>
+    repo_links=get_link();
+               ^^^^^^^^^^
+  File "/opt/airflow/dags/send_to_minio.py", line 4, in get_link
+    repo_links=Variable.get("LINKS",deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable LINKS does not exist'
+[2026-04-11T11:23:48.351+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:23:48.363+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/send_to_minio.py took 0.058 seconds
+[2026-04-11T11:24:19.023+0000] {processor.py:186} INFO - Started process (PID=36109) to work on /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:24:19.025+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/send_to_minio.py for tasks to queue
+[2026-04-11T11:24:19.027+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:24:19.026+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:24:19.056+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:24:19.054+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/send_to_minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/send_to_minio.py", line 44, in <module>
+    repo_links=get_link();
+               ^^^^^^^^^^
+  File "/opt/airflow/dags/send_to_minio.py", line 4, in get_link
+    repo_links=Variable.get("LINKS",deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable LINKS does not exist'
+[2026-04-11T11:24:19.057+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:24:19.071+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/send_to_minio.py took 0.055 seconds
+[2026-04-11T11:24:49.764+0000] {processor.py:186} INFO - Started process (PID=36150) to work on /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:24:49.765+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/send_to_minio.py for tasks to queue
+[2026-04-11T11:24:49.767+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:24:49.766+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:24:49.796+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:24:49.794+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/send_to_minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/send_to_minio.py", line 44, in <module>
+    repo_links=get_link();
+               ^^^^^^^^^^
+  File "/opt/airflow/dags/send_to_minio.py", line 4, in get_link
+    repo_links=Variable.get("LINKS",deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable LINKS does not exist'
+[2026-04-11T11:24:49.797+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:24:49.813+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/send_to_minio.py took 0.057 seconds
+[2026-04-11T11:25:20.480+0000] {processor.py:186} INFO - Started process (PID=36191) to work on /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:25:20.482+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/send_to_minio.py for tasks to queue
+[2026-04-11T11:25:20.484+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:25:20.484+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:25:20.519+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:25:20.516+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/send_to_minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/send_to_minio.py", line 44, in <module>
+    repo_links=get_link();
+               ^^^^^^^^^^
+  File "/opt/airflow/dags/send_to_minio.py", line 4, in get_link
+    repo_links=Variable.get("LINKS",deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable LINKS does not exist'
+[2026-04-11T11:25:20.520+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:25:20.535+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/send_to_minio.py took 0.065 seconds
+[2026-04-11T11:25:51.159+0000] {processor.py:186} INFO - Started process (PID=36237) to work on /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:25:51.160+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/send_to_minio.py for tasks to queue
+[2026-04-11T11:25:51.162+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:25:51.162+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:25:51.192+0000] {logging_mixin.py:190} INFO - [2026-04-11T11:25:51.190+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/send_to_minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/send_to_minio.py", line 44, in <module>
+    repo_links=get_link();
+               ^^^^^^^^^^
+  File "/opt/airflow/dags/send_to_minio.py", line 4, in get_link
+    repo_links=Variable.get("LINKS",deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable LINKS does not exist'
+[2026-04-11T11:25:51.193+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/send_to_minio.py
+[2026-04-11T11:25:51.208+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/send_to_minio.py took 0.057 seconds

@@ -1,0 +1,14 @@
+[2026-04-08T04:07:28.824+0000] {processor.py:186} INFO - Started process (PID=19898) to work on /opt/airflow/dags/spark_custom_submit_dag.py
+[2026-04-08T04:07:28.826+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spark_custom_submit_dag.py for tasks to queue
+[2026-04-08T04:07:28.831+0000] {logging_mixin.py:190} INFO - [2026-04-08T04:07:28.830+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/spark_custom_submit_dag.py
+[2026-04-08T04:07:28.850+0000] {processor.py:925} INFO - DAG(s) 'spark_custom_submit' retrieved from /opt/airflow/dags/spark_custom_submit_dag.py
+[2026-04-08T04:07:28.909+0000] {logging_mixin.py:190} INFO - [2026-04-08T04:07:28.908+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-08T04:07:28.951+0000] {logging_mixin.py:190} INFO - [2026-04-08T04:07:28.951+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_custom_submit to None, run_after=None
+[2026-04-08T04:07:29.008+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spark_custom_submit_dag.py took 0.198 seconds
+[2026-04-08T04:35:47.673+0000] {processor.py:186} INFO - Started process (PID=19975) to work on /opt/airflow/dags/spark_custom_submit_dag.py
+[2026-04-08T04:35:47.675+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spark_custom_submit_dag.py for tasks to queue
+[2026-04-08T04:35:47.681+0000] {logging_mixin.py:190} INFO - [2026-04-08T04:35:47.680+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/spark_custom_submit_dag.py
+[2026-04-08T04:35:47.698+0000] {processor.py:925} INFO - DAG(s) 'spark_custom_submit' retrieved from /opt/airflow/dags/spark_custom_submit_dag.py
+[2026-04-08T04:35:47.740+0000] {logging_mixin.py:190} INFO - [2026-04-08T04:35:47.740+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-08T04:35:47.772+0000] {logging_mixin.py:190} INFO - [2026-04-08T04:35:47.771+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_custom_submit to None, run_after=None
+[2026-04-08T04:35:47.807+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spark_custom_submit_dag.py took 0.147 seconds

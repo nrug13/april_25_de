@@ -1,0 +1,407 @@
+[2026-04-04T16:25:59.688+0000] {processor.py:186} INFO - Started process (PID=20335) to work on /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:25:59.688+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_airflow2.py for tasks to queue
+[2026-04-04T16:25:59.690+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:25:59.689+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:25:59.705+0000] {processor.py:925} INFO - DAG(s) 'credit_applications_pipeline_v2' retrieved from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:25:59.840+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:25:59.838+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG:credit_applications_pipeline_v2
+[2026-04-04T16:25:59.850+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:25:59.850+0000] {override.py:1912} INFO - Created Permission View: can edit on DAG:credit_applications_pipeline_v2
+[2026-04-04T16:25:59.857+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:25:59.857+0000] {override.py:1912} INFO - Created Permission View: can read on DAG:credit_applications_pipeline_v2
+[2026-04-04T16:25:59.865+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:25:59.864+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:credit_applications_pipeline_v2
+[2026-04-04T16:25:59.872+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:25:59.871+0000] {override.py:1912} INFO - Created Permission View: can create on DAG Run:credit_applications_pipeline_v2
+[2026-04-04T16:25:59.878+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:25:59.878+0000] {override.py:1912} INFO - Created Permission View: can read on DAG Run:credit_applications_pipeline_v2
+[2026-04-04T16:25:59.885+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:25:59.884+0000] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:credit_applications_pipeline_v2
+[2026-04-04T16:25:59.885+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:25:59.885+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T16:25:59.902+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:25:59.901+0000] {dag.py:3262} INFO - Creating ORM DAG for credit_applications_pipeline_v2
+[2026-04-04T16:25:59.916+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:25:59.915+0000] {dag.py:4180} INFO - Setting next_dagrun for credit_applications_pipeline_v2 to 2026-04-03 00:00:00+00:00, run_after=2026-04-04 00:00:00+00:00
+[2026-04-04T16:25:59.937+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_airflow2.py took 0.257 seconds
+[2026-04-04T16:26:30.022+0000] {processor.py:186} INFO - Started process (PID=20411) to work on /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:26:30.023+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_airflow2.py for tasks to queue
+[2026-04-04T16:26:30.025+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:26:30.025+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:26:30.044+0000] {processor.py:925} INFO - DAG(s) 'credit_applications_pipeline_v2' retrieved from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:26:30.083+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:26:30.083+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T16:26:30.122+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:26:30.122+0000] {dag.py:4180} INFO - Setting next_dagrun for credit_applications_pipeline_v2 to 2026-04-03 00:00:00+00:00, run_after=2026-04-04 00:00:00+00:00
+[2026-04-04T16:26:30.155+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_airflow2.py took 0.142 seconds
+[2026-04-04T16:26:46.260+0000] {processor.py:186} INFO - Started process (PID=20487) to work on /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:26:46.261+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_airflow2.py for tasks to queue
+[2026-04-04T16:26:46.262+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:26:46.262+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:26:46.282+0000] {processor.py:925} INFO - DAG(s) 'credit_applications_pipeline_v2' retrieved from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:26:46.321+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:26:46.320+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T16:26:46.356+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:26:46.355+0000] {dag.py:4180} INFO - Setting next_dagrun for credit_applications_pipeline_v2 to 2026-04-03 00:00:00+00:00, run_after=2026-04-04 00:00:00+00:00
+[2026-04-04T16:26:46.385+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_airflow2.py took 0.132 seconds
+[2026-04-04T16:26:49.342+0000] {processor.py:186} INFO - Started process (PID=20492) to work on /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:26:49.352+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_airflow2.py for tasks to queue
+[2026-04-04T16:26:49.354+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:26:49.354+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:26:49.373+0000] {processor.py:925} INFO - DAG(s) 'credit_applications_pipeline_v2' retrieved from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:26:49.410+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:26:49.409+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T16:26:49.453+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:26:49.452+0000] {dag.py:4180} INFO - Setting next_dagrun for credit_applications_pipeline_v2 to 2026-04-03 00:00:00+00:00, run_after=2026-04-04 00:00:00+00:00
+[2026-04-04T16:26:49.482+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_airflow2.py took 0.148 seconds
+[2026-04-04T16:26:54.521+0000] {processor.py:186} INFO - Started process (PID=20497) to work on /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:26:54.522+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_airflow2.py for tasks to queue
+[2026-04-04T16:26:54.525+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:26:54.524+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:26:54.544+0000] {processor.py:925} INFO - DAG(s) 'credit_applications_pipeline_v2' retrieved from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:26:54.584+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:26:54.584+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T16:26:54.628+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:26:54.627+0000] {dag.py:4180} INFO - Setting next_dagrun for credit_applications_pipeline_v2 to 2026-04-03 00:00:00+00:00, run_after=2026-04-04 00:00:00+00:00
+[2026-04-04T16:26:54.675+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_airflow2.py took 0.166 seconds
+[2026-04-04T16:27:24.967+0000] {processor.py:186} INFO - Started process (PID=20578) to work on /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:27:24.977+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_airflow2.py for tasks to queue
+[2026-04-04T16:27:24.981+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:27:24.980+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:27:24.995+0000] {processor.py:925} INFO - DAG(s) 'credit_applications_pipeline_v2' retrieved from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:27:25.030+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:27:25.029+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T16:27:25.076+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:27:25.076+0000] {dag.py:4180} INFO - Setting next_dagrun for credit_applications_pipeline_v2 to 2026-04-03 00:00:00+00:00, run_after=2026-04-04 00:00:00+00:00
+[2026-04-04T16:27:25.121+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_airflow2.py took 0.162 seconds
+[2026-04-04T16:27:55.394+0000] {processor.py:186} INFO - Started process (PID=20659) to work on /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:27:55.404+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_airflow2.py for tasks to queue
+[2026-04-04T16:27:55.406+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:27:55.406+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:27:55.419+0000] {processor.py:925} INFO - DAG(s) 'credit_applications_pipeline_v2' retrieved from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:27:55.453+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:27:55.453+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T16:27:55.488+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:27:55.488+0000] {dag.py:4180} INFO - Setting next_dagrun for credit_applications_pipeline_v2 to 2026-04-03 00:00:00+00:00, run_after=2026-04-04 00:00:00+00:00
+[2026-04-04T16:27:55.510+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_airflow2.py took 0.123 seconds
+[2026-04-04T16:28:25.742+0000] {processor.py:186} INFO - Started process (PID=20735) to work on /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:28:25.752+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_airflow2.py for tasks to queue
+[2026-04-04T16:28:25.753+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:28:25.753+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:28:25.766+0000] {processor.py:925} INFO - DAG(s) 'credit_applications_pipeline_v2' retrieved from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:28:25.798+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:28:25.797+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T16:28:25.830+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:28:25.830+0000] {dag.py:4180} INFO - Setting next_dagrun for credit_applications_pipeline_v2 to 2026-04-03 00:00:00+00:00, run_after=2026-04-04 00:00:00+00:00
+[2026-04-04T16:28:25.853+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_airflow2.py took 0.124 seconds
+[2026-04-04T16:28:56.135+0000] {processor.py:186} INFO - Started process (PID=20811) to work on /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:28:56.145+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_airflow2.py for tasks to queue
+[2026-04-04T16:28:56.147+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:28:56.146+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:28:56.162+0000] {processor.py:925} INFO - DAG(s) 'credit_applications_pipeline_v2' retrieved from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:28:56.195+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:28:56.195+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T16:28:56.229+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:28:56.228+0000] {dag.py:4180} INFO - Setting next_dagrun for credit_applications_pipeline_v2 to 2026-04-03 00:00:00+00:00, run_after=2026-04-04 00:00:00+00:00
+[2026-04-04T16:28:56.252+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_airflow2.py took 0.128 seconds
+[2026-04-04T16:29:26.455+0000] {processor.py:186} INFO - Started process (PID=20887) to work on /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:29:26.465+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_airflow2.py for tasks to queue
+[2026-04-04T16:29:26.466+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:29:26.466+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:29:26.481+0000] {processor.py:925} INFO - DAG(s) 'credit_applications_pipeline_v2' retrieved from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:29:26.514+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:29:26.513+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T16:29:26.549+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:29:26.548+0000] {dag.py:4180} INFO - Setting next_dagrun for credit_applications_pipeline_v2 to 2026-04-03 00:00:00+00:00, run_after=2026-04-04 00:00:00+00:00
+[2026-04-04T16:29:26.571+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_airflow2.py took 0.123 seconds
+[2026-04-04T16:29:56.754+0000] {processor.py:186} INFO - Started process (PID=20963) to work on /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:29:56.755+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_airflow2.py for tasks to queue
+[2026-04-04T16:29:56.756+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:29:56.756+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:29:56.769+0000] {processor.py:925} INFO - DAG(s) 'credit_applications_pipeline_v2' retrieved from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:29:56.798+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:29:56.798+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T16:29:56.827+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:29:56.827+0000] {dag.py:4180} INFO - Setting next_dagrun for credit_applications_pipeline_v2 to 2026-04-03 00:00:00+00:00, run_after=2026-04-04 00:00:00+00:00
+[2026-04-04T16:29:56.847+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_airflow2.py took 0.103 seconds
+[2026-04-04T16:30:27.085+0000] {processor.py:186} INFO - Started process (PID=21039) to work on /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:30:27.086+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_airflow2.py for tasks to queue
+[2026-04-04T16:30:27.089+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:30:27.088+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:30:27.104+0000] {processor.py:925} INFO - DAG(s) 'credit_applications_pipeline_v2' retrieved from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:30:27.140+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:30:27.140+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T16:30:27.178+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:30:27.177+0000] {dag.py:4180} INFO - Setting next_dagrun for credit_applications_pipeline_v2 to 2026-04-03 00:00:00+00:00, run_after=2026-04-04 00:00:00+00:00
+[2026-04-04T16:30:27.204+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_airflow2.py took 0.127 seconds
+[2026-04-04T16:30:57.478+0000] {processor.py:186} INFO - Started process (PID=21126) to work on /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:30:57.487+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_airflow2.py for tasks to queue
+[2026-04-04T16:30:57.489+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:30:57.489+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:30:57.502+0000] {processor.py:925} INFO - DAG(s) 'credit_applications_pipeline_v2' retrieved from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:30:57.535+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:30:57.535+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T16:30:57.566+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:30:57.566+0000] {dag.py:4180} INFO - Setting next_dagrun for credit_applications_pipeline_v2 to 2026-04-03 00:00:00+00:00, run_after=2026-04-04 00:00:00+00:00
+[2026-04-04T16:30:57.587+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_airflow2.py took 0.120 seconds
+[2026-04-04T16:31:27.707+0000] {processor.py:186} INFO - Started process (PID=21202) to work on /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:31:27.717+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_airflow2.py for tasks to queue
+[2026-04-04T16:31:27.719+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:31:27.718+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:31:27.735+0000] {processor.py:925} INFO - DAG(s) 'credit_applications_pipeline_v2' retrieved from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:31:27.769+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:31:27.769+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T16:31:27.803+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:31:27.803+0000] {dag.py:4180} INFO - Setting next_dagrun for credit_applications_pipeline_v2 to 2026-04-03 00:00:00+00:00, run_after=2026-04-04 00:00:00+00:00
+[2026-04-04T16:31:27.828+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_airflow2.py took 0.130 seconds
+[2026-04-04T16:31:58.053+0000] {processor.py:186} INFO - Started process (PID=21278) to work on /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:31:58.063+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_airflow2.py for tasks to queue
+[2026-04-04T16:31:58.066+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:31:58.065+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:31:58.081+0000] {processor.py:925} INFO - DAG(s) 'credit_applications_pipeline_v2' retrieved from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:31:58.117+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:31:58.117+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T16:31:58.152+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:31:58.152+0000] {dag.py:4180} INFO - Setting next_dagrun for credit_applications_pipeline_v2 to 2026-04-03 00:00:00+00:00, run_after=2026-04-04 00:00:00+00:00
+[2026-04-04T16:31:58.176+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_airflow2.py took 0.131 seconds
+[2026-04-04T16:32:28.339+0000] {processor.py:186} INFO - Started process (PID=21355) to work on /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:32:28.349+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_airflow2.py for tasks to queue
+[2026-04-04T16:32:28.350+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:32:28.350+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:32:28.364+0000] {processor.py:925} INFO - DAG(s) 'credit_applications_pipeline_v2' retrieved from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:32:28.396+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:32:28.396+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T16:32:28.432+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:32:28.431+0000] {dag.py:4180} INFO - Setting next_dagrun for credit_applications_pipeline_v2 to 2026-04-03 00:00:00+00:00, run_after=2026-04-04 00:00:00+00:00
+[2026-04-04T16:32:28.458+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_airflow2.py took 0.128 seconds
+[2026-04-04T16:32:58.758+0000] {processor.py:186} INFO - Started process (PID=21431) to work on /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:32:58.768+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_airflow2.py for tasks to queue
+[2026-04-04T16:32:58.771+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:32:58.770+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:32:58.782+0000] {processor.py:925} INFO - DAG(s) 'credit_applications_pipeline_v2' retrieved from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:32:58.813+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:32:58.813+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T16:32:58.844+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:32:58.843+0000] {dag.py:4180} INFO - Setting next_dagrun for credit_applications_pipeline_v2 to 2026-04-03 00:00:00+00:00, run_after=2026-04-04 00:00:00+00:00
+[2026-04-04T16:32:58.872+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_airflow2.py took 0.124 seconds
+[2026-04-04T16:33:29.027+0000] {processor.py:186} INFO - Started process (PID=21507) to work on /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:33:29.037+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_airflow2.py for tasks to queue
+[2026-04-04T16:33:29.038+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:33:29.038+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:33:29.053+0000] {processor.py:925} INFO - DAG(s) 'credit_applications_pipeline_v2' retrieved from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:33:29.083+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:33:29.083+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T16:33:29.114+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:33:29.114+0000] {dag.py:4180} INFO - Setting next_dagrun for credit_applications_pipeline_v2 to 2026-04-03 00:00:00+00:00, run_after=2026-04-04 00:00:00+00:00
+[2026-04-04T16:33:29.134+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_airflow2.py took 0.115 seconds
+[2026-04-04T16:33:59.327+0000] {processor.py:186} INFO - Started process (PID=21583) to work on /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:33:59.337+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_airflow2.py for tasks to queue
+[2026-04-04T16:33:59.338+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:33:59.338+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:33:59.356+0000] {processor.py:925} INFO - DAG(s) 'credit_applications_pipeline_v2' retrieved from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:33:59.395+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:33:59.395+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T16:33:59.437+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:33:59.436+0000] {dag.py:4180} INFO - Setting next_dagrun for credit_applications_pipeline_v2 to 2026-04-03 00:00:00+00:00, run_after=2026-04-04 00:00:00+00:00
+[2026-04-04T16:33:59.467+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_airflow2.py took 0.149 seconds
+[2026-04-04T16:34:29.672+0000] {processor.py:186} INFO - Started process (PID=21665) to work on /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:34:29.682+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_airflow2.py for tasks to queue
+[2026-04-04T16:34:29.685+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:34:29.684+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:34:29.701+0000] {processor.py:925} INFO - DAG(s) 'credit_applications_pipeline_v2' retrieved from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:34:29.735+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:34:29.735+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T16:34:29.769+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:34:29.769+0000] {dag.py:4180} INFO - Setting next_dagrun for credit_applications_pipeline_v2 to 2026-04-03 00:00:00+00:00, run_after=2026-04-04 00:00:00+00:00
+[2026-04-04T16:34:29.797+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_airflow2.py took 0.134 seconds
+[2026-04-04T16:35:00.027+0000] {processor.py:186} INFO - Started process (PID=21740) to work on /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:35:00.037+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_airflow2.py for tasks to queue
+[2026-04-04T16:35:00.038+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:35:00.038+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:35:00.051+0000] {processor.py:925} INFO - DAG(s) 'credit_applications_pipeline_v2' retrieved from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:35:00.084+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:35:00.083+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T16:35:00.115+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:35:00.115+0000] {dag.py:4180} INFO - Setting next_dagrun for credit_applications_pipeline_v2 to 2026-04-03 00:00:00+00:00, run_after=2026-04-04 00:00:00+00:00
+[2026-04-04T16:35:00.138+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_airflow2.py took 0.118 seconds
+[2026-04-04T16:35:30.361+0000] {processor.py:186} INFO - Started process (PID=21816) to work on /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:35:30.362+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_airflow2.py for tasks to queue
+[2026-04-04T16:35:30.365+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:35:30.364+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:35:30.381+0000] {processor.py:925} INFO - DAG(s) 'credit_applications_pipeline_v2' retrieved from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:35:30.420+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:35:30.420+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T16:35:30.459+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:35:30.459+0000] {dag.py:4180} INFO - Setting next_dagrun for credit_applications_pipeline_v2 to 2026-04-03 00:00:00+00:00, run_after=2026-04-04 00:00:00+00:00
+[2026-04-04T16:35:30.499+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_airflow2.py took 0.149 seconds
+[2026-04-04T16:36:00.757+0000] {processor.py:186} INFO - Started process (PID=21895) to work on /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:36:00.759+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_airflow2.py for tasks to queue
+[2026-04-04T16:36:00.762+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:36:00.761+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:36:00.778+0000] {processor.py:925} INFO - DAG(s) 'credit_applications_pipeline_v2' retrieved from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:36:00.815+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:36:00.814+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T16:36:00.853+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:36:00.853+0000] {dag.py:4180} INFO - Setting next_dagrun for credit_applications_pipeline_v2 to 2026-04-03 00:00:00+00:00, run_after=2026-04-04 00:00:00+00:00
+[2026-04-04T16:36:00.888+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_airflow2.py took 0.142 seconds
+[2026-04-04T16:36:31.109+0000] {processor.py:186} INFO - Started process (PID=21971) to work on /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:36:31.119+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_airflow2.py for tasks to queue
+[2026-04-04T16:36:31.120+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:36:31.120+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:36:31.133+0000] {processor.py:925} INFO - DAG(s) 'credit_applications_pipeline_v2' retrieved from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:36:31.163+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:36:31.163+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T16:36:31.195+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:36:31.195+0000] {dag.py:4180} INFO - Setting next_dagrun for credit_applications_pipeline_v2 to 2026-04-03 00:00:00+00:00, run_after=2026-04-04 00:00:00+00:00
+[2026-04-04T16:36:31.217+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_airflow2.py took 0.121 seconds
+[2026-04-04T16:37:01.470+0000] {processor.py:186} INFO - Started process (PID=22046) to work on /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:37:01.480+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_airflow2.py for tasks to queue
+[2026-04-04T16:37:01.482+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:37:01.482+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:37:01.499+0000] {processor.py:925} INFO - DAG(s) 'credit_applications_pipeline_v2' retrieved from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:37:01.537+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:37:01.537+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T16:37:01.574+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:37:01.574+0000] {dag.py:4180} INFO - Setting next_dagrun for credit_applications_pipeline_v2 to 2026-04-03 00:00:00+00:00, run_after=2026-04-04 00:00:00+00:00
+[2026-04-04T16:37:01.612+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_airflow2.py took 0.152 seconds
+[2026-04-04T16:37:31.730+0000] {processor.py:186} INFO - Started process (PID=22128) to work on /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:37:31.740+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_airflow2.py for tasks to queue
+[2026-04-04T16:37:31.742+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:37:31.741+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:37:31.756+0000] {processor.py:925} INFO - DAG(s) 'credit_applications_pipeline_v2' retrieved from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:37:31.790+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:37:31.790+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T16:37:31.824+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:37:31.823+0000] {dag.py:4180} INFO - Setting next_dagrun for credit_applications_pipeline_v2 to 2026-04-03 00:00:00+00:00, run_after=2026-04-04 00:00:00+00:00
+[2026-04-04T16:37:31.846+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_airflow2.py took 0.123 seconds
+[2026-04-04T16:38:02.118+0000] {processor.py:186} INFO - Started process (PID=22204) to work on /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:38:02.128+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_airflow2.py for tasks to queue
+[2026-04-04T16:38:02.131+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:38:02.130+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:38:02.145+0000] {processor.py:925} INFO - DAG(s) 'credit_applications_pipeline_v2' retrieved from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:38:02.176+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:38:02.175+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T16:38:02.208+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:38:02.208+0000] {dag.py:4180} INFO - Setting next_dagrun for credit_applications_pipeline_v2 to 2026-04-03 00:00:00+00:00, run_after=2026-04-04 00:00:00+00:00
+[2026-04-04T16:38:02.231+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_airflow2.py took 0.125 seconds
+[2026-04-04T16:38:32.319+0000] {processor.py:186} INFO - Started process (PID=22280) to work on /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:38:32.329+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_airflow2.py for tasks to queue
+[2026-04-04T16:38:32.331+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:38:32.330+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:38:32.348+0000] {processor.py:925} INFO - DAG(s) 'credit_applications_pipeline_v2' retrieved from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:38:32.384+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:38:32.384+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T16:38:32.429+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:38:32.429+0000] {dag.py:4180} INFO - Setting next_dagrun for credit_applications_pipeline_v2 to 2026-04-03 00:00:00+00:00, run_after=2026-04-04 00:00:00+00:00
+[2026-04-04T16:38:32.470+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_airflow2.py took 0.161 seconds
+[2026-04-04T16:39:02.692+0000] {processor.py:186} INFO - Started process (PID=22356) to work on /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:39:02.702+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_airflow2.py for tasks to queue
+[2026-04-04T16:39:02.704+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:39:02.703+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:39:02.716+0000] {processor.py:925} INFO - DAG(s) 'credit_applications_pipeline_v2' retrieved from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:39:02.747+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:39:02.746+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T16:39:02.791+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:39:02.791+0000] {dag.py:4180} INFO - Setting next_dagrun for credit_applications_pipeline_v2 to 2026-04-03 00:00:00+00:00, run_after=2026-04-04 00:00:00+00:00
+[2026-04-04T16:39:02.819+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_airflow2.py took 0.135 seconds
+[2026-04-04T16:39:33.135+0000] {processor.py:186} INFO - Started process (PID=22432) to work on /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:39:33.136+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_airflow2.py for tasks to queue
+[2026-04-04T16:39:33.138+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:39:33.137+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:39:33.153+0000] {processor.py:925} INFO - DAG(s) 'credit_applications_pipeline_v2' retrieved from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:39:33.190+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:39:33.190+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T16:39:33.228+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:39:33.228+0000] {dag.py:4180} INFO - Setting next_dagrun for credit_applications_pipeline_v2 to 2026-04-03 00:00:00+00:00, run_after=2026-04-04 00:00:00+00:00
+[2026-04-04T16:39:33.251+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_airflow2.py took 0.124 seconds
+[2026-04-04T16:40:03.519+0000] {processor.py:186} INFO - Started process (PID=22508) to work on /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:40:03.529+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_airflow2.py for tasks to queue
+[2026-04-04T16:40:03.530+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:40:03.530+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:40:03.543+0000] {processor.py:925} INFO - DAG(s) 'credit_applications_pipeline_v2' retrieved from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:40:03.578+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:40:03.578+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T16:40:03.617+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:40:03.617+0000] {dag.py:4180} INFO - Setting next_dagrun for credit_applications_pipeline_v2 to 2026-04-03 00:00:00+00:00, run_after=2026-04-04 00:00:00+00:00
+[2026-04-04T16:40:03.640+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_airflow2.py took 0.129 seconds
+[2026-04-04T16:40:33.965+0000] {processor.py:186} INFO - Started process (PID=22595) to work on /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:40:33.975+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_airflow2.py for tasks to queue
+[2026-04-04T16:40:33.979+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:40:33.978+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:40:33.994+0000] {processor.py:925} INFO - DAG(s) 'credit_applications_pipeline_v2' retrieved from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:40:34.024+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:40:34.024+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T16:40:34.055+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:40:34.054+0000] {dag.py:4180} INFO - Setting next_dagrun for credit_applications_pipeline_v2 to 2026-04-03 00:00:00+00:00, run_after=2026-04-04 00:00:00+00:00
+[2026-04-04T16:40:34.077+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_airflow2.py took 0.122 seconds
+[2026-04-04T16:41:04.293+0000] {processor.py:186} INFO - Started process (PID=22671) to work on /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:41:04.300+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_airflow2.py for tasks to queue
+[2026-04-04T16:41:04.302+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:41:04.302+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:41:04.321+0000] {processor.py:925} INFO - DAG(s) 'credit_applications_pipeline_v2' retrieved from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:41:04.362+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:41:04.362+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T16:41:04.404+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:41:04.403+0000] {dag.py:4180} INFO - Setting next_dagrun for credit_applications_pipeline_v2 to 2026-04-03 00:00:00+00:00, run_after=2026-04-04 00:00:00+00:00
+[2026-04-04T16:41:04.439+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_airflow2.py took 0.154 seconds
+[2026-04-04T16:41:34.903+0000] {processor.py:186} INFO - Started process (PID=22757) to work on /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:41:34.905+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_airflow2.py for tasks to queue
+[2026-04-04T16:41:34.907+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:41:34.907+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:41:34.923+0000] {processor.py:925} INFO - DAG(s) 'credit_applications_pipeline_v2' retrieved from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:41:34.962+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:41:34.962+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T16:41:35.000+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:41:35.000+0000] {dag.py:4180} INFO - Setting next_dagrun for credit_applications_pipeline_v2 to 2026-04-03 00:00:00+00:00, run_after=2026-04-04 00:00:00+00:00
+[2026-04-04T16:41:35.024+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_airflow2.py took 0.129 seconds
+[2026-04-04T16:42:05.947+0000] {processor.py:186} INFO - Started process (PID=22844) to work on /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:42:05.957+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_airflow2.py for tasks to queue
+[2026-04-04T16:42:05.959+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:42:05.959+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:42:05.978+0000] {processor.py:925} INFO - DAG(s) 'credit_applications_pipeline_v2' retrieved from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:42:06.008+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:42:06.007+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T16:42:06.047+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:42:06.047+0000] {dag.py:4180} INFO - Setting next_dagrun for credit_applications_pipeline_v2 to 2026-04-03 00:00:00+00:00, run_after=2026-04-04 00:00:00+00:00
+[2026-04-04T16:42:06.070+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_airflow2.py took 0.133 seconds
+[2026-04-04T16:42:36.283+0000] {processor.py:186} INFO - Started process (PID=22920) to work on /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:42:36.293+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_airflow2.py for tasks to queue
+[2026-04-04T16:42:36.295+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:42:36.294+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:42:36.310+0000] {processor.py:925} INFO - DAG(s) 'credit_applications_pipeline_v2' retrieved from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:42:36.342+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:42:36.341+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T16:42:36.377+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:42:36.376+0000] {dag.py:4180} INFO - Setting next_dagrun for credit_applications_pipeline_v2 to 2026-04-03 00:00:00+00:00, run_after=2026-04-04 00:00:00+00:00
+[2026-04-04T16:42:36.407+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_airflow2.py took 0.137 seconds
+[2026-04-04T16:43:06.626+0000] {processor.py:186} INFO - Started process (PID=22997) to work on /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:43:06.636+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_airflow2.py for tasks to queue
+[2026-04-04T16:43:06.639+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:43:06.638+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:43:06.653+0000] {processor.py:925} INFO - DAG(s) 'credit_applications_pipeline_v2' retrieved from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:43:06.700+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:43:06.700+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T16:43:06.742+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:43:06.741+0000] {dag.py:4180} INFO - Setting next_dagrun for credit_applications_pipeline_v2 to 2026-04-03 00:00:00+00:00, run_after=2026-04-04 00:00:00+00:00
+[2026-04-04T16:43:06.773+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_airflow2.py took 0.154 seconds
+[2026-04-04T16:43:36.921+0000] {processor.py:186} INFO - Started process (PID=23076) to work on /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:43:36.922+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_airflow2.py for tasks to queue
+[2026-04-04T16:43:36.927+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:43:36.925+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:43:36.951+0000] {processor.py:925} INFO - DAG(s) 'credit_applications_pipeline_v2' retrieved from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:43:36.993+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:43:36.993+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T16:43:37.033+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:43:37.033+0000] {dag.py:4180} INFO - Setting next_dagrun for credit_applications_pipeline_v2 to 2026-04-03 00:00:00+00:00, run_after=2026-04-04 00:00:00+00:00
+[2026-04-04T16:43:37.072+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_airflow2.py took 0.159 seconds
+[2026-04-04T16:44:07.346+0000] {processor.py:186} INFO - Started process (PID=23152) to work on /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:44:07.347+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_airflow2.py for tasks to queue
+[2026-04-04T16:44:07.349+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:44:07.348+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:44:07.367+0000] {processor.py:925} INFO - DAG(s) 'credit_applications_pipeline_v2' retrieved from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:44:07.402+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:44:07.402+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T16:44:07.443+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:44:07.443+0000] {dag.py:4180} INFO - Setting next_dagrun for credit_applications_pipeline_v2 to 2026-04-03 00:00:00+00:00, run_after=2026-04-04 00:00:00+00:00
+[2026-04-04T16:44:07.474+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_airflow2.py took 0.140 seconds
+[2026-04-04T16:44:37.738+0000] {processor.py:186} INFO - Started process (PID=23242) to work on /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:44:37.748+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_airflow2.py for tasks to queue
+[2026-04-04T16:44:37.750+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:44:37.749+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:44:37.765+0000] {processor.py:925} INFO - DAG(s) 'credit_applications_pipeline_v2' retrieved from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:44:37.800+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:44:37.800+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T16:44:37.832+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:44:37.832+0000] {dag.py:4180} INFO - Setting next_dagrun for credit_applications_pipeline_v2 to 2026-04-03 00:00:00+00:00, run_after=2026-04-04 00:00:00+00:00
+[2026-04-04T16:44:37.861+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_airflow2.py took 0.134 seconds
+[2026-04-04T16:45:08.195+0000] {processor.py:186} INFO - Started process (PID=23318) to work on /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:45:08.195+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_airflow2.py for tasks to queue
+[2026-04-04T16:45:08.197+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:45:08.196+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:45:08.212+0000] {processor.py:925} INFO - DAG(s) 'credit_applications_pipeline_v2' retrieved from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:45:08.245+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:45:08.245+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T16:45:08.280+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:45:08.280+0000] {dag.py:4180} INFO - Setting next_dagrun for credit_applications_pipeline_v2 to 2026-04-03 00:00:00+00:00, run_after=2026-04-04 00:00:00+00:00
+[2026-04-04T16:45:08.304+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_airflow2.py took 0.116 seconds
+[2026-04-04T16:45:38.583+0000] {processor.py:186} INFO - Started process (PID=23399) to work on /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:45:38.585+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_airflow2.py for tasks to queue
+[2026-04-04T16:45:38.587+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:45:38.587+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:45:38.612+0000] {processor.py:925} INFO - DAG(s) 'credit_applications_pipeline_v2' retrieved from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:45:38.656+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:45:38.655+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T16:45:38.708+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:45:38.708+0000] {dag.py:4180} INFO - Setting next_dagrun for credit_applications_pipeline_v2 to 2026-04-03 00:00:00+00:00, run_after=2026-04-04 00:00:00+00:00
+[2026-04-04T16:45:38.754+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_airflow2.py took 0.183 seconds
+[2026-04-04T16:46:08.861+0000] {processor.py:186} INFO - Started process (PID=23475) to work on /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:46:08.871+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_airflow2.py for tasks to queue
+[2026-04-04T16:46:08.873+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:46:08.872+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:46:08.895+0000] {processor.py:925} INFO - DAG(s) 'credit_applications_pipeline_v2' retrieved from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:46:08.938+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:46:08.938+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T16:46:08.979+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:46:08.979+0000] {dag.py:4180} INFO - Setting next_dagrun for credit_applications_pipeline_v2 to 2026-04-03 00:00:00+00:00, run_after=2026-04-04 00:00:00+00:00
+[2026-04-04T16:46:09.015+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_airflow2.py took 0.167 seconds
+[2026-04-04T16:46:39.392+0000] {processor.py:186} INFO - Started process (PID=23567) to work on /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:46:39.402+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_airflow2.py for tasks to queue
+[2026-04-04T16:46:39.404+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:46:39.404+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:46:39.419+0000] {processor.py:925} INFO - DAG(s) 'credit_applications_pipeline_v2' retrieved from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:46:39.454+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:46:39.454+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T16:46:39.486+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:46:39.486+0000] {dag.py:4180} INFO - Setting next_dagrun for credit_applications_pipeline_v2 to 2026-04-03 00:00:00+00:00, run_after=2026-04-04 00:00:00+00:00
+[2026-04-04T16:46:39.508+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_airflow2.py took 0.125 seconds
+[2026-04-04T16:47:09.932+0000] {processor.py:186} INFO - Started process (PID=23648) to work on /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:47:09.942+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_airflow2.py for tasks to queue
+[2026-04-04T16:47:09.943+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:47:09.943+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:47:09.956+0000] {processor.py:925} INFO - DAG(s) 'credit_applications_pipeline_v2' retrieved from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:47:09.987+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:47:09.986+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T16:47:10.020+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:47:10.020+0000] {dag.py:4180} INFO - Setting next_dagrun for credit_applications_pipeline_v2 to 2026-04-03 00:00:00+00:00, run_after=2026-04-04 00:00:00+00:00
+[2026-04-04T16:47:10.043+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_airflow2.py took 0.122 seconds
+[2026-04-04T16:47:40.477+0000] {processor.py:186} INFO - Started process (PID=23729) to work on /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:47:40.487+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_airflow2.py for tasks to queue
+[2026-04-04T16:47:40.489+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:47:40.489+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:47:40.506+0000] {processor.py:925} INFO - DAG(s) 'credit_applications_pipeline_v2' retrieved from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:47:40.540+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:47:40.540+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T16:47:40.579+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:47:40.579+0000] {dag.py:4180} INFO - Setting next_dagrun for credit_applications_pipeline_v2 to 2026-04-03 00:00:00+00:00, run_after=2026-04-04 00:00:00+00:00
+[2026-04-04T16:47:40.605+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_airflow2.py took 0.138 seconds
+[2026-04-04T16:48:10.905+0000] {processor.py:186} INFO - Started process (PID=23805) to work on /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:48:10.915+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_airflow2.py for tasks to queue
+[2026-04-04T16:48:10.917+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:48:10.917+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:48:10.934+0000] {processor.py:925} INFO - DAG(s) 'credit_applications_pipeline_v2' retrieved from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:48:10.966+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:48:10.966+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T16:48:10.997+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:48:10.997+0000] {dag.py:4180} INFO - Setting next_dagrun for credit_applications_pipeline_v2 to 2026-04-03 00:00:00+00:00, run_after=2026-04-04 00:00:00+00:00
+[2026-04-04T16:48:11.023+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_airflow2.py took 0.125 seconds
+[2026-04-04T16:48:41.203+0000] {processor.py:186} INFO - Started process (PID=23882) to work on /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:48:41.204+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_airflow2.py for tasks to queue
+[2026-04-04T16:48:41.218+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:48:41.218+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:48:41.240+0000] {processor.py:925} INFO - DAG(s) 'credit_applications_pipeline_v2' retrieved from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:48:41.278+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:48:41.277+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T16:48:41.322+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:48:41.321+0000] {dag.py:4180} INFO - Setting next_dagrun for credit_applications_pipeline_v2 to 2026-04-03 00:00:00+00:00, run_after=2026-04-04 00:00:00+00:00
+[2026-04-04T16:48:41.350+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_airflow2.py took 0.156 seconds
+[2026-04-04T16:49:11.494+0000] {processor.py:186} INFO - Started process (PID=23958) to work on /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:49:11.500+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_airflow2.py for tasks to queue
+[2026-04-04T16:49:11.502+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:49:11.501+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:49:11.518+0000] {processor.py:925} INFO - DAG(s) 'credit_applications_pipeline_v2' retrieved from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:49:11.558+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:49:11.557+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T16:49:11.597+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:49:11.597+0000] {dag.py:4180} INFO - Setting next_dagrun for credit_applications_pipeline_v2 to 2026-04-03 00:00:00+00:00, run_after=2026-04-04 00:00:00+00:00
+[2026-04-04T16:49:11.637+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_airflow2.py took 0.151 seconds
+[2026-04-04T16:49:41.882+0000] {processor.py:186} INFO - Started process (PID=24057) to work on /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:49:41.892+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_airflow2.py for tasks to queue
+[2026-04-04T16:49:41.893+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:49:41.893+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:49:41.906+0000] {processor.py:925} INFO - DAG(s) 'credit_applications_pipeline_v2' retrieved from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:49:41.941+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:49:41.941+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T16:49:41.977+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:49:41.977+0000] {dag.py:4180} INFO - Setting next_dagrun for credit_applications_pipeline_v2 to 2026-04-03 00:00:00+00:00, run_after=2026-04-04 00:00:00+00:00
+[2026-04-04T16:49:42.000+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_airflow2.py took 0.127 seconds
+[2026-04-04T16:50:12.222+0000] {processor.py:186} INFO - Started process (PID=24133) to work on /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:50:12.232+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_airflow2.py for tasks to queue
+[2026-04-04T16:50:12.234+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:50:12.233+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:50:12.246+0000] {processor.py:925} INFO - DAG(s) 'credit_applications_pipeline_v2' retrieved from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:50:12.279+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:50:12.278+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T16:50:12.310+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:50:12.310+0000] {dag.py:4180} INFO - Setting next_dagrun for credit_applications_pipeline_v2 to 2026-04-03 00:00:00+00:00, run_after=2026-04-04 00:00:00+00:00
+[2026-04-04T16:50:12.332+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_airflow2.py took 0.121 seconds
+[2026-04-04T16:50:42.507+0000] {processor.py:186} INFO - Started process (PID=24209) to work on /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:50:42.517+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_airflow2.py for tasks to queue
+[2026-04-04T16:50:42.519+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:50:42.518+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:50:42.532+0000] {processor.py:925} INFO - DAG(s) 'credit_applications_pipeline_v2' retrieved from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:50:42.569+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:50:42.569+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T16:50:42.606+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:50:42.606+0000] {dag.py:4180} INFO - Setting next_dagrun for credit_applications_pipeline_v2 to 2026-04-03 00:00:00+00:00, run_after=2026-04-04 00:00:00+00:00
+[2026-04-04T16:50:42.629+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_airflow2.py took 0.134 seconds
+[2026-04-04T16:51:12.898+0000] {processor.py:186} INFO - Started process (PID=24290) to work on /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:51:12.899+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_airflow2.py for tasks to queue
+[2026-04-04T16:51:12.901+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:51:12.901+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:51:12.921+0000] {processor.py:925} INFO - DAG(s) 'credit_applications_pipeline_v2' retrieved from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:51:12.957+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:51:12.956+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T16:51:12.993+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:51:12.993+0000] {dag.py:4180} INFO - Setting next_dagrun for credit_applications_pipeline_v2 to 2026-04-03 00:00:00+00:00, run_after=2026-04-04 00:00:00+00:00
+[2026-04-04T16:51:13.021+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_airflow2.py took 0.132 seconds
+[2026-04-04T16:51:43.417+0000] {processor.py:186} INFO - Started process (PID=24561) to work on /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:51:43.447+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_airflow2.py for tasks to queue
+[2026-04-04T16:51:43.449+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:51:43.448+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:51:43.466+0000] {processor.py:925} INFO - DAG(s) 'credit_applications_pipeline_v2' retrieved from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:51:43.501+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:51:43.500+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T16:51:43.537+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:51:43.536+0000] {dag.py:4180} INFO - Setting next_dagrun for credit_applications_pipeline_v2 to 2026-04-03 00:00:00+00:00, run_after=2026-04-04 00:00:00+00:00
+[2026-04-04T16:51:43.560+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_airflow2.py took 0.152 seconds
+[2026-04-04T16:52:13.816+0000] {processor.py:186} INFO - Started process (PID=24637) to work on /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:52:13.826+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_airflow2.py for tasks to queue
+[2026-04-04T16:52:13.827+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:52:13.827+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:52:13.840+0000] {processor.py:925} INFO - DAG(s) 'credit_applications_pipeline_v2' retrieved from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:52:13.872+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:52:13.872+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T16:52:13.907+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:52:13.907+0000] {dag.py:4180} INFO - Setting next_dagrun for credit_applications_pipeline_v2 to 2026-04-03 00:00:00+00:00, run_after=2026-04-04 00:00:00+00:00
+[2026-04-04T16:52:13.934+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_airflow2.py took 0.130 seconds
+[2026-04-04T16:52:44.161+0000] {processor.py:186} INFO - Started process (PID=24713) to work on /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:52:44.166+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_airflow2.py for tasks to queue
+[2026-04-04T16:52:44.168+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:52:44.167+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:52:44.182+0000] {processor.py:925} INFO - DAG(s) 'credit_applications_pipeline_v2' retrieved from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:52:44.213+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:52:44.213+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T16:52:44.243+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:52:44.243+0000] {dag.py:4180} INFO - Setting next_dagrun for credit_applications_pipeline_v2 to 2026-04-03 00:00:00+00:00, run_after=2026-04-04 00:00:00+00:00
+[2026-04-04T16:52:44.264+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_airflow2.py took 0.115 seconds
+[2026-04-04T16:53:14.552+0000] {processor.py:186} INFO - Started process (PID=24795) to work on /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:53:14.562+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_airflow2.py for tasks to queue
+[2026-04-04T16:53:14.564+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:53:14.563+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:53:14.581+0000] {processor.py:925} INFO - DAG(s) 'credit_applications_pipeline_v2' retrieved from /opt/airflow/dags/final_airflow2.py
+[2026-04-04T16:53:14.627+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:53:14.627+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-04T16:53:14.675+0000] {logging_mixin.py:190} INFO - [2026-04-04T16:53:14.675+0000] {dag.py:4180} INFO - Setting next_dagrun for credit_applications_pipeline_v2 to 2026-04-03 00:00:00+00:00, run_after=2026-04-04 00:00:00+00:00
+[2026-04-04T16:53:14.714+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_airflow2.py took 0.172 seconds

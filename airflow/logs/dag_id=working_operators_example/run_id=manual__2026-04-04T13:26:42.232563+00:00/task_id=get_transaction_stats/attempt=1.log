@@ -1,0 +1,31 @@
+[2026-04-04T13:26:47.407+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-04-04T13:26:47.449+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: working_operators_example.get_transaction_stats manual__2026-04-04T13:26:42.232563+00:00 [queued]>
+[2026-04-04T13:26:47.466+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: working_operators_example.get_transaction_stats manual__2026-04-04T13:26:42.232563+00:00 [queued]>
+[2026-04-04T13:26:47.467+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2026-04-04T13:26:47.494+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): get_transaction_stats> on 2026-04-04 13:26:42.232563+00:00
+[2026-04-04T13:26:47.510+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'working_operators_example', 'get_transaction_stats', 'manual__2026-04-04T13:26:42.232563+00:00', '--job-id', '24', '--raw', '--subdir', 'DAGS_FOLDER/operators_example.py', '--cfg-path', '/tmp/tmp00__a0h0']
+[2026-04-04T13:26:47.513+0000] {standard_task_runner.py:105} INFO - Job 24: Subtask get_transaction_stats
+[2026-04-04T13:26:47.514+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=1431) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-04-04T13:26:47.515+0000] {standard_task_runner.py:72} INFO - Started process 1434 to run task
+[2026-04-04T13:26:47.584+0000] {task_command.py:467} INFO - Running <TaskInstance: working_operators_example.get_transaction_stats manual__2026-04-04T13:26:42.232563+00:00 [running]> on host da731042e3a5
+[2026-04-04T13:26:47.724+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='nurgun' AIRFLOW_CTX_DAG_ID='working_operators_example' AIRFLOW_CTX_TASK_ID='get_transaction_stats' AIRFLOW_CTX_EXECUTION_DATE='2026-04-04T13:26:42.232563+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-04T13:26:42.232563+00:00'
+[2026-04-04T13:26:47.726+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2026-04-04T13:26:47.783+0000] {base.py:84} INFO - Retrieving connection 'pg_baza'
+[2026-04-04T13:26:47.793+0000] {sql.py:511} INFO - Running statement: SELECT COUNT(*) FROM transactions, parameters: None
+[2026-04-04T13:26:47.795+0000] {sql.py:520} INFO - Rows affected: 1
+[2026-04-04T13:26:47.804+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/providers/common/sql/hooks/sql.py:470 DeprecationWarning: Import of fetch_one_handler from the '***.providers.common.sql.hooks' module is deprecated and will
+be removed in the future. Please import it from '***.providers.common.sql.hooks.handlers'.
+[2026-04-04T13:26:47.806+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/providers/common/sql/hooks/sql.py:471 DeprecationWarning: Import of return_single_query_results from the '***.providers.common.sql.hooks' module is deprecated and will
+be removed in the future. Please import it from '***.providers.common.sql.hooks.handlers'.
+[2026-04-04T13:26:47.809+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/providers/common/sql/hooks/sql.py:486 DeprecationWarning: Import of return_single_query_results from the '***.providers.common.sql.hooks' module is deprecated and will
+be removed in the future. Please import it from '***.providers.common.sql.hooks.handlers'.
+[2026-04-04T13:26:47.818+0000] {sql.py:511} INFO - Running statement: SELECT COALESCE(SUM(amount), 0) FROM transactions WHERE status = 'SUCCESS', parameters: None
+[2026-04-04T13:26:47.822+0000] {sql.py:520} INFO - Rows affected: 1
+[2026-04-04T13:26:47.823+0000] {logging_mixin.py:190} INFO - Sətir sayı: 10
+[2026-04-04T13:26:47.823+0000] {logging_mixin.py:190} INFO - Uğurlu tranzaksiyaların cəmi: 3156.50 AZN
+[2026-04-04T13:26:47.869+0000] {python.py:240} INFO - Done. Returned value was: None
+[2026-04-04T13:26:47.886+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-04-04T13:26:47.887+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=working_operators_example, task_id=get_transaction_stats, run_id=manual__2026-04-04T13:26:42.232563+00:00, execution_date=20260404T132642, start_date=20260404T132647, end_date=20260404T132647
+[2026-04-04T13:26:47.970+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-04-04T13:26:48.018+0000] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-04-04T13:26:48.019+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

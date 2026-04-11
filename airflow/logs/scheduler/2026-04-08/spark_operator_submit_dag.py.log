@@ -1,0 +1,14 @@
+[2026-04-08T04:07:28.765+0000] {processor.py:186} INFO - Started process (PID=19893) to work on /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-08T04:07:28.766+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spark_operator_submit_dag.py for tasks to queue
+[2026-04-08T04:07:28.777+0000] {logging_mixin.py:190} INFO - [2026-04-08T04:07:28.776+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-08T04:07:28.824+0000] {processor.py:925} INFO - DAG(s) 'spark_operator_submit' retrieved from /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-08T04:07:28.855+0000] {logging_mixin.py:190} INFO - [2026-04-08T04:07:28.854+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-08T04:07:28.891+0000] {logging_mixin.py:190} INFO - [2026-04-08T04:07:28.890+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_operator_submit to None, run_after=None
+[2026-04-08T04:07:28.930+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spark_operator_submit_dag.py took 0.180 seconds
+[2026-04-08T04:35:47.620+0000] {processor.py:186} INFO - Started process (PID=19970) to work on /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-08T04:35:47.621+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spark_operator_submit_dag.py for tasks to queue
+[2026-04-08T04:35:47.626+0000] {logging_mixin.py:190} INFO - [2026-04-08T04:35:47.625+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-08T04:35:47.666+0000] {processor.py:925} INFO - DAG(s) 'spark_operator_submit' retrieved from /opt/airflow/dags/spark_operator_submit_dag.py
+[2026-04-08T04:35:47.697+0000] {logging_mixin.py:190} INFO - [2026-04-08T04:35:47.696+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-08T04:35:47.726+0000] {logging_mixin.py:190} INFO - [2026-04-08T04:35:47.725+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_operator_submit to None, run_after=None
+[2026-04-08T04:35:47.758+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spark_operator_submit_dag.py took 0.153 seconds

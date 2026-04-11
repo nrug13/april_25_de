@@ -1,0 +1,60 @@
+[2026-04-04T13:26:44.622+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-04-04T13:26:44.663+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: working_operators_example.seed_postgres_data manual__2026-04-04T13:26:42.232563+00:00 [queued]>
+[2026-04-04T13:26:44.685+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: working_operators_example.seed_postgres_data manual__2026-04-04T13:26:42.232563+00:00 [queued]>
+[2026-04-04T13:26:44.686+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2026-04-04T13:26:44.710+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): seed_postgres_data> on 2026-04-04 13:26:42.232563+00:00
+[2026-04-04T13:26:44.727+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'working_operators_example', 'seed_postgres_data', 'manual__2026-04-04T13:26:42.232563+00:00', '--job-id', '22', '--raw', '--subdir', 'DAGS_FOLDER/operators_example.py', '--cfg-path', '/tmp/tmp8kjf_uxk']
+[2026-04-04T13:26:44.730+0000] {standard_task_runner.py:105} INFO - Job 22: Subtask seed_postgres_data
+[2026-04-04T13:26:44.733+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=1382) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-04-04T13:26:44.734+0000] {standard_task_runner.py:72} INFO - Started process 1383 to run task
+[2026-04-04T13:26:44.808+0000] {task_command.py:467} INFO - Running <TaskInstance: working_operators_example.seed_postgres_data manual__2026-04-04T13:26:42.232563+00:00 [running]> on host da731042e3a5
+[2026-04-04T13:26:44.968+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='nurgun' AIRFLOW_CTX_DAG_ID='working_operators_example' AIRFLOW_CTX_TASK_ID='seed_postgres_data' AIRFLOW_CTX_EXECUTION_DATE='2026-04-04T13:26:42.232563+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-04T13:26:42.232563+00:00'
+[2026-04-04T13:26:44.969+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2026-04-04T13:26:45.007+0000] {base.py:84} INFO - Retrieving connection 'pg_baza'
+[2026-04-04T13:26:45.017+0000] {sql.py:511} INFO - Running statement: 
+        CREATE TABLE IF NOT EXISTS transactions (
+            id              SERIAL PRIMARY KEY,
+            card_number     VARCHAR(20),
+            amount          NUMERIC(10,2),
+            currency        VARCHAR(3),
+            merchant_name   VARCHAR(100),
+            merchant_city   VARCHAR(50),
+            channel         VARCHAR(10),
+            status          VARCHAR(20),
+            transaction_date DATE DEFAULT CURRENT_DATE
+        )
+    , parameters: None
+[2026-04-04T13:26:45.045+0000] {sql.py:511} INFO - Running statement: SELECT COUNT(*) FROM transactions, parameters: None
+[2026-04-04T13:26:45.048+0000] {sql.py:520} INFO - Rows affected: 1
+[2026-04-04T13:26:45.055+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/providers/common/sql/hooks/sql.py:470 DeprecationWarning: Import of fetch_one_handler from the '***.providers.common.sql.hooks' module is deprecated and will
+be removed in the future. Please import it from '***.providers.common.sql.hooks.handlers'.
+[2026-04-04T13:26:45.059+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/providers/common/sql/hooks/sql.py:471 DeprecationWarning: Import of return_single_query_results from the '***.providers.common.sql.hooks' module is deprecated and will
+be removed in the future. Please import it from '***.providers.common.sql.hooks.handlers'.
+[2026-04-04T13:26:45.061+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/providers/common/sql/hooks/sql.py:486 DeprecationWarning: Import of return_single_query_results from the '***.providers.common.sql.hooks' module is deprecated and will
+be removed in the future. Please import it from '***.providers.common.sql.hooks.handlers'.
+[2026-04-04T13:26:45.070+0000] {sql.py:511} INFO - Running statement: 
+            INSERT INTO transactions
+                (card_number, amount, currency, merchant_name, merchant_city, channel, status)
+            VALUES
+                ('4000****1111', 250.00, 'AZN', 'Bravo',       'Baku',      'POS',  'SUCCESS'),
+                ('4000****2222', 130.50, 'USD', 'Amazon',      'Baku',      'ECOM', 'SUCCESS'),
+                ('4000****3333', 450.00, 'AZN', 'Bolt',        'Ganja',     'ATM',  'SUCCESS'),
+                ('4000****4444',  80.00, 'EUR', 'McDonalds',   'Sumqayit',  'POS',  'SUCCESS'),
+                ('4000****5555', 920.75, 'AZN', 'LC Waikiki',  'Baku',      'ECOM', 'SUCCESS'),
+                ('4000****6666', 310.00, 'AZN', 'Araz',        'Ganja',     'POS',  'FAILED'),
+                ('4000****7777', 175.25, 'USD', 'Kontakt Home','Baku',      'POS',  'SUCCESS'),
+                ('4000****8888', 640.00, 'AZN', 'Zara',        'Lankaran',  'ECOM', 'SUCCESS'),
+                ('4000****9999', 290.00, 'AZN', 'Uber',        'Sumqayit',  'ATM',  'REVERSED'),
+                ('4000****0000', 510.00, 'EUR', 'Bravo',       'Baku',      'POS',  'SUCCESS')
+        , parameters: None
+[2026-04-04T13:26:45.072+0000] {sql.py:520} INFO - Rows affected: 10
+[2026-04-04T13:26:45.076+0000] {logging_mixin.py:190} INFO - 10 sətir əlavə edildi.
+[2026-04-04T13:26:45.086+0000] {sql.py:511} INFO - Running statement: SELECT COUNT(*) FROM transactions, parameters: None
+[2026-04-04T13:26:45.088+0000] {sql.py:520} INFO - Rows affected: 1
+[2026-04-04T13:26:45.109+0000] {logging_mixin.py:190} INFO - Cədvəldə cəmi 10 sətir var.
+[2026-04-04T13:26:45.109+0000] {python.py:240} INFO - Done. Returned value was: None
+[2026-04-04T13:26:45.125+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-04-04T13:26:45.126+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=working_operators_example, task_id=seed_postgres_data, run_id=manual__2026-04-04T13:26:42.232563+00:00, execution_date=20260404T132642, start_date=20260404T132644, end_date=20260404T132645
+[2026-04-04T13:26:45.191+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-04-04T13:26:45.246+0000] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-04-04T13:26:45.248+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

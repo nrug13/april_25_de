@@ -1,0 +1,24 @@
+[2026-04-04T13:20:08.815+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-04-04T13:20:08.844+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: butun_operatorlar_numunesi.bash_numunesi manual__2026-04-04T13:20:02.088386+00:00 [queued]>
+[2026-04-04T13:20:08.858+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: butun_operatorlar_numunesi.bash_numunesi manual__2026-04-04T13:20:02.088386+00:00 [queued]>
+[2026-04-04T13:20:08.858+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 3
+[2026-04-04T13:20:08.877+0000] {taskinstance.py:2890} INFO - Executing <Task(BashOperator): bash_numunesi> on 2026-04-04 13:20:02.088386+00:00
+[2026-04-04T13:20:08.892+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'butun_operatorlar_numunesi', 'bash_numunesi', 'manual__2026-04-04T13:20:02.088386+00:00', '--job-id', '19', '--raw', '--subdir', 'DAGS_FOLDER/operators_example.py', '--cfg-path', '/tmp/tmpabg6nzmn']
+[2026-04-04T13:20:08.895+0000] {standard_task_runner.py:105} INFO - Job 19: Subtask bash_numunesi
+[2026-04-04T13:20:08.898+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=599) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-04-04T13:20:08.898+0000] {standard_task_runner.py:72} INFO - Started process 600 to run task
+[2026-04-04T13:20:08.976+0000] {task_command.py:467} INFO - Running <TaskInstance: butun_operatorlar_numunesi.bash_numunesi manual__2026-04-04T13:20:02.088386+00:00 [running]> on host da731042e3a5
+[2026-04-04T13:20:09.116+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='nurgun' AIRFLOW_CTX_DAG_ID='butun_operatorlar_numunesi' AIRFLOW_CTX_TASK_ID='bash_numunesi' AIRFLOW_CTX_EXECUTION_DATE='2026-04-04T13:20:02.088386+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-04T13:20:02.088386+00:00'
+[2026-04-04T13:20:09.117+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2026-04-04T13:20:09.134+0000] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2026-04-04T13:20:09.135+0000] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', '\n            echo "Bash operatoru işləyir"\n            echo "Bugünkü tarix: $(date)"\n            echo "İş qovluğu: $(pwd)"\n        ']
+[2026-04-04T13:20:09.160+0000] {subprocess.py:99} INFO - Output:
+[2026-04-04T13:20:09.163+0000] {subprocess.py:106} INFO - Bash operatoru işləyir
+[2026-04-04T13:20:09.169+0000] {subprocess.py:106} INFO - Bugünkü tarix: Sat Apr  4 13:20:09 UTC 2026
+[2026-04-04T13:20:09.170+0000] {subprocess.py:106} INFO - İş qovluğu: /tmp/***tmp_whogwoq
+[2026-04-04T13:20:09.171+0000] {subprocess.py:110} INFO - Command exited with return code 0
+[2026-04-04T13:20:09.211+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-04-04T13:20:09.211+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=butun_operatorlar_numunesi, task_id=bash_numunesi, run_id=manual__2026-04-04T13:20:02.088386+00:00, execution_date=20260404T132002, start_date=20260404T132008, end_date=20260404T132009
+[2026-04-04T13:20:09.274+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-04-04T13:20:09.326+0000] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-04-04T13:20:09.328+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

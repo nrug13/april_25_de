@@ -1,0 +1,24 @@
+[2026-04-04T16:37:15.142+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-04-04T16:37:15.174+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: credit_applications_pipeline.checks.check_blacklist_file manual__2026-04-04T16:37:13.182340+00:00 [queued]>
+[2026-04-04T16:37:15.190+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: credit_applications_pipeline.checks.check_blacklist_file manual__2026-04-04T16:37:13.182340+00:00 [queued]>
+[2026-04-04T16:37:15.191+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2026-04-04T16:37:15.219+0000] {taskinstance.py:2890} INFO - Executing <Task(FileSensor): checks.check_blacklist_file> on 2026-04-04 16:37:13.182340+00:00
+[2026-04-04T16:37:15.236+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'credit_applications_pipeline', 'checks.check_blacklist_file', 'manual__2026-04-04T16:37:13.182340+00:00', '--job-id', '43', '--raw', '--subdir', 'DAGS_FOLDER/final_***.py', '--cfg-path', '/tmp/tmpdlbmeals']
+[2026-04-04T16:37:15.240+0000] {standard_task_runner.py:105} INFO - Job 43: Subtask checks.check_blacklist_file
+[2026-04-04T16:37:15.249+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=22097) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-04-04T16:37:15.250+0000] {standard_task_runner.py:72} INFO - Started process 22103 to run task
+[2026-04-04T16:37:15.317+0000] {task_command.py:467} INFO - Running <TaskInstance: credit_applications_pipeline.checks.check_blacklist_file manual__2026-04-04T16:37:13.182340+00:00 [running]> on host da731042e3a5
+[2026-04-04T16:37:15.440+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='credit_applications_pipeline' AIRFLOW_CTX_TASK_ID='checks.check_blacklist_file' AIRFLOW_CTX_EXECUTION_DATE='2026-04-04T16:37:13.182340+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-04T16:37:13.182340+00:00'
+[2026-04-04T16:37:15.440+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2026-04-04T16:37:15.458+0000] {baseoperator.py:423} WARNING - FileSensor.execute cannot be called outside TaskInstance!
+[2026-04-04T16:37:15.472+0000] {base.py:84} INFO - Retrieving connection 'fs_default'
+[2026-04-04T16:37:15.473+0000] {filesystem.py:109} INFO - Poking for file /opt/***/files/blacklist_customers.xlsx
+[2026-04-04T16:37:15.473+0000] {filesystem.py:113} INFO - Found File /opt/***/files/blacklist_customers.xlsx last modified: 20260404155509
+[2026-04-04T16:37:15.474+0000] {base.py:339} INFO - Success criteria met. Exiting.
+[2026-04-04T16:37:15.474+0000] {filesystem.py:109} INFO - Poking for file /opt/***/files/blacklist_customers.xlsx
+[2026-04-04T16:37:15.474+0000] {filesystem.py:113} INFO - Found File /opt/***/files/blacklist_customers.xlsx last modified: 20260404155509
+[2026-04-04T16:37:15.491+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-04-04T16:37:15.491+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=credit_applications_pipeline, task_id=checks.check_blacklist_file, run_id=manual__2026-04-04T16:37:13.182340+00:00, execution_date=20260404T163713, start_date=20260404T163715, end_date=20260404T163715
+[2026-04-04T16:37:15.549+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-04-04T16:37:15.606+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-04-04T16:37:15.608+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

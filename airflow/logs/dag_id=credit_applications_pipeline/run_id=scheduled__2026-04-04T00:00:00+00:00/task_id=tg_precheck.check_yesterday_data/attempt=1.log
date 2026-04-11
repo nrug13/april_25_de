@@ -1,0 +1,166 @@
+[2026-04-07T14:49:36.375+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-04-07T14:49:36.433+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: credit_applications_pipeline.tg_precheck.check_yesterday_data scheduled__2026-04-04T00:00:00+00:00 [queued]>
+[2026-04-07T14:49:36.455+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: credit_applications_pipeline.tg_precheck.check_yesterday_data scheduled__2026-04-04T00:00:00+00:00 [queued]>
+[2026-04-07T14:49:36.456+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2026-04-07T14:49:36.483+0000] {taskinstance.py:2890} INFO - Executing <Task(SqlSensor): tg_precheck.check_yesterday_data> on 2026-04-04 00:00:00+00:00
+[2026-04-07T14:49:36.506+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'credit_applications_pipeline', 'tg_precheck.check_yesterday_data', 'scheduled__2026-04-04T00:00:00+00:00', '--job-id', '70', '--raw', '--subdir', 'DAGS_FOLDER/final_***.py', '--cfg-path', '/tmp/tmp75096r1x']
+[2026-04-07T14:49:36.510+0000] {standard_task_runner.py:105} INFO - Job 70: Subtask tg_precheck.check_yesterday_data
+[2026-04-07T14:49:36.515+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=252) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-04-07T14:49:36.516+0000] {standard_task_runner.py:72} INFO - Started process 263 to run task
+[2026-04-07T14:49:36.608+0000] {task_command.py:467} INFO - Running <TaskInstance: credit_applications_pipeline.tg_precheck.check_yesterday_data scheduled__2026-04-04T00:00:00+00:00 [running]> on host da731042e3a5
+[2026-04-07T14:49:36.825+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='credit_applications_pipeline' AIRFLOW_CTX_TASK_ID='tg_precheck.check_yesterday_data' AIRFLOW_CTX_EXECUTION_DATE='2026-04-04T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-04-04T00:00:00+00:00'
+[2026-04-07T14:49:36.827+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2026-04-07T14:49:36.903+0000] {base.py:84} INFO - Retrieving connection 'pg_baza'
+[2026-04-07T14:49:36.911+0000] {sql.py:102} INFO - Poking: 
+                SELECT COUNT(*)
+                FROM credit_applications
+                WHERE application_date = '2026-04-04'
+             (with parameters None)
+[2026-04-07T14:49:36.938+0000] {base.py:84} INFO - Retrieving connection 'pg_baza'
+[2026-04-07T14:49:36.971+0000] {sql.py:511} INFO - Running statement: 
+                SELECT COUNT(*)
+                FROM credit_applications
+                WHERE application_date = '2026-04-04'
+            , parameters: None
+[2026-04-07T14:49:36.989+0000] {sql.py:520} INFO - Rows affected: 1
+[2026-04-07T14:49:37.002+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/providers/common/sql/hooks/sql.py:470 DeprecationWarning: Import of fetch_all_handler from the '***.providers.common.sql.hooks' module is deprecated and will
+be removed in the future. Please import it from '***.providers.common.sql.hooks.handlers'.
+[2026-04-07T14:49:37.006+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/providers/common/sql/hooks/sql.py:471 DeprecationWarning: Import of return_single_query_results from the '***.providers.common.sql.hooks' module is deprecated and will
+be removed in the future. Please import it from '***.providers.common.sql.hooks.handlers'.
+[2026-04-07T14:49:37.014+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/providers/common/sql/hooks/sql.py:486 DeprecationWarning: Import of return_single_query_results from the '***.providers.common.sql.hooks' module is deprecated and will
+be removed in the future. Please import it from '***.providers.common.sql.hooks.handlers'.
+[2026-04-07T14:50:07.031+0000] {base.py:84} INFO - Retrieving connection 'pg_baza'
+[2026-04-07T14:50:07.032+0000] {sql.py:102} INFO - Poking: 
+                SELECT COUNT(*)
+                FROM credit_applications
+                WHERE application_date = '2026-04-04'
+             (with parameters None)
+[2026-04-07T14:50:07.049+0000] {base.py:84} INFO - Retrieving connection 'pg_baza'
+[2026-04-07T14:50:07.061+0000] {sql.py:511} INFO - Running statement: 
+                SELECT COUNT(*)
+                FROM credit_applications
+                WHERE application_date = '2026-04-04'
+            , parameters: None
+[2026-04-07T14:50:07.063+0000] {sql.py:520} INFO - Rows affected: 1
+[2026-04-07T14:50:37.082+0000] {base.py:84} INFO - Retrieving connection 'pg_baza'
+[2026-04-07T14:50:37.083+0000] {sql.py:102} INFO - Poking: 
+                SELECT COUNT(*)
+                FROM credit_applications
+                WHERE application_date = '2026-04-04'
+             (with parameters None)
+[2026-04-07T14:50:37.099+0000] {base.py:84} INFO - Retrieving connection 'pg_baza'
+[2026-04-07T14:50:37.110+0000] {sql.py:511} INFO - Running statement: 
+                SELECT COUNT(*)
+                FROM credit_applications
+                WHERE application_date = '2026-04-04'
+            , parameters: None
+[2026-04-07T14:50:37.113+0000] {sql.py:520} INFO - Rows affected: 1
+[2026-04-07T14:51:07.124+0000] {base.py:84} INFO - Retrieving connection 'pg_baza'
+[2026-04-07T14:51:07.124+0000] {sql.py:102} INFO - Poking: 
+                SELECT COUNT(*)
+                FROM credit_applications
+                WHERE application_date = '2026-04-04'
+             (with parameters None)
+[2026-04-07T14:51:07.137+0000] {base.py:84} INFO - Retrieving connection 'pg_baza'
+[2026-04-07T14:51:07.147+0000] {sql.py:511} INFO - Running statement: 
+                SELECT COUNT(*)
+                FROM credit_applications
+                WHERE application_date = '2026-04-04'
+            , parameters: None
+[2026-04-07T14:51:07.149+0000] {sql.py:520} INFO - Rows affected: 1
+[2026-04-07T14:51:37.162+0000] {base.py:84} INFO - Retrieving connection 'pg_baza'
+[2026-04-07T14:51:37.163+0000] {sql.py:102} INFO - Poking: 
+                SELECT COUNT(*)
+                FROM credit_applications
+                WHERE application_date = '2026-04-04'
+             (with parameters None)
+[2026-04-07T14:51:37.175+0000] {base.py:84} INFO - Retrieving connection 'pg_baza'
+[2026-04-07T14:51:37.185+0000] {sql.py:511} INFO - Running statement: 
+                SELECT COUNT(*)
+                FROM credit_applications
+                WHERE application_date = '2026-04-04'
+            , parameters: None
+[2026-04-07T14:51:37.186+0000] {sql.py:520} INFO - Rows affected: 1
+[2026-04-07T14:52:07.202+0000] {base.py:84} INFO - Retrieving connection 'pg_baza'
+[2026-04-07T14:52:07.203+0000] {sql.py:102} INFO - Poking: 
+                SELECT COUNT(*)
+                FROM credit_applications
+                WHERE application_date = '2026-04-04'
+             (with parameters None)
+[2026-04-07T14:52:07.215+0000] {base.py:84} INFO - Retrieving connection 'pg_baza'
+[2026-04-07T14:52:07.224+0000] {sql.py:511} INFO - Running statement: 
+                SELECT COUNT(*)
+                FROM credit_applications
+                WHERE application_date = '2026-04-04'
+            , parameters: None
+[2026-04-07T14:52:07.226+0000] {sql.py:520} INFO - Rows affected: 1
+[2026-04-07T14:52:37.239+0000] {base.py:84} INFO - Retrieving connection 'pg_baza'
+[2026-04-07T14:52:37.240+0000] {sql.py:102} INFO - Poking: 
+                SELECT COUNT(*)
+                FROM credit_applications
+                WHERE application_date = '2026-04-04'
+             (with parameters None)
+[2026-04-07T14:52:37.253+0000] {base.py:84} INFO - Retrieving connection 'pg_baza'
+[2026-04-07T14:52:37.265+0000] {sql.py:511} INFO - Running statement: 
+                SELECT COUNT(*)
+                FROM credit_applications
+                WHERE application_date = '2026-04-04'
+            , parameters: None
+[2026-04-07T14:52:37.268+0000] {sql.py:520} INFO - Rows affected: 1
+[2026-04-07T14:53:07.287+0000] {base.py:84} INFO - Retrieving connection 'pg_baza'
+[2026-04-07T14:53:07.288+0000] {sql.py:102} INFO - Poking: 
+                SELECT COUNT(*)
+                FROM credit_applications
+                WHERE application_date = '2026-04-04'
+             (with parameters None)
+[2026-04-07T14:53:07.308+0000] {base.py:84} INFO - Retrieving connection 'pg_baza'
+[2026-04-07T14:53:07.321+0000] {sql.py:511} INFO - Running statement: 
+                SELECT COUNT(*)
+                FROM credit_applications
+                WHERE application_date = '2026-04-04'
+            , parameters: None
+[2026-04-07T14:53:07.324+0000] {sql.py:520} INFO - Rows affected: 1
+[2026-04-07T14:53:37.343+0000] {base.py:84} INFO - Retrieving connection 'pg_baza'
+[2026-04-07T14:53:37.343+0000] {sql.py:102} INFO - Poking: 
+                SELECT COUNT(*)
+                FROM credit_applications
+                WHERE application_date = '2026-04-04'
+             (with parameters None)
+[2026-04-07T14:53:37.361+0000] {base.py:84} INFO - Retrieving connection 'pg_baza'
+[2026-04-07T14:53:37.371+0000] {sql.py:511} INFO - Running statement: 
+                SELECT COUNT(*)
+                FROM credit_applications
+                WHERE application_date = '2026-04-04'
+            , parameters: None
+[2026-04-07T14:53:37.373+0000] {sql.py:520} INFO - Rows affected: 1
+[2026-04-07T14:54:07.393+0000] {base.py:84} INFO - Retrieving connection 'pg_baza'
+[2026-04-07T14:54:07.393+0000] {sql.py:102} INFO - Poking: 
+                SELECT COUNT(*)
+                FROM credit_applications
+                WHERE application_date = '2026-04-04'
+             (with parameters None)
+[2026-04-07T14:54:07.406+0000] {base.py:84} INFO - Retrieving connection 'pg_baza'
+[2026-04-07T14:54:07.417+0000] {sql.py:511} INFO - Running statement: 
+                SELECT COUNT(*)
+                FROM credit_applications
+                WHERE application_date = '2026-04-04'
+            , parameters: None
+[2026-04-07T14:54:07.419+0000] {sql.py:520} INFO - Rows affected: 1
+[2026-04-07T14:54:37.435+0000] {base.py:84} INFO - Retrieving connection 'pg_baza'
+[2026-04-07T14:54:37.436+0000] {sql.py:102} INFO - Poking: 
+                SELECT COUNT(*)
+                FROM credit_applications
+                WHERE application_date = '2026-04-04'
+             (with parameters None)
+[2026-04-07T14:54:37.452+0000] {base.py:84} INFO - Retrieving connection 'pg_baza'
+[2026-04-07T14:54:37.465+0000] {sql.py:511} INFO - Running statement: 
+                SELECT COUNT(*)
+                FROM credit_applications
+                WHERE application_date = '2026-04-04'
+            , parameters: None
+[2026-04-07T14:54:37.468+0000] {sql.py:520} INFO - Rows affected: 1
+[2026-04-07T14:54:37.469+0000] {taskinstance.py:302} INFO - Sensor has timed out; run duration of 300.596572964 seconds exceeds the specified timeout of 300.0.
+[2026-04-07T14:54:37.554+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-04-07T14:54:37.556+0000] {taskinstance.py:353} INFO - Marking task as SKIPPED. dag_id=credit_applications_pipeline, task_id=tg_precheck.check_yesterday_data, run_id=scheduled__2026-04-04T00:00:00+00:00, execution_date=20260404T000000, start_date=20260407T144936, end_date=20260407T145437
+[2026-04-07T14:54:37.659+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-04-07T14:54:37.682+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
