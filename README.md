@@ -13,6 +13,7 @@
 | Redpanda Console           | [http://localhost:8086](http://localhost:8086)                                                                                                                       |
 | PostgreSQL (Airflow)       | `localhost:5436`                                                                                                                                                     |
 | PostgreSQL (mydb)          | `localhost:5435`                                                                                                                                                     |
+| MongoDB                    | `localhost:27017`                                                                                                                                                    |
 | Kafka Broker 1             | `localhost:19092`                                                                                                                                                    |
 | Kafka Broker 2             | `localhost:29092`                                                                                                                                                    |
 | Kafka Broker 3             | `localhost:39092`                                                                                                                                                    |

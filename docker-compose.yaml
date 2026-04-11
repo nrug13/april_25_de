@@ -252,6 +252,18 @@ services:
     networks:
       - lake
 
+  mongodb:
+    image: mongo:7.0
+    container_name: mongodb
+    env_file: .env
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb_data:/data/db
+    networks:
+      - lake
+    restart: always
+
   redpanda-console:
     image: redpandadata/console:latest
     container_name: redpanda-console
@@ -273,6 +285,7 @@ volumes:
   pgdata_mydb:
   pg_files:
   spark_events:
+  mongodb_data:
 
 networks:
   lake:

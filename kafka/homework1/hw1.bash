@@ -79,3 +79,7 @@ docker exec -it kafka-1 /opt/kafka/bin/kafka-console-consumer.sh \
   --property print.key=true \
   --property print.partition=true \
   --property print.offset=true
+
+  ##group neye gore lazimdir?
+  ##group consumer-lari qruplaşdırır, eyni group-a aid consumer-lar arasında mesajlar paylanır. Bu, yükü bölüşdürmək və mesajların paralel işlənməsini təmin etmək üçün istifadə olunur. Eyni group-a aid consumer-lar, eyni topic-in fərqli partition-larını oxuyaraq mesajları paylaşır, beləliklə hər mesaj yalnız bir consumer tərəfindən işlənir. Bu, mesajların təkrarlanmasının qarşısını alır və sistemin effektivliyini artırır. Eyni zamanda, group-lar consumer-ların koordinasiyasını təmin edir, məsələn, bir consumer aradan qaldırıldıqda, qalan consumer-lar avtomatik olaraq onun partition-larını öz üzərinə götürür, beləliklə mesajların davamlı işlənməsini təmin edir.
+  
