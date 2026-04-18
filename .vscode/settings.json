@@ -20,5 +20,6 @@
             "database": "airflow",
             "username": "airflow"
         }
-    ]
+    ],
+    "sarif-viewer.connectToGithubCodeScanning": "on"
 }
