@@ -1,0 +1,4 @@
+
+docker exec airflow-scheduler airflow dags reserialize
+docker exec postgres psql -U airflow -d airflow -c "SELECT dag_id, is_paused, is_active FROM dag ORDER BY dag_id;" 2>&1
+
