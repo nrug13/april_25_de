@@ -37,9 +37,9 @@ services:
     image: postgres:15
     container_name: postgres-db
     environment:
-      POSTGRES_USER: nurgun
-      POSTGRES_PASSWORD: admin123
-      POSTGRES_DB: mydb
+      POSTGRES_USER: ${MYDB_POSTGRES_USER}
+      POSTGRES_PASSWORD: ${MYDB_POSTGRES_PASSWORD}
+      POSTGRES_DB: ${MYDB_POSTGRES_DB}
     ports:
       - "5435:5432"
     volumes:
