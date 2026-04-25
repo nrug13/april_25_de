@@ -1,13 +1,15 @@
 x-airflow-common:
   &airflow-common
+  build: .
   image: ${AIRFLOW_IMAGE_NAME}
   env_file: .env
   volumes:
     - ./airflow/dags:/opt/airflow/dags
-    - ./airflow/files:/opt/airflow/files    
-    - ./airflow/logs:/opt/airflow/logs      
-    - ./airflow/config:/opt/airflow/config  
+    - ./airflow/files:/opt/airflow/files
+    - ./airflow/logs:/opt/airflow/logs
+    - ./airflow/config:/opt/airflow/config
     - ./airflow/plugins:/opt/airflow/plugins
+    - ./kafka:/opt/airflow/kafka
   user: "${AIRFLOW_UID:-50000}:0"
   depends_on:
     &airflow-common-depends-on

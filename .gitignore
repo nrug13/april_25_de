@@ -1,0 +1,24 @@
+# Kafka homework folders
+kafka/aprel11_sinif/
+kafka/homework1/
+kafka/homework3/
+
+# Notebook test scripts
+notebooks/test_scripts/
+
+# Airflow logs
+airflow/logs/
+airflow/custom_scripts/
+
+# Dashboard repos
+airflow/files/repos/HR-Dashboard/
+airflow/files/repos/Spotify-Dashboard/
+
+# Old DAG files
+airflow/dags/old/
+
+# Claude
+.claude/
+
+/NOTES
+
