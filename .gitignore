@@ -13,3 +13,6 @@ airflow/logs/
 airflow/files/repos/HR-Dashboard/
 airflow/files/repos/Spotify-Dashboard/
 
+# Old DAG files
+airflow/dags/old/
+
