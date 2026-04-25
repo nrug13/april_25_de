@@ -16,3 +16,6 @@ airflow/files/repos/Spotify-Dashboard/
 # Old DAG files
 airflow/dags/old/
 
+# Claude
+.claude/
+
