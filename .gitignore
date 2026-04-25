@@ -9,3 +9,7 @@ notebooks/test_scripts/
 # Airflow logs
 airflow/logs/
 
+# Dashboard repos
+airflow/files/repos/HR-Dashboard/
+airflow/files/repos/Spotify-Dashboard/
+
