@@ -1,0 +1,10 @@
+# Kafka homework folders
+kafka/aprel11_sinif/
+kafka/homework1/
+kafka/homework3/
+
+# Notebook test scripts
+notebooks/test_scripts/
+
+# Airflow logs
+airflow/logs/
